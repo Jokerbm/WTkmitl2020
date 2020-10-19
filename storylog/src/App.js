@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/*<Navigation />*/}
-        {/*<Banner />*/}
+        {<Navigation />}
+        {<Banner />}
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
