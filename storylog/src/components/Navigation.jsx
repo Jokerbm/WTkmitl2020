@@ -4,10 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 function Navigation(props) {
     return (
         <div className="navigation">
-            <nav
-                class="navbar navbar-expand-lg navbar-dark"
-                style={{ backgroundColor: "#2eb494" }}
-            >
+            <nav class="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "#2eb494" }}>
                 <div class="container">
                     <Link class="navbar-brand" to="/">
                         <div class="logo" tabindex="-1">
@@ -28,37 +25,35 @@ function Navigation(props) {
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ml-auto">
                             <li
-                                class={`nav-item  ${
-                                    props.location.pathname === "/" ? "active" : ""
-                                }`}
+                                class={`nav-item  ${props.location.pathname === "/" ? "active" : ""
+                                    }`}
                             >
                                 <Link class="nav-link" to="/">
                                     Home
-                                    <span class="sr-only">(current)</span>
+                  <span class="sr-only">(current)</span>
                                 </Link>
                             </li>
                             <li
-                                class={`nav-item  ${
-                                    props.location.pathname === "/about" ? "active" : ""
-                                }`}
+                                class={`nav-item  ${props.location.pathname === "/about" ? "active" : ""
+                                    }`}
                             >
                                 <Link class="nav-link" to="/about">
                                     About
-                                </Link>
+                </Link>
                             </li>
                             <li
-                                class={`nav-item  ${
-                                    props.location.pathname === "/contact" ? "active" : ""
-                                }`}
+                                class={`nav-item  ${props.location.pathname === "/contact" ? "active" : ""
+                                    }`}
                             >
                                 <Link class="nav-link" to="/contact">
                                     Contact
-                                </Link>
+                </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+          
         </div>
     );
 }
