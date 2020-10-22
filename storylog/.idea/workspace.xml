@@ -48,6 +48,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
       <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components" />
@@ -61,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603117543215</updated>
-      <workItem from="1603117544383" duration="5978000" />
+      <workItem from="1603117544383" duration="6733000" />
+      <workItem from="1603372592112" duration="21838000" />
     </task>
     <servers />
   </component>
@@ -78,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="611" y="185" key="refactoring.ChangeSignatureDialog" timestamp="1603122557633">
