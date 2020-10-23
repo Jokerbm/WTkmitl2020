@@ -1,35 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,'Itim', 'Segoe UI','Bai Jamjuree', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 .logo {
   width: 155px;
-    height: 30px;
-    margin-top: 10px;
-    float: left;
-    background-image: url(/assets/2G7zO-D.svg);
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#search{
-  margin-top: 10px;
-  width: 300px;
   height: 30px;
-  display: inline;
+  margin-top: 10px;
+  float: left;
+  /*background-image: url(/assets/2G7zO-D.svg);*/
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.icon{
-  width: 20px;
-  height: 20px;
-  margin: 5px;
+* {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+.th-font2{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px;
+}
+/*parts login*/
+.feed-info-detail, .text {
+  word-break: break-word;
+  text-rendering: optimizeSpeed;
+}
+.text {
+  display: inline-block;
+}
+.popup-title {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  color: #eea534;
+  font-size: 30px;
+  line-height: 46px;
+  border-bottom: 1px solid #e9eaea;
 }
 
+.tabs {
+  padding-top: 10px;
+  color: #636463;
+}
+.content-date, .tabs {
+  padding-bottom: 25px;
+  text-align: center;
+}
+.tabs-text.login {
+  background-color: #fff;
+}
+.tabs-text.collection, .tabs-text.first-no-border, .tabs-text.login, .tabs-text.no-border {
+  border-left-style: none;
+}
+.tabs-text.login, .tabs-text.no-border {
+  border-left-width: 0;
+}
+.bb, .bb-noshadow, .nav-bb, .tabs-text {
+  cursor: pointer;
+}
+.bb, .bb-noshadow, .feed-card, .nav-bb, .tabs-text {
+  outline: 0;
+  word-break: break-word;
+  text-rendering: optimizeSpeed;
+}
+
+  .tabs-text {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #636463;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .feed-profile-img, .icon-follow, .tabs-text, .tool-create-title {
+    display: inline-block;
+  }
+  .content-share-count, .profile-user-name, .tabs-text {
+    font-family: 'Mn paethai med v3',sans-serif;
+  }
+.tabs-line.login {
+  background-color: #e9eaea;
+}
+.tabs-line {
+  height: 1px;
+  margin-top: -10px;
+  background-color: #dbdbdb;
+}
+.register-form.center {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.register-form {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .popup-content {
+    margin-top: 30px;
+  }
+  .popup-bg {
+    background-color: rgba(234,235,235,.95);
+  }
+  .popup-content.register, .popup-content.tips, .register-form {
+    width: 100%;
+  }
+  .card-popup {
+    border-style: none;
+  }
+  .popup-title {
+    padding-top: 15px;
+  }
+  .button {
+    font-size: 20px;
+  }
+}
+.tabs-text {
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 479px){
+  .popup-title {
+    line-height: 40px;
+  }
+  .button {
+    margin: 5px;
+  }
+}
+
+.card-popup {
+  max-width: 800px;
+  background-color: #fff;
+  color: #636463;
+  text-align: center;
+}
+.card-popup.login {
+  max-width: 500px;
+}
+.feed-info-detail, .text {
+  word-break: break-word;
+  text-rendering: optimizeSpeed;
+}
+.text {
+  display: inline-block;
+}
+.w-form {
+  margin: 0 0 15px;
+}
+.w-input {
+  height: auto;
+}
+.input {
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid #DCDCDC;
+  background-color: #f5f5f5;
+  font-size: 22px;
+}
+.w-input, .w-select {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #DCDCDC;
+}
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+}
+button, hr, input, select {
+  overflow: visible;
+}
+.popup-footer {
+  margin-top: 20px;
+  padding: 25px;
+  border-top: 1px solid #e9eaea;
+  text-align: center;
+  background-color: #fff;
+}
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 4px 40px;
+  border: 1px solid #e9eaea;
+  border-radius: 5px;
+  color: #b4b5b4;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.button.green {
+  border-color: #2eb494;
+  color: #2eb494;
+}
+.green, .report-list.select, .search-result, .terms-title, .upload-img-content.green {
+  color: #2eb494;
+}
+button, select {
+  text-transform: none;
+}
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+}
+a, button {
+  background-color: transparent;
+}
+button, hr, input, select {
+  overflow: visible;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+.facebook-login-button {
+  padding: 8px 25px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 700;
+  background: #4267b2;
+}
+.facebook-login-button-icon {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: -4px;
+}
+.facebook-login, .facebook-login-button {
+  border-radius: 4px;
+  display: inline-block;
+}
+/*parts login*/
