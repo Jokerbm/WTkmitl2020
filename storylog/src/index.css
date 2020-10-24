@@ -290,7 +290,9 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   padding-bottom:30px;
   text-align:center
 }
-.tool-create-title{display:inline-block}
+.tool-create-title{
+  display:inline-block
+}
 .feed-card.tool-create, quote {
   width: 100%;
 }
