@@ -267,9 +267,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   border:1px solid #e9eaea;
   background-color:#f5f5f5;
   color: #2eb494;
-  font-size:19px;
+  font-size:13px;
   line-height:50px;
   text-align:center;
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 .half{
   width:50%
@@ -277,10 +278,10 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 .w-container{
   margin-left:auto;
   margin-right:auto;
-  max-width:940px;
+  max-width: 940px;
 }
 .w-clearfix{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .feed-card.tool-create{
   border:1px solid #e9eaea;
@@ -288,19 +289,79 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   margin-top:20px;
   padding-top:30px;
   padding-bottom:30px;
-  text-align:center
+  text-align:center;
+  position: relative;
 }
 .tool-create-title{
   display:inline-block
 }
 .feed-card.tool-create, quote {
   width: 100%;
+  box-shadow: 0 1px 20px -8px #636463;
+  transition: 0.3s;
+  position: relative;
 }
 .tool-create-title{
   margin-right:auto;
   margin-left:auto;
   color:#eea534;
-  font-size:30px;
-  text-align:center
+  font-size:20px;
+  text-align:center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: bold;
+}
+.icon-create{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-bottom: -6px;
+  display: inline-table;
+  background-image: url(https://storylog.co/assets/1LywG92.svg);
+}
+@media screen and (max-width: 991px){
+  .w-container {
+      max-width: 728px;
+  }
+}
+@media screen and (max-width: 767px){
+  .feed-card{
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .feed-card, .feed-tool-create{
+      margin-bottom: 20px;
+  }
+}
+
+.feed-cover.bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url(https://storylog.co/assets/1UHhBMl.jpg);
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px){
+  .feed-cover.bg {
+      position: static;
+  }
+}
+@media (max-width: 991px){
+  .feed-cover {
+    background-position: 50% 100%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
+.feed-cover {
+  position: relative;
+  overflow: hidden;
+  height: 390px;
+  background-color: #e7d9c5;
 }
 /*Body popular*/
