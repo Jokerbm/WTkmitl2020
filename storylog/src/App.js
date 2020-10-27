@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/*<Navigation />*/}
+        {/* <Navigation /> */}
         {/*<Banner />*/}
         <Switch>
           <Route path="/" exact component={() => <Home />} />
+          
           <Route path="/about" exact component={() => <About />} />
           <Route path="/contact" exact component={() => <Contact />} />
-            <Route path="/login" exact component={() => <Login />} />
+          <Route path="/login" exact component={() => <Login />} />
         </Switch>
          {/*<Footer /> */}
       </Router>
