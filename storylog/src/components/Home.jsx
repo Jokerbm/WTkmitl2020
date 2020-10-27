@@ -1,6 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
+import StaffPickBorder from "./StaffPickBorder";
+import ReadListBorder from "./ReadListBorder";
+import LatestPopularBorder from "./LatestPopularBorder";
 function Home() {
     return (
         <div className="home th-font2">
@@ -18,71 +21,16 @@ function Home() {
                         <a class="" href="/"><button class="profile-category-tabs half action">STAFF PICKS</button></a>
                         <a class="" href="/"><button class="profile-category-tabs half">READLIST</button></a>
                     </div>
+                    <br></br><br></br><br></br><br></br>
                     <div>
                         <div id="feedHighlight">
                             {/* information about blog */}
-                            <div id="feed">
-                                <div class="feed-card highlight bb" style={{backGroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" + ")"}}>
-                                    <div class="feed-highlight-badge-box"></div>
-                                    <div class="w-clearfix feed-card inheightlight animated fadeIn">
-                                    <img class="img-feed-highlight" src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" width="100%"></img>
-                                        <div class="feed-info nobg highlight">
-                                            <div class="w-clearfix feed-type">
-                                            <div class="feed-badge-small staffpick"></div>
-                                                <a class="" href="/category/shortstory">
-                                                <img height="30px" src="/assets/1N83gyP.svg"></img></a>
-                                            </div>
-                                                <a href="/story/5ce1a28eea6506315f65db68">
-                                                <div class="feed-info-title">เธอ ร่างบิดเบี้ยว และแสงแดดจ้าตอน 2 ทุ่ม 15 นาที</div>
-                                                    <div class="feed-info-detail">  ในที่สุดผมก็ร่วงหล่นไร้การหยิบจับ หลังจากพยายามเหนี่ยวรั้งให้ยึดโยงเลียนแบบสิ่งสวยงามที่ถูกสรรค์สร้างโดยธรรมชาติ หรือแม้กระทั่งโดยผู้คน ทันใดก็พังทลายลงมาเป็นเศษเสี้...</div>
-                                                    </a>
-                                            <div class="w-clearfix feed-info-point">
-                                                <div class="text">
-                                                    <span>1 day ago</span><span>&nbsp;&nbsp;</span>
-                                                </div>
-                                                <span><span>|&nbsp;&nbsp;</span>
-                                                <div class="text orange">
-                                                    <span>2</span><span>&nbsp;</span>
-                                                </div>
-                                                <div class="text">recommended</div>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* information about blog */}
-                            {/* information about blog */}
-                            <div id="feed">
-                                <div class="feed-card highlight bb" style={{backGroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" + ")"}}>
-                                    <div class="feed-highlight-badge-box"></div>
-                                    <div class="w-clearfix feed-card inheightlight animated fadeIn">
-                                    <img class="img-feed-highlight" src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" width="100%"></img>
-                                        <div class="feed-info nobg highlight">
-                                            <div class="w-clearfix feed-type">
-                                            <div class="feed-badge-small staffpick"></div>
-                                                <a class="" href="/category/shortstory">
-                                                <img height="30px" src="/assets/1N83gyP.svg"></img></a>
-                                            </div>
-                                                <a href="/story/5ce1a28eea6506315f65db68">
-                                                <div class="feed-info-title">เธอ ร่างบิดเบี้ยว และแสงแดดจ้าตอน 2 ทุ่ม 15 นาที</div>
-                                                    <div class="feed-info-detail">  ในที่สุดผมก็ร่วงหล่นไร้การหยิบจับ หลังจากพยายามเหนี่ยวรั้งให้ยึดโยงเลียนแบบสิ่งสวยงามที่ถูกสรรค์สร้างโดยธรรมชาติ หรือแม้กระทั่งโดยผู้คน ทันใดก็พังทลายลงมาเป็นเศษเสี้...</div>
-                                                    </a>
-                                            <div class="w-clearfix feed-info-point">
-                                                <div class="text">
-                                                    <span>1 day ago</span><span>&nbsp;&nbsp;</span>
-                                                </div>
-                                                <span><span>|&nbsp;&nbsp;</span>
-                                                <div class="text orange">
-                                                    <span>2</span><span>&nbsp;</span>
-                                                </div>
-                                                <div class="text">recommended</div>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <StaffPickBorder/>
+                            <StaffPickBorder/>
+                            <ReadListBorder />
+                            <ReadListBorder />
+                            <LatestPopularBorder />
+                            <LatestPopularBorder />
                             {/* information about blog */}
                         </div>
                     </div>
@@ -93,3 +41,80 @@ function Home() {
     );
 }
 export default Home;
+
+// <div id="feed">
+//     <div className="feed-card highlight bb"
+//          style={{backGroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" + ")"}}>
+//         <div className="feed-highlight-badge-box"></div>
+//         <div className="w-clearfix feed-card inheightlight animated fadeIn">
+//             <img className="img-feed-highlight"
+//                  src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg"
+//                  width="100%"></img>
+//             <div className="feed-info nobg highlight">
+//                 <div className="w-clearfix feed-type">
+//                     <div className="feed-badge-small staffpick"></div>
+//                     <a className="" href="/category/shortstory">
+//                         <img height="30px" src="/assets/1N83gyP.svg"></img></a>
+//                 </div>
+//                 <a href="/story/5ce1a28eea6506315f65db68">
+//                     <div className="feed-info-title">เธอ ร่างบิดเบี้ยว และแสงแดดจ้าตอน 2 ทุ่ม 15 นาที</div>
+//                     <div className="feed-info-detail"> ในที่สุดผมก็ร่วงหล่นไร้การหยิบจับ
+//                         หลังจากพยายามเหนี่ยวรั้งให้ยึดโยงเลียนแบบสิ่งสวยงามที่ถูกสรรค์สร้างโดยธรรมชาติ
+//                         หรือแม้กระทั่งโดยผู้คน ทันใดก็พังทลายลงมาเป็นเศษเสี้...
+//                     </div>
+//                 </a>
+//                 <div className="w-clearfix feed-info-point">
+//                     <div className="text">
+//                         <span>1 day ago</span><span>&nbsp;&nbsp;</span>
+//                     </div>
+//                     <span><span>|&nbsp;&nbsp;</span>
+//                                                 <div className="text orange">
+//                                                     <span>2</span><span>&nbsp;</span>
+//                                                 </div>
+//                                                 <div className="text">recommended</div>
+//                                                 </span>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+// </div>
+// {/* information about blog */
+// }
+// {/* information about blog */
+// }
+// <div id="feed">
+//     <div className="feed-card highlight bb"
+//          style={{backGroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg" + ")"}}>
+//         <div className="feed-highlight-badge-box"></div>
+//         <div className="w-clearfix feed-card inheightlight animated fadeIn">
+//             <img className="img-feed-highlight"
+//                  src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5ce1a28eea6506315f65db68/16036648996358347060.jpg"
+//                  width="100%"></img>
+//             <div className="feed-info nobg highlight">
+//                 <div className="w-clearfix feed-type">
+//                     <div className="feed-badge-small staffpick"></div>
+//                     <a className="" href="/category/shortstory">
+//                         <img height="30px" src="/assets/1N83gyP.svg"></img></a>
+//                 </div>
+//                 <a href="/story/5ce1a28eea6506315f65db68">
+//                     <div className="feed-info-title">เธอ ร่างบิดเบี้ยว และแสงแดดจ้าตอน 2 ทุ่ม 15 นาที</div>
+//                     <div className="feed-info-detail"> ในที่สุดผมก็ร่วงหล่นไร้การหยิบจับ
+//                         หลังจากพยายามเหนี่ยวรั้งให้ยึดโยงเลียนแบบสิ่งสวยงามที่ถูกสรรค์สร้างโดยธรรมชาติ
+//                         หรือแม้กระทั่งโดยผู้คน ทันใดก็พังทลายลงมาเป็นเศษเสี้...
+//                     </div>
+//                 </a>
+//                 <div className="w-clearfix feed-info-point">
+//                     <div className="text">
+//                         <span>1 day ago</span><span>&nbsp;&nbsp;</span>
+//                     </div>
+//                     <span><span>|&nbsp;&nbsp;</span>
+//                                                 <div className="text orange">
+//                                                     <span>2</span><span>&nbsp;</span>
+//                                                 </div>
+//                                                 <div className="text">recommended</div>
+//                                                 </span>
+//                 </div>
+//             </div>
+//         </div>
+//     </div>
+// </div>

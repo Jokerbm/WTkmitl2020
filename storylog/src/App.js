@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, About, Contact, Banner, Login, StaffPickBorder, ReadListBorder } from "./components";
+import LatestPopularBorder from "./components/LatestPopularBorder";
 function App() {
     return (
         <div className="App">
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/login" exact component={() => <Login />} />
                     <Route path="/StaffPickBorder" exact component={() => <StaffPickBorder />} />
                     <Route path="/ReadListBorder" exact component={() => <ReadListBorder />} />
+                    <Route path="/LatestPopularBorder" exact component={() => <LatestPopularBorder />} />
                 </Switch>
                 {/*<Footer /> */}
             </Router>
