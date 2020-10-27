@@ -37,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,13 +48,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public\img" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
       <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
-      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +68,10 @@
       <updated>1603117543215</updated>
       <workItem from="1603117544383" duration="6733000" />
       <workItem from="1603372592112" duration="21992000" />
-      <workItem from="1603465555503" duration="449000" />
+      <workItem from="1603465555503" duration="8429000" />
+      <workItem from="1603632587981" duration="13481000" />
+      <workItem from="1603714415751" duration="2402000" />
+      <workItem from="1603807490744" duration="825000" />
     </task>
     <servers />
   </component>
@@ -87,6 +91,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603646487073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603646487073" />
+    <state x="380" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603467290285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="380" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1603467290285" />
     <state x="611" y="185" key="refactoring.ChangeSignatureDialog" timestamp="1603122557633">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
