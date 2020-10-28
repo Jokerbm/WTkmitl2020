@@ -7,3 +7,4 @@ export { default as Banner } from "./Banner";
 export { default as Login } from "./Login";
 export { default as StaffPickBorder } from "./StaffPickBorder";
 export { default as ReadListBorder } from "./ReadListBorder";
+export { default as Category } from "./Category";

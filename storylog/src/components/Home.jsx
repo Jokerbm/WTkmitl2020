@@ -18,8 +18,8 @@ function Home() {
                         <div class="tool-create-title">TELL YOUR STORY</div>
                     </button>
                     <div class="w-clearfix profile-category tabfeed">
-                        <a class="" href="/"><button class="profile-category-tabs half action">STAFF PICKS</button></a>
-                        <a class="" href="/"><button class="profile-category-tabs half">READLIST</button></a>
+                        <a class="" href="/"><button class="profile-category-tabs half action"><b>STAFF PICKS</b></button></a>
+                        <a class="" href="/"><button class="profile-category-tabs half"><b>READLIST</b></button></a>
                     </div>
                     <br></br><br></br><br></br><br></br>
                     <div>
