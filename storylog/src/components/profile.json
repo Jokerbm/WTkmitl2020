@@ -1,90 +1,70 @@
 {
     "writer":[
-        {"image": "",
-         "name": "OttoChain",
+        {"name": "OttoChain",
          "status": "Tutor, Musician",
-         "intro": "“I’m the devil, I’m here to do the devil’s business”",
          "stories": 3,
          "followers": 12,
          "following": 5
         },
 
-        {"image": "",
-         "name": "rodnam",
+        {"name": "rodnam",
          "status": "Writer,Reader",
-         "intro": "",
          "stories": 2,
          "followers": 3,
          "following": 70
         },
 
-        {"image": "",
-         "name": "HermioneRiddle",
+        {"name": "HermioneRiddle",
          "status": "Student",
-         "intro": "My personal Diary",
          "stories": 91,
          "followers": 85,
          "following": 1
         },
 
-        {"image": "",
-         "name": "Funggg",
+        {"name": "Funggg",
          "status": "Idealist",
-         "intro": "ชายผู้อธิษฐานกับดาวตก",
          "stories": 7,
          "followers": 29,
          "following": 10
         },
 
-        {"image": "",
-         "name": "OobOobsan",
+        {"name": "OobOobsan",
          "status": "Writer & Traveler",
-         "intro": "บางทีคุณอ๊บอ๊บก็อยากจะจับปากกา ออกจากกะลา และไปท่องเที่ยวบนโลกที่กว้างใหญ่อย่างที่หัวใจดวงน้อยดวงนี้ต้องการ",
          "stories": 4,
          "followers": 5,
          "following": 3
         },
 
-        {"image": "",
-         "name": "pleasecomeback",
+        {"name": "pleasecomeback",
          "status": "ความรัก | เสียงเพลง",
-         "intro": "16 yrs. 𓂃 when life is shit turn on music",
          "stories": 3,
          "followers": 21,
          "following": 7
         },
         
-        {"image": "",
-         "name": "SweetyViolet",
+        {"name": "SweetyViolet",
          "status": "SweetyViolet",
-         "intro": "Write a book you wanna read, Create a life you wanna live - AnonymousParadoxism",
          "stories": 18,
          "followers": 16,
          "following": 0
         },
 
-        {"image": "",
-         "name": "WanderingBook",
+        {"name": "WanderingBook",
          "status": "Romantic Journalist",
-         "intro": "เรื่องราวบนเส้นทางพเนจรผ่านตัวหนังสือและการทำงาน",
          "stories": 37,
          "followers": 85,
          "following": 0
         },
 
-        {"image": "",
-         "name": "junna_bear",
+        {"name": "junna_bear",
          "status": "Writer and Blogger",
-         "intro": "เราจะแชร์เรื่องราวที่เราเจอ ความประทับใจและความรู้สึกที่มี ออกมาเป็นตัวอักษร ร้อยเรียงให้เพื่อผู้อ่านทุกคนค่ะ (ยิ้ม)",
          "stories": 5,
          "followers": 6,
          "following": 1
         },
 
-        {"image": "",
-         "name": "OrangeAmericano",
+        {"name": "OrangeAmericano",
          "status": "Writer",
-         "intro": "สนใจพรีออเดอร์หนังสือได้ที่ IG : mycoffeeblue https://www.mebmarket.com/web/index.php?action=BookDetails&data=YToyOntzOjc6InVzZXJfaWQiO3M6NzoiNDM5MzcxNCI7czo3OiJib29rX2lkIjtzOjY6IjEzNDUwOCI7fQ",
          "stories": 20,
          "followers": 64,
          "following": 2
