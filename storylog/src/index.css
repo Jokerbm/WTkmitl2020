@@ -1196,7 +1196,7 @@ a {
     width: 50%;
   }
   .w-container {
-    max-width: 728px;
+    max-width: 850px;
   }
   .banner-icon {
     margin-top: 30px;
@@ -1275,5 +1275,12 @@ a {
 }
 .nav-bb.profile {
   background-image: url(https://storylog.co/assets/l2JViXV.svg);
+}
+.fas, .glyphicon{
+  width: 50px;
+  height: 50px;
+}
+.btn-group{
+  padding-left: 10px;
 }
 /*Bar*/
