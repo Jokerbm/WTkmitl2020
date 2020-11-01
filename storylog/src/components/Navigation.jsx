@@ -3,6 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 
 function Navigation(props) {
     return (
+        <React.Fragment>
     <div id="nav" className="nav hideNavDropdown">
         <div className="w-section bg-nav">
             <div className="w-container nav-con">
@@ -16,7 +17,7 @@ function Navigation(props) {
                     <div className="bb nav-search-bb"></div>
                 </div>
                 <noscript></noscript><div>
-                    <div className="bb-noshadow nav-bb profile" tabIndex="-1">&nbsp; &nbsp;</div>
+                    <div className="bb-noshadow nav-bb profile" tabIndex="-1" data-toggle="modal" data-target="#exampleModal">&nbsp; &nbsp;</div>
                 <div  id="icon-menu">
                     <a className="" href="/philosophy">
                         <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
@@ -27,39 +28,44 @@ function Navigation(props) {
                 </a>
                 </div>
             </div>
-                <div id="mobile-nav">
-                    {/*<div className="bgdropdown mobileNav"></div>*/}
-                    {/*<div className="dropdown dropdown-nav on nav-mobile animated fadeIn nano-content">*/}
-                    {/*    <div className="pofile-popup mobile-nav">*/}
-                    {/*        <a className=" active" href="/">*/}
-                    {/*            <div className="noti-item profile mobile-nav">Home</div>*/}
-                    {/*        </a><a className="" href="/feed">*/}
-                    {/*        <div className="noti-item profile mobile-nav">*/}
-                    {/*            <div>Story feed</div>*/}
-                    {/*        </div>*/}
-                    {/*    </a>*/}
-                    {/*        <div className="bb noti-item profile mobile-nav">*/}
-                    {/*            <div>Search</div>*/}
-                    {/*        </div>*/}
-                    {/*        <a className="" href="/bookmark">*/}
-                    {/*            <div className="noti-item profile mobile-nav">*/}
-                    {/*                <div >Bookmark</div>*/}
-                    {/*            </div>*/}
-                    {/*        </a><a className="" href="/create">*/}
-                    {/*        <div className="bb noti-item profile mobile-nav">*/}
-                    {/*            <div>Tell a story</div>*/}
-                    {/*        </div>*/}
-                    {/*    </a></div>*/}
-                    {/*    <div className="popup-noti-footer no-shadow"><span>Storylog © 2015</span><span>∙</span><a className="" href="/user-agreement">User*/}
-                    {/*        Agreement</a><span>∙ </span><a className="" href="/contact-us" >Contact*/}
-                    {/*        Us</a></div>*/}
-                    {/*</div>*/}
-                </div>
                 {/*<button className="nav-bb mobile select modal-opened modal-opened-inbox"></button>*/}
             </div>
         </div>
     </div>
-
+    <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog" role="document">
+            <div className="modal-content">
+                <div className="card-popup login">
+                    <div className="popup-title th-font2" id="exampleModalLabel"><h4 className="p-2"><b>LOGIN TO STORYLOG</b></h4></div>
+                </div>
+                <div className="register-form center">
+                    <button className="facebook-login-button mb-3">
+                        <img className="facebook-login-button-icon" width="24" height="24" src={process.env.PUBLIC_URL + 'img/facebook.png'} alt="test">
+                        </img><span className="th-font2"> Login with Facebook</span>
+                    </button>
+                    <div className="text th-font2">เราใช้การล็อคอินผ่าน
+                        Facebook เพราะเราให้ความสำคัญกับตัวตนของนักเขียน
+                        อย่างไรก็ตามคุณสามารถแก้ไขเปลี่ยนชื่อและรูปภาพได้ภายหลังจากการสมัครทันที
+                    </div>
+                    <div className="tabs">
+                        <div className="tabs-text login th-font2">OR</div>
+                        <div className="tabs-line login"></div>
+                    </div>
+                    <div className="w-form">
+                        <input className="w-input input th-font2 mb-4" id="input_username_login" type="text"
+                               placeholder="Penname (Username)"></input>
+                        <input className="w-input input th-font2" id="input_password_login" type="password"
+                               placeholder="Password"></input>
+                    </div>
+                </div>
+                <div className="popup-footer">
+                    <button className="button" data-dismiss="modal">Cancel</button>
+                    <button className="button green">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        </React.Fragment>
     );
 }
 
@@ -120,51 +126,3 @@ export default withRouter(Navigation);
 //     </nav>
 // </div>
 
-//
-// <div>
-//     <div className="bb-noshadow nav-bb profile" tabIndex="-1"></div>
-//     <a className="" href="/philosophy">
-//         <div className="bb-noshadow nav-bb philo"></div>
-//     </a><a className="" href="/feed">
-//     <div className="bb-noshadow nav-bb explore"></div>
-// </a><a className="" href="/">
-//     <div className="bb-noshadow nav-bb home"></div>
-// </a></div>
-
-
-// <button className="nav-bb mobile"></button>
-// <div className="btn-group">
-//     <i className="fas fa-home cus-icon py-1"></i>
-//     <i className="fas fa-question cus-icon py-1"></i>
-//     <i className="fas fa-user-circle cus-icon py-1"></i>
-//     <i className="glyphicon glyphicon-align-left"></i>
-// </div>
-
-// <div id="mobile-nav">
-//     <div className="bgdropdown mobileNav"></div>
-//     <div className="dropdown dropdown-nav on nav-mobile animated fadeIn nano-content">
-//         <div className="pofile-popup mobile-nav">
-//             <a className=" active" href="/">
-//                 <div className="noti-item profile mobile-nav">Home</div>
-//             </a><a className="" href="/feed">
-//             <div className="noti-item profile mobile-nav">
-//                 <div>Story feed</div>
-//             </div>
-//         </a>
-//             <div className="bb noti-item profile mobile-nav">
-//                 <div>Search</div>
-//             </div>
-//             <a className="" href="/bookmark">
-//                 <div className="noti-item profile mobile-nav">
-//                     <div >Bookmark</div>
-//                 </div>
-//             </a><a className="" href="/create">
-//             <div className="bb noti-item profile mobile-nav">
-//                 <div>Tell a story</div>
-//             </div>
-//         </a></div>
-//         <div className="popup-noti-footer no-shadow"><span>Storylog © 2015</span><span>∙</span><a className="" href="/user-agreement">User
-//             Agreement</a><span>∙ </span><a className="" href="/contact-us" >Contact
-//             Us</a></div>
-//     </div>
-// </div>

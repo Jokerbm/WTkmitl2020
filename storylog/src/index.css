@@ -23,6 +23,28 @@ div {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 17px;
 }
+.modal.show .modal-dialog {
+  -webkit-transform: none;
+  transform: none;
+  box-shadow: 0 1px 20px -8px #636463;
+}
+.modal.show .modal-dialog {
+  transform: none;
+  box-shadow: 0 1px 20px -8px #636463;
+}
+.modal {
+  padding-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+  background-color: rgba(233,234,234,.85);
+}
 /*parts login*/
 .feed-info-detail, .text {
   word-break: break-word;
@@ -101,7 +123,12 @@ div {
   padding-left: 30px;
   text-align: left;
 }
-
+.popup {
+  position: fixed!important;
+  overflow-y: scroll;
+  background-color: rgba(233,234,234,.85);
+  z-index: 11;
+}
 @media (max-width: 767px) {
   .popup-content {
     margin-top: 30px;
@@ -121,6 +148,17 @@ div {
   .button {
     font-size: 20px;
   }
+}
+#loginModal {
+  z-index: 999;
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
+.animated {
+  animation-duration: .3s;
+  animation-fill-mode: both;
+  transform: translate3d(0,0,0);
 }
 .tabs-text {
   padding-right: 8px;
@@ -145,13 +183,6 @@ div {
 }
 .card-popup.login {
   max-width: 500px;
-}
-.feed-info-detail, .text {
-  word-break: break-word;
-  text-rendering: optimizeSpeed;
-}
-.text {
-  display: inline-block;
 }
 .w-form {
   margin: 0 0 15px;
@@ -237,6 +268,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
   color: #fff;
   font-weight: 700;
   background: #4267b2;
+  border-color: transparent;
 }
 .facebook-login-button-icon {
   display: inline-block;
@@ -405,10 +437,6 @@ a {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px;
-}
-.feed-info-detail, .text {
-  word-break: break-word;
-  text-rendering: optimizeSpeed;
 }
 #createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
   overflow: hidden;
@@ -600,10 +628,6 @@ a {
   min-width: auto;
   margin-top: -10px;
   margin-bottom: 30px;
-}
-.feed-info-detail, .text {
-  word-break: break-word;
-  text-rendering: optimizeSpeed;
 }
 #createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
   overflow: hidden;
@@ -1055,13 +1079,6 @@ img {
   margin-top: 70px;
   margin-bottom: 10px;
   float: left;
-}
-.feed-info-detail, .text {
-  word-break: break-word;
-  text-rendering: optimizeSpeed;
-}
-.text {
-  display: inline-block;
 }
 .banner-detail.short {
   color: rgba(44,61,114,.5);
