@@ -15,7 +15,6 @@ function Navigation(props) {
                          placeholder="วันนี้อยากอ่านอะไร?"></div>
                     <div className="bb nav-search-bb"></div>
                 </div>
-
                 <button className="nav-bb mobile"></button>
             </div>
         </div>
