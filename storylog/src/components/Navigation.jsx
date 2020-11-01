@@ -15,7 +15,14 @@ function Navigation(props) {
                          placeholder="วันนี้อยากอ่านอะไร?"></div>
                     <div className="bb nav-search-bb"></div>
                 </div>
-                <button className="nav-bb mobile"></button>
+
+                {/* <button className="nav-bb mobile"></button> */}
+                <div class="btn-group">
+                    <i class="fas fa-home cus-icon py-1"></i>
+                    <i class="fas fa-question cus-icon py-1"></i>
+                    <i class="fas fa-user-circle cus-icon py-1"></i>
+                    <i class="glyphicon glyphicon-align-left"></i>
+                </div>
             </div>
         </div>
     </div>
