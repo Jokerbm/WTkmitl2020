@@ -1160,9 +1160,6 @@ a {
   line-height: 35px;
   text-align: center;
 }
-.nav-bb.mobile {
-  display: none;
-}
 
 .logo {
   width: 155px;
@@ -1195,11 +1192,11 @@ a {
   .img-banner {
     width: 50%;
   }
-  .w-container {
-    max-width: 850px;
-  }
   .banner-icon {
     margin-top: 30px;
+  }
+  .nav-search {
+    width: 40%;
   }
 }
 @media (max-width: 767px) {
@@ -1276,11 +1273,95 @@ a {
 .nav-bb.profile {
   background-image: url(https://storylog.co/assets/l2JViXV.svg);
 }
+.nav-bb.profile {
+  background-image: url(https://storylog.co/assets/l2JViXV.svg);
+}
 .fas, .glyphicon{
   width: 50px;
   height: 50px;
 }
 .btn-group{
   padding-left: 10px;
+}
+@media screen and (max-width: 991px) {
+  .w-container {
+    max-width: 728px;
+  }
+}
+.content-profile-img, .content-profile-img.circle, .nav-bb.explore, .nav-bb.home, .nav-bb.mobile, .nav-bb.notification, .nav-bb.philo, .nav-bb.profile, .nav-search-bb {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.nav-bb {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: right;
+  opacity: .72;
+}
+@media (max-width: 767px) {
+  #searchBox{
+    display: none;
+  }
+  .nav-space{
+    display: none;
+  }
+  #icon-menu{
+    display: none;
+  }
+  .content-comment-username, .content-profile-box, .input.setting, .nav, .tabs.search {
+    text-align: center;
+  }
+  .content-footer, .nav {
+    height: 50px;
+  }
+  .content-footer, .nav {
+    height: 50px;
+  }
+  .nav-bb.mobile {
+    left: 0;
+    background-size: 31px;
+    opacity: 1;
+  }
+  .nav-bb.mobile, .nav-bb.profile {
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+  .dropdown.dropdown-nav.nav-mobile.on {
+    margin-left: 0;
+  }
+  .dropdown.dropdown-nav.nav-mobile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: -101%;
+  }
+  .dropdown.dropdown-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 45px;
+    border-radius: 0;
+  }
+  .dropdown.dropdown-nav {
+    margin-top: 95px;
+  }
+  .logo {
+    display: inline-block;
+    margin-left: 0;
+    float: none;
+  }
+  .nav-bb.profile {
+    right: 0;
+  }
+  .content-comment-username, .content-profile-box, .input.setting, .nav, .tabs.search {
+    text-align: center;
+  }
+
 }
 /*Bar*/
