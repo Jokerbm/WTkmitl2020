@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HashRouter} from "react-router-dom";
-import { FeedLatest, FeedPop, Home, About, Contact, Banner, Login, StaffPickBorder, ReadListBorder, ShortStory, Emotion,ReadList} from "./components";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
+import { FeedLatest, FeedPop, Home, About, Contact, Login, StaffPickBorder, ReadListBorder, ShortStory, Emotion,ReadList} from "./components";
 import LatestPopularBorder from "./components/Latestpopularboarder";
 import CategoryBorder from "./components/CategoryBorder";
 function App() {

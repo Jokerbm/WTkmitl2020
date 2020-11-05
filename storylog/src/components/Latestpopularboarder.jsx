@@ -29,7 +29,7 @@ function Latestpopularboarder(){
 
             <div className="w-clearfix feed-profile hightlight">
                 <a className="" href="/kxnuz">
-                    <div className="feed-profile-img highlight img-bg" style={{backgroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg" + ")"
+                    <div className="feed-profile-img highlight img-bg" style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg\")"
                     }}></div>
                     <div className="feed-info-username highlight">kxnuz
                     </div>

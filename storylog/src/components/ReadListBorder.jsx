@@ -3,8 +3,8 @@ function ReadListBorder() {
     return (
         <a className="" href="/readlist/57aaf11ef3ec36b3c2558ca1">
             <div className="feed-card highlight book animated fadeIn img-bg th-font2"
-                 style={{backgroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg" + ")"}}>
-                <img className="img-feed-highlight book book-feed" src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg"
+                 style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg\")"}}>
+                <img className="img-feed-highlight book book-feed" alt={"WTF"} src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg"
                      width="50%"></img>
                 <div>
                     <div className="w-clearfix feed-card inheightlight rl book">

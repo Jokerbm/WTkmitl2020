@@ -1,9 +1,6 @@
 import React from "react";
-import Footer from "./Footer";
 import Navigation from "./Navigation";
-import StaffPickBorder from "./StaffPickBorder";
 import ReadListBorder from "./ReadListBorder";
-import LatestPopularBorder from "./Latestpopularboarder";
 function body(){
     let rows = [];
     for (let i = 0; i < 10; i++) {
