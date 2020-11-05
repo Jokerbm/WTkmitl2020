@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import ReadListBorder from "./ReadListBorder";
-import LatestPopularBorder from "./LatestPopularBorder";
+import LatestPopularBorder from "./Latestpopularboarder";
 function Home() {
     return (
         <React.Fragment>
@@ -20,7 +20,7 @@ function Home() {
                     </button>
                     <div class="w-clearfix profile-category tabfeed">
                         <a class="" href="/"><button class="profile-category-tabs half action"><b>STAFF PICKS</b></button></a>
-                        <a class="" href="/"><button class="profile-category-tabs half"><b>READLIST</b></button></a>
+                        <a class="" href="/"><button class="profile-category-tabs half action"><b>READLIST</b></button></a>
                     </div>
                     <br></br><br></br><br></br><br></br>
                     <div>

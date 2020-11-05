@@ -1,13 +1,14 @@
 import React from "react";
+import {withRouter} from "react-router-dom";
 
-function LatestPopularBorder(){
+function Latestpopularboarder(){
     return (
         <div className="bb w-clearfix feed-card animated fadeIn th-font2">
             <div className="feed-info bg-linear">
                 {/*ใส่ bg ได้ตรงนี้*/}
                 <div className="w-clearfix feed-type">
-                    <a className="" href="/category/emotion"><img
-                    height="30px" src={process.env.PUBLIC_URL + 'img/emotion.svg'}></img>
+                    <a className="" href="#/Category/Shortstory"><img
+                    height="30px" src={process.env.PUBLIC_URL + 'img/shortstory.svg'}></img>
                     </a>
                 </div>
                 <a href="/story/5d90f5a997dcd98c47e93631">
@@ -39,4 +40,4 @@ function LatestPopularBorder(){
     );
 }
 
-export default LatestPopularBorder;
+export default withRouter(Latestpopularboarder);

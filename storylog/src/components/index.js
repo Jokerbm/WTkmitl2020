@@ -7,4 +7,7 @@ export { default as Banner } from "./Banner";
 export { default as Login } from "./Login";
 export { default as StaffPickBorder } from "./StaffPickBorder";
 export { default as ReadListBorder } from "./ReadListBorder";
-export { default as Category } from "./Category";
+export { default as Latestpopularboarder } from "./Latestpopularboarder";
+// export { default as Category } from "./CategoryBorder";
+export { default as ShortStory} from "./Category/Shortstory";
+export { default as Emotion} from "./Category/Emotion";
