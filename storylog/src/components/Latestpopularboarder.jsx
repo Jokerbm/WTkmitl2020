@@ -7,7 +7,7 @@ function Latestpopularboarder(){
             <div className="feed-info bg-linear">
                 {/*ใส่ bg ได้ตรงนี้*/}
                 <div className="w-clearfix feed-type">
-                    <a className="" href="#/Category/Shortstory"><img
+                    <a className="" href="#/Category/Shortstory"><img alt={"shortstory"}
                     height="30px" src={process.env.PUBLIC_URL + 'img/shortstory.svg'}></img>
                     </a>
                 </div>

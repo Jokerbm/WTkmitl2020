@@ -20,7 +20,7 @@ function Home() {
                     </button>
                     <div class="w-clearfix profile-category tabfeed">
                         <a class="" href="/"><button class="profile-category-tabs half action"><b>STAFF PICKS</b></button></a>
-                        <a class="" href="/"><button class="profile-category-tabs half action"><b>READLIST</b></button></a>
+                        <a class="" href="/"><button class="profile-category-tabs half"><b>READLIST</b></button></a>
                     </div>
                     <br></br><br></br><br></br><br></br>
                     <div>
@@ -28,10 +28,10 @@ function Home() {
                             {/* information about blog */}
                             <StaffPickBorder/>
                             <StaffPickBorder/>
-                            <ReadListBorder />
-                            <ReadListBorder />
-                            <LatestPopularBorder />
-                            <LatestPopularBorder />
+                            {/*<ReadListBorder />*/}
+                            {/*<ReadListBorder />*/}
+                            {/*<LatestPopularBorder />*/}
+                            {/*<LatestPopularBorder />*/}
                             {/* information about blog */}
                         </div>
                     </div>

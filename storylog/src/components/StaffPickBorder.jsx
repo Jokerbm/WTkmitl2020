@@ -4,16 +4,16 @@ function StaffPickBorder() {
     return (
         <React.Fragment>
             <div className="feed-card highlight bb th-font2"
-                 style={{backgroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f950c226e9410c804d16e6b/16036036780054305493.jpg" + ")"
+                 style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f950c226e9410c804d16e6b/16036036780054305493.jpg\")"
                  }}>
                 <div className="feed-highlight-badge-box"></div>
                 <div className="w-clearfix feed-card inheightlight animated fadeIn staffpick">
-                    <img className="img-feed-highlight" src={process.env.PUBLIC_URL + 'img/tag.svg'}></img>
+                    <img className="img-feed-highlight" alt={"tag"} src={process.env.PUBLIC_URL + 'img/tag.svg'}></img>
                     <div className="feed-info nobg highlight">
                         <div className="w-clearfix feed-type">
                             <div className="feed-badge-small staffpick"></div>
                             <a className="" href="/category/shortstory">
-                                <img height="30px" src={process.env.PUBLIC_URL + 'img/experience.svg'}></img>
+                                <img height="30px" alt={"experience"} src={process.env.PUBLIC_URL + 'img/experience.svg'}></img>
                             </a>
                         </div>
                         <a href="/story/5f96d442c8def3723ca3d2d7" >
@@ -34,7 +34,7 @@ function StaffPickBorder() {
                     </div>
                     <div className="w-clearfix feed-profile hightlight">
                         <a className="" href="/OttoChain">
-                            <div className="feed-profile-img highlight img-bg" style={{backgroundImage: "url(" + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg" + ")"
+                            <div className="feed-profile-img highlight img-bg" style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg\")"
                             }}></div>
                             <div className="feed-info-username highlight">OttoChain
                             </div>
