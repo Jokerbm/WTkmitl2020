@@ -1,6 +1,9 @@
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
+export { default as ReadList } from "./Readlist";
+export { default as FeedLatest } from "./FeedLatest";
+export { default as FeedPop } from "./FeedPop";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Banner } from "./Banner";

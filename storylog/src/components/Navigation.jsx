@@ -21,10 +21,10 @@ function Navigation(props) {
                 <div  id="icon-menu">
                     <a className="" href="#/philosophy">
                         <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
-                    </a><a className="" href="#/feed">
+                    </a><a className="" href="#/feed/latest">
                     <div className="bb-noshadow nav-bb explore">&nbsp; &nbsp; </div>
                 </a><a className="" href="/">
-                    <div className="bb-noshadow nav-bb home">&nbsp; &nbsp; </div>
+                    <div className="bb-noshadow nav-bb home active">&nbsp; &nbsp; </div>
                 </a>
                 </div>
             </div>
@@ -70,59 +70,3 @@ function Navigation(props) {
 }
 
 export default withRouter(Navigation);
-// <div className="navigation">
-//     <nav className="navbar navbar-expand-lg navbar-dark"
-//          style={{backgroundColor: "#2eb494"}}>
-//         <div className="container">
-//             <Link class="navbar-brand" to="/">
-//                 <div className="logo" tabIndex="-1">
-//                     <img src="https://storylog.co/assets/2G7zO-D.svg" alt=""></img>
-//                 </div>
-//             </Link>
-//             <button
-//                 className="navbar-toggler"
-//                 type="button"
-//                 data-toggle="collapse"
-//                 data-target="#navbarResponsive"
-//                 aria-controls="navbarResponsive"
-//                 aria-expanded="false"
-//                 aria-label="Toggle navigation"
-//             >
-//                 <span className="navbar-toggler-icon"></span>
-//             </button>
-//             <div className="collapse navbar-collapse" id="navbarResponsive">
-//                 <ul className="navbar-nav ml-auto">
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/">
-//                             Home
-//                             <span className="sr-only">(current)</span>
-//                         </Link>
-//                     </li>
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/about" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/about">
-//                             About
-//                         </Link>
-//                     </li>
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/contact" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/contact">
-//                             Contact
-//                         </Link>
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     </nav>
-// </div>
-
