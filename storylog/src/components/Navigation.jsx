@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import {withRouter } from "react-router-dom";
 
 function Navigation(props) {
     return (
@@ -19,12 +19,12 @@ function Navigation(props) {
                 <noscript></noscript><div>
                     <div className="bb-noshadow nav-bb profile" tabIndex="-1" data-toggle="modal" data-target="#exampleModal">&nbsp; &nbsp;</div>
                 <div  id="icon-menu">
-                    <a className="" href="/philosophy">
+                    <a className="" href="#/philosophy">
                         <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
-                    </a><a className="" href="/feed">
+                    </a><a className="" href="#/feed/latest">
                     <div className="bb-noshadow nav-bb explore">&nbsp; &nbsp; </div>
                 </a><a className="" href="/">
-                    <div className="bb-noshadow nav-bb home">&nbsp; &nbsp; </div>
+                    <div className="bb-noshadow nav-bb home active">&nbsp; &nbsp; </div>
                 </a>
                 </div>
             </div>
@@ -57,6 +57,20 @@ function Navigation(props) {
                         <input className="w-input input th-font2" id="input_password_login" type="password"
                                placeholder="Password"></input>
                     </div>
+                    <div className="tabs">
+                        <div className="tabs-text login th-font2">OR</div>
+                        <div className="tabs-line login"></div>
+                    </div>
+                    <div className="w-form">
+                        <input className="w-input input th-font2 mb-4" id="input_username_login" type="text"
+                               placeholder="Penname (Username)"></input>
+                        <input className="w-input input th-font2" id="input_password_login" type="password"
+                               placeholder="Password"></input>
+                    </div>
+                </div>
+                <div className="popup-footer">
+                    <button className="button" data-dismiss="modal">Cancel</button>
+                    <button className="button green">Login</button>
                 </div>
                 <div className="popup-footer">
                     <button className="button" data-dismiss="modal">Cancel</button>

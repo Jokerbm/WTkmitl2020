@@ -1,9 +1,16 @@
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
 export { default as Home } from "./Home";
+export { default as ReadList } from "./Readlist";
+export { default as FeedLatest } from "./FeedLatest";
+export { default as FeedPop } from "./FeedPop";
 export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Banner } from "./Banner";
 export { default as Login } from "./Login";
 export { default as StaffPickBorder } from "./StaffPickBorder";
 export { default as ReadListBorder } from "./ReadListBorder";
+export { default as Latestpopularboarder } from "./Latestpopularboarder";
+// export { default as Category } from "./CategoryBorder";
+export { default as ShortStory} from "./Category/Shortstory";
+export { default as Emotion} from "./Category/Emotion";

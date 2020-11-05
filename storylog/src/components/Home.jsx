@@ -1,8 +1,16 @@
 import React from "react";
-import Footer from "./Footer";
 import Navigation from "./Navigation";
+import StaffPickBorder from "./StaffPickBorder";
+function body(){
+    let rows = [];
+    for (let i = 0; i < 10; i++) {
+        rows.push(<StaffPickBorder/>);
+    }
+    return rows;
+}
 function Home() {
     return (
+        <React.Fragment>
         <div className="home th-font2">
             <div class="feed-cover">
                 <div class="feed-cover bg"></div>
@@ -12,12 +20,13 @@ function Home() {
                 <div class="w-container feed">
                     <button tabindex="-1" class="feed-card tool-create bt1">
                         <div class="icon-create"></div>
-                        <div class="tool-create-title">TELL YOUR STORY</div>
+                        <div class="tool-create-title" data-toggle="modal" data-target="#exampleModal">TELL YOUR STORY</div>
                     </button>
                     <div class="w-clearfix profile-category tabfeed">
-                        <a class="" href="/"><button class="profile-category-tabs half action">STAFF PICKS</button></a>
-                        <a class="" href="/"><button class="profile-category-tabs half">READLIST</button></a>
+                        <a class="" href="/"><button class="profile-category-tabs half action"><b>STAFF PICKS</b></button></a>
+                        <a class="" href="#/readlist"><button class="profile-category-tabs half"><b>READLIST</b></button></a>
                     </div>
+                    <br></br><br></br><br></br><br></br>
                     <div>
                         <div id="feedHighlight">
                             {/* information about blog */}
@@ -89,6 +98,7 @@ function Home() {
                 </div>
             </div>
         </div>
+        </React.Fragment>
 
     );
 }
