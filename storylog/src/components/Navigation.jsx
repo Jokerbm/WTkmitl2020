@@ -19,9 +19,9 @@ function Navigation(props) {
                 <noscript></noscript><div>
                     <div className="bb-noshadow nav-bb profile" tabIndex="-1" data-toggle="modal" data-target="#exampleModal">&nbsp; &nbsp;</div>
                 <div  id="icon-menu">
-                    <a className="" href="/philosophy">
+                    <a className="" href="#/philosophy">
                         <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
-                    </a><a className="" href="/feed">
+                    </a><a className="" href="#/feed">
                     <div className="bb-noshadow nav-bb explore">&nbsp; &nbsp; </div>
                 </a><a className="" href="/">
                     <div className="bb-noshadow nav-bb home">&nbsp; &nbsp; </div>
