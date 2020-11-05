@@ -8,7 +8,7 @@ function Navigation(props) {
         <div className="w-section bg-nav">
             <div className="w-container nav-con">
                 <div className="nav-space"></div>
-                <a className="" href="/">
+                <a className="" href="#/">
                     <div className="logo" tabIndex="-1"></div>
                 </a>
                 <div id="searchBox" className="nav-search w-clearfix">
@@ -23,7 +23,7 @@ function Navigation(props) {
                         <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
                     </a><a className="" href="#/feed/latest">
                     <div className="bb-noshadow nav-bb explore">&nbsp; &nbsp; </div>
-                </a><a className="" href="/">
+                </a><a className="" href="#/">
                     <div className="bb-noshadow nav-bb home active">&nbsp; &nbsp; </div>
                 </a>
                 </div>
