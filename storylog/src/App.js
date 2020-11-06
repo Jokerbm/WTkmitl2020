@@ -23,7 +23,7 @@ function App() {
                     <Route path="/feed/latest" exact component={() => <FeedLatest />} />
                     <Route path="/feed/popular" exact component={() => <FeedPop />} />
                 </Switch>
-                </HashRouter>
+            </HashRouter>
         </div>
     );
 }
