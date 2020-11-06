@@ -30,7 +30,7 @@ function FeedPop() {
                             <a className="active" href="/feed/popular/day">
                             <div className="tabs-text first-no-border green">BY DAY
                             </div>
-                        </a><a className="" href="/feed/popular/week">
+                        </a><a className="" href="#/feed/popular/week">
                             <div className="tabs-text">BY WEEK</div>
                         </a>
                             <div className="tabs-line"></div>
