@@ -865,22 +865,23 @@ img {
     width: 100px;
   }
 }
-  .profile-user-image_user.book {
-    width: 100px;
-    height: 100px;
-    margin-top: -60px;
-  }
 
-  .profile-user-image_user {
-    display: block;
-    width: 120px;
-    height: 120px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    background-color: #8a8b8a;
-  }
+.profile-user-image_user.book {
+  width: 100px;
+  height: 100px;
+  margin-top: -60px;
+}
+
+.profile-user-image_user {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-color: #8a8b8a;
+}
 @media (max-width: 479px) {
   .feed-info-detail.book.read-list {
     margin-top: 10px;
@@ -889,11 +890,12 @@ img {
     max-width: 85%;
   }
 }
-  @media (max-width: 767px) {
-    .feed-info-detail.book.read-list {
-      margin-top: 20px;
-    }
+@media (max-width: 767px) {
+  .feed-info-detail.book.read-list {
+    margin-top: 20px;
   }
+}
+
 
 /*parts home --Body popular*/
 /*BorderLatest&POP*/
@@ -909,31 +911,32 @@ img {
     border-top: 1px solid #e9eaea;
   }
 }
-  @media (max-width: 991px){
+i
+@media (max-width: 991px){
   constructed stylesheet
-    .feed-profile {
-      width: 25%;
-    }
+  .feed-profile {
+    width: 25%;
   }
-    .feed-profile {
-      width: 20%;
-      margin-top: 35px;
-      float: left;
-      text-align: center;
-    }
+}
+.feed-profile {
+  width: 20%;
+  margin-top: 35px;
+  float: left;
+  text-align: center;
+}
 @media (max-width: 767px) {
   .feed-info-username {
     margin-top: 0;
     margin-left: 10px;
   }
 }
-  @media (max-width: 767px) {
-    .feed-info-role, .feed-info-username, .feed-profile-img {
-      line-height: 40px;
-      display: inline-block;
-      float: left;
-    }
+@media (max-width: 767px) {
+  .feed-info-role, .feed-info-username, .feed-profile-img {
+    line-height: 40px;
+    display: inline-block;
+    float: left;
   }
+}
 @media (max-width: 479px) {
   .feed-info-role {
     font-size: 18px;
@@ -951,16 +954,17 @@ img {
     display: block;
   }
 }
-    @media (max-width: 767px) {
-      .feed-info-role {
-        margin-left: 15px;
-      }
-      .feed-info-role, .feed-info-username, .feed-profile-img {
-        line-height: 40px;
-        display: inline-block;
-        float: left;
-      }
-    }
+@media (max-width: 767px) {
+  .feed-info-role {
+    margin-left: 15px;
+  }
+  .feed-info-role, .feed-info-username, .feed-profile-img {
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+  }
+}
+
 .bg-linear{
   background-image:linear-gradient(to right, white, rgba(255, 255, 255, 0.9)), url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f9851936783b3f141f53d41/16038179077307315125.jpg);
   background-position:0% 0%, center;
@@ -988,7 +992,6 @@ img {
   .w-container {
     max-width: 728px;
   }
-}
   .w-container {
     margin-left: auto;
     margin-right: auto;
@@ -1003,10 +1006,9 @@ img {
 }
 
 @media (max-width: 991px) {
-.banner-icon {
-  margin-top: 30px;
-}
-
+  .banner-icon {
+    margin-top: 30px;
+  }
 }
 .banner-icon {
   width: 230px;
@@ -1332,14 +1334,16 @@ a {
 }
 
 .profile-user-image_user {
-    display: block;
-    width: 120px;
-    height: 120px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    background-color: #8a8b8a;
+
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background-color: #8a8b8a;
+
 }
 
 .profile-detail {
@@ -1354,8 +1358,10 @@ a {
 }
 @media screen and (max-width: 991px) {
   .content-comment, .content-title-category, .profile-detail-content{
-      padding-right: 50px;
-      padding-left: 50px;
+
+    padding-right: 50px;
+    padding-left: 50px;
+
   }
 }
 .profile-cover {
@@ -1383,6 +1389,7 @@ a {
   border-color: #2eb494;
   border-radius: 5px;
   color: #2eb494;
+
 }
 .button.message {
   padding-right: 25px;
@@ -1448,6 +1455,7 @@ element.style {
   margin-top: 3px;
   background-repeat: no-repeat;
 }
+
 .icon-follow {
   width: 20px;
   margin-right: 10px;
@@ -1489,7 +1497,6 @@ element.style {
   padding-left: 25px;
   border-right: 1px solid #e9eaea;
   border-left: 1px solid #e9eaea;
-  
 }
 .text.profile-text {
   margin-bottom: 10px;
