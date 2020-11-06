@@ -14,3 +14,7 @@ export { default as Latestpopularboarder } from "./Latestpopularboarder";
 // export { default as Category } from "./CategoryBorder";
 export { default as ShortStory} from "./Category/Shortstory";
 export { default as Emotion} from "./Category/Emotion";
+export { default as Experience} from "./Category/Experience";
+export { default as Inspiration} from "./Category/Inspiration";
+export { default as Knowledge} from "./Category/Knowledge";
+export { default as Idea} from "./Category/Idea";

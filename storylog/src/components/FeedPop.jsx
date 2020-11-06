@@ -26,7 +26,15 @@ function FeedPop() {
                             <a class="" href="#/feed/latest"><button class="profile-category-tabs half "><b>LATEST STORIES</b></button></a>
                             <a class="" href="#/feed/popular"><button class="profile-category-tabs half action "><b>POPULAR</b></button></a>
                         </div>
-                        <br></br><br></br><br></br><br></br>
+                        <div className="tabs bar-pop">
+                            <a className="active" href="/feed/popular/day">
+                            <div className="tabs-text first-no-border green">BY DAY
+                            </div>
+                        </a><a className="" href="/feed/popular/week">
+                            <div className="tabs-text">BY WEEK</div>
+                        </a>
+                            <div className="tabs-line"></div>
+                        </div>
                         <div>
                             <div id="feedHighlight">
                                 {/* information about blog */}

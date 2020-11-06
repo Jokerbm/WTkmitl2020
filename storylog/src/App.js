@@ -1,7 +1,7 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { FeedLatest, FeedPop, Home, About, Contact, Login, StaffPickBorder, ReadListBorder, ShortStory, Emotion,ReadList} from "./components";
+import { FeedLatest, FeedPop, Home, About, Contact, Login, StaffPickBorder, ReadListBorder, ShortStory, Emotion,ReadList, Experience, Inspiration, Knowledge, Idea} from "./components";
 import LatestPopularBorder from "./components/Latestpopularboarder";
 import CategoryBorder from "./components/CategoryBorder";
 function App() {
@@ -19,6 +19,10 @@ function App() {
                     <Route path="/LatestPopularBorder" exact component={() => <LatestPopularBorder />} />
                     <Route path="/Category/Shortstory" exact component={() => <ShortStory />} />
                     <Route path="/Category/Emotion" exact component={() => <Emotion />} />
+                    <Route path="/Category/Experience" exact component={() => <Experience />} />
+                    <Route path="/Category/Inspiration" exact component={() => <Inspiration />} />
+                    <Route path="/Category/Knowledge" exact component={() => <Knowledge />} />
+                    <Route path="/Category/Idea" exact component={() => <Idea />} />
                     <Route path="/CategoryBorder" exact component={() => <CategoryBorder />} />
                     <Route path="/feed/latest" exact component={() => <FeedLatest />} />
                     <Route path="/feed/popular" exact component={() => <FeedPop />} />
