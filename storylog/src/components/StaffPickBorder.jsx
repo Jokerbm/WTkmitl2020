@@ -12,7 +12,7 @@ function StaffPickBorder() {
                     <div className="feed-info nobg highlight">
                         <div className="w-clearfix feed-type">
                             <div className="feed-badge-small staffpick"></div>
-                            <a className="" href="/category/shortstory">
+                            <a className="" href="#/category/shortstory">
                                 <img height="30px" alt={"experience"} src={process.env.PUBLIC_URL + 'img/experience.svg'}></img>
                             </a>
                         </div>
