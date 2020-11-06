@@ -8,7 +8,6 @@ function StaffPickBorder() {
                  }}>
                 <div className="feed-highlight-badge-box"></div>
                 <div className="w-clearfix feed-card inheightlight animated fadeIn staffpick">
-                    <img className="img-feed-highlight" alt={"tag"} src={process.env.PUBLIC_URL + 'img/tag.svg'}></img>
                     <div className="feed-info nobg highlight">
                         <div className="w-clearfix feed-type">
                             <div className="feed-badge-small staffpick"></div>
