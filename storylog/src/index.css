@@ -777,8 +777,7 @@ a {
 }
 
 /*Body popular*/
-<<<<<<< Updated upstream
-=======
+
 /*image feed highlight*/
 @media (max-width: 991px) {
   .img-feed-highlight.book.book-feed {
@@ -1349,7 +1348,7 @@ a {
   background-color: #fff;
 }
 .profile-detail-content {
-  padding: 55px 200px 40px;
+  padding: 30px 200px 40px;
   color: #8a8b8a;
   text-align: center;
 }
@@ -1497,4 +1496,4 @@ element.style {
 }
 
 /* author */
->>>>>>> Stashed changes
+
