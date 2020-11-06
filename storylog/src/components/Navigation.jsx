@@ -57,20 +57,6 @@ function Navigation(props) {
                         <input className="w-input input th-font2" id="input_password_login" type="password"
                                placeholder="Password"></input>
                     </div>
-                    <div className="tabs">
-                        <div className="tabs-text login th-font2">OR</div>
-                        <div className="tabs-line login"></div>
-                    </div>
-                    <div className="w-form">
-                        <input className="w-input input th-font2 mb-4" id="input_username_login" type="text"
-                               placeholder="Penname (Username)"></input>
-                        <input className="w-input input th-font2" id="input_password_login" type="password"
-                               placeholder="Password"></input>
-                    </div>
-                </div>
-                <div className="popup-footer">
-                    <button className="button" data-dismiss="modal">Cancel</button>
-                    <button className="button green">Login</button>
                 </div>
                 <div className="popup-footer">
                     <button className="button" data-dismiss="modal">Cancel</button>
@@ -84,59 +70,3 @@ function Navigation(props) {
 }
 
 export default withRouter(Navigation);
-// <div className="navigation">
-//     <nav className="navbar navbar-expand-lg navbar-dark"
-//          style={{backgroundColor: "#2eb494"}}>
-//         <div className="container">
-//             <Link class="navbar-brand" to="/">
-//                 <div className="logo" tabIndex="-1">
-//                     <img src="https://storylog.co/assets/2G7zO-D.svg" alt=""></img>
-//                 </div>
-//             </Link>
-//             <button
-//                 className="navbar-toggler"
-//                 type="button"
-//                 data-toggle="collapse"
-//                 data-target="#navbarResponsive"
-//                 aria-controls="navbarResponsive"
-//                 aria-expanded="false"
-//                 aria-label="Toggle navigation"
-//             >
-//                 <span className="navbar-toggler-icon"></span>
-//             </button>
-//             <div className="collapse navbar-collapse" id="navbarResponsive">
-//                 <ul className="navbar-nav ml-auto">
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/">
-//                             Home
-//                             <span className="sr-only">(current)</span>
-//                         </Link>
-//                     </li>
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/about" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/about">
-//                             About
-//                         </Link>
-//                     </li>
-//                     <li
-//                         className={`nav-item  ${
-//                             props.location.pathname === "/contact" ? "active" : ""
-//                         }`}
-//                     >
-//                         <Link class="nav-link" to="/contact">
-//                             Contact
-//                         </Link>
-//                     </li>
-//                 </ul>
-//             </div>
-//         </div>
-//     </nav>
-// </div>
-
