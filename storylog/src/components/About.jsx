@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 function About() {
   return (
+
       <div className="home th-font2">
         <Navigation />
         <div class="profile-cover"
@@ -59,9 +60,10 @@ function About() {
             <div class="feed">
               {/* infomation */}
             </div>
-          </div>
+
         </div>
       </div>
+
   );
 }
 

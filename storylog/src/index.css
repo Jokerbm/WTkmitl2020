@@ -865,6 +865,7 @@ img {
     width: 100px;
   }
 }
+
 .profile-user-image_user.book {
   width: 100px;
   height: 100px;
@@ -895,6 +896,7 @@ img {
   }
 }
 
+
 /*parts home --Body popular*/
 /*BorderLatest&POP*/
 .position-img{
@@ -909,6 +911,7 @@ img {
     border-top: 1px solid #e9eaea;
   }
 }
+i
 @media (max-width: 991px){
   constructed stylesheet
   .feed-profile {
@@ -961,6 +964,7 @@ img {
     float: left;
   }
 }
+
 .bg-linear{
   background-image:linear-gradient(to right, white, rgba(255, 255, 255, 0.9)), url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f9851936783b3f141f53d41/16038179077307315125.jpg);
   background-position:0% 0%, center;
@@ -988,16 +992,15 @@ img {
   .w-container {
     max-width: 728px;
   }
-}
-.w-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 940px;
-}
-.w-checkbox:after, .w-checkbox:before, .w-container:after, .w-container:before, .w-radio:after, .w-radio:before, .w-row:after, .w-row:before {
-  content: " ";
-  display: table;
-}
+  .w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+  }
+  .w-checkbox:after, .w-checkbox:before, .w-container:after, .w-container:before, .w-radio:after, .w-radio:before, .w-row:after, .w-row:before {
+    content: " ";
+    display: table;
+  }
 .banner-detail.short {
   color: rgba(44,61,114,.5);
 }
@@ -1006,7 +1009,6 @@ img {
   .banner-icon {
     margin-top: 30px;
   }
-
 }
 .banner-icon {
   width: 230px;
@@ -1332,6 +1334,7 @@ a {
 }
 
 .profile-user-image_user {
+
   display: block;
   width: 120px;
   height: 120px;
@@ -1340,6 +1343,7 @@ a {
   border: 3px solid #fff;
   border-radius: 50%;
   background-color: #8a8b8a;
+
 }
 
 .profile-detail {
@@ -1354,8 +1358,10 @@ a {
 }
 @media screen and (max-width: 991px) {
   .content-comment, .content-title-category, .profile-detail-content{
+
     padding-right: 50px;
     padding-left: 50px;
+
   }
 }
 .profile-cover {
@@ -1383,6 +1389,7 @@ a {
   border-color: #2eb494;
   border-radius: 5px;
   color: #2eb494;
+
 }
 .button.message {
   padding-right: 25px;
@@ -1448,6 +1455,7 @@ element.style {
   margin-top: 3px;
   background-repeat: no-repeat;
 }
+
 .icon-follow {
   width: 20px;
   margin-right: 10px;
@@ -1489,7 +1497,6 @@ element.style {
   padding-left: 25px;
   border-right: 1px solid #e9eaea;
   border-left: 1px solid #e9eaea;
-
 }
 .text.profile-text {
   margin-bottom: 10px;
