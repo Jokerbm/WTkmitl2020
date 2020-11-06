@@ -1311,3 +1311,11 @@ a, button {
 .banner-detail.idea {
   color: rgba(236,133,0,.5);
 }
+
+.profile-user-name {
+  margin-top: 10px;
+  color: #2eb494;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+}
