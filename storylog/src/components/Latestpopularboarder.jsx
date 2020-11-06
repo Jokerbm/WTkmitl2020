@@ -11,7 +11,7 @@ function Latestpopularboarder(){
                     height="30px" src={process.env.PUBLIC_URL + 'img/shortstory.svg'}></img>
                     </a>
                 </div>
-                <a href="/story/5d90f5a997dcd98c47e93631">
+                <a href="#/story/5d90f5a997dcd98c47e93631">
                     <div className="feed-info-title"><b>Everything will
                         be okay :-)</b>
                     </div>

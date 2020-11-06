@@ -16,7 +16,7 @@ function StaffPickBorder() {
                                 <img height="30px" alt={"experience"} src={process.env.PUBLIC_URL + 'img/experience.svg'}></img>
                             </a>
                         </div>
-                        <a href="/story/5f96d442c8def3723ca3d2d7" >
+                        <a href="#/story/5f96d442c8def3723ca3d2d7" >
                             <div className="feed-info-title"><b>Blood
                                 Of Woods I</b>
                             </div>
@@ -33,7 +33,7 @@ function StaffPickBorder() {
                         </div>
                     </div>
                     <div className="w-clearfix feed-profile hightlight">
-                        <a className="" href="/OttoChain">
+                        <a className="" href="#/OttoChain">
                             <div className="feed-profile-img highlight img-bg" style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg\")"
                             }}></div>
                             <div className="feed-info-username highlight">OttoChain
