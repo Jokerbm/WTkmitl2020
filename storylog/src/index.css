@@ -2180,12 +2180,6 @@ img {
     float: left
   }
 }
-.bg-linear {
-  background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.9)), url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f9851936783b3f141f53d41/16038179077307315125.jpg);
-  background-position: 0 0, center;
-  background-size: cover;
-  background-repeat: no-repeat
-}
 .banner.short {
   background-color: #dee1f2
 }
@@ -2622,10 +2616,6 @@ a {
   font-size: 20px;
   line-height: 26px;
   text-align: center
-}
-element.style {
-  /*background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5e56a44…/1602273….jpg);*/
-  /*background-size: cover*/
 }
 .w-checkbox:after,.w-clearfix:after,.w-container:after,.w-embed:after,.w-nav:after,.w-radio:after,.w-row:after,.w-slider,.w-tabs:after {
   clear: both

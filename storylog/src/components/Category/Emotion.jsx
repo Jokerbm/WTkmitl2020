@@ -1,8 +1,7 @@
 import React from "react";
-import LatestPopularBorder from "../Latestpopularboarder";
 import Navigation from "../Navigation";
-import StaffPickBorder from "../StaffPickBorder";
 import data from "../Article.json";
+import Latestpopularboarder from "../Latestpopularboarder";
 
 function body() {
     let rows = [];
@@ -21,7 +20,7 @@ function body() {
             img_cate:data.img_cate
         }
         if(props.category == "emotion") {
-            return rows.push(<StaffPickBorder key={data.recommended} {...props}/>);
+            return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
     })
     console.log(rows)

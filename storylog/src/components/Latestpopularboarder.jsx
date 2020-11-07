@@ -4,11 +4,10 @@ import {withRouter} from "react-router-dom";
 function Latestpopularboarder(props){
     return (
         <div className="bb w-clearfix feed-card animated fadeIn th-font2">
-            <div className="feed-info bg-linear">
-                {/*ใส่ bg ได้ตรงนี้*/}
+            <div className="feed-info bg-linear" style={{ backgroundImage: "linear-gradient(to right, white, rgba(255, 255, 255, 0.9)),"+ "url(" + props.banner + ")"}}>
                 <div className="w-clearfix feed-type">
-                    <a className="" href="#/Category/Shortstory"><img alt={"shortstory"}
-                    height="30px" src={process.env.PUBLIC_URL + 'img/shortstory.svg'}></img>
+                    <a className="" href={"#/category/" +  props.category}>
+                        <img height="30px" src={process.env.PUBLIC_URL + props.img_cate}></img>
                     </a>
                 </div>
                 <a href="#/story/5d90f5a997dcd98c47e93631">
