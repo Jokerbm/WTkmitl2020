@@ -1,11 +1,11 @@
 import React from "react";
 import Navigation from "./Navigation";
+import Latestpopularboarder from "./Latestpopularboarder";
 function About() {
   return (
       <div className="home th-font2">
         <Navigation />
-        <div class="profile-cover"
-             style={{ backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg\")" }}>
+        <div class="bg-fix profile-cover">
         </div>
         <div class="w-container profile-detail" >
           <div class="profile-user">
@@ -58,6 +58,7 @@ function About() {
             </div>
             <div class="feed">
               {/* infomation */}
+              <Latestpopularboarder/>
             </div>
           </div>
         </div>

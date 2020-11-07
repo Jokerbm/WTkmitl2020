@@ -22,6 +22,10 @@ div {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 17px
 }
+.bg-fix{
+  background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5bf3ff697ba11f4520df6926/15427935526125958349.jpg);
+  background-size: cover
+}
 .modal.show .modal-dialog {
   -webkit-transform: none;
   transform: none;
@@ -558,6 +562,7 @@ a {
   text-align: center;
   font-weight: lighter
 }
+
 .profile-category.tabfeed {
   margin-bottom: 20px;
   border-right: 1px solid #e9eaea;
@@ -1210,6 +1215,11 @@ a,button {
     line-height: 26px;
     text-align: center
   }
+  constructed stylesheet
+  .profile-cover {
+    height: 200px;
+    background-size: 560px 200px;
+  }
   .banner-detail,.thangyou-box {
     padding-right: 20px;
     padding-left: 20px
@@ -1322,9 +1332,6 @@ code {
   background-size: cover;
   background-repeat: no-repeat
 }
-* {
-  box-sizing: border-box
-}
 div {
   display: block
 }
@@ -1410,6 +1417,11 @@ div {
 @media(max-width:767px) {
   .popup-content {
     margin-top: 30px
+  }
+  .profile-cover {
+    height: 250px;
+    margin-top: 45px;
+    background-size: 1000px 250px;
   }
   .popup-bg {
     background-color: rgba(234, 235, 235, .95)
@@ -1905,32 +1917,13 @@ a {
 }
 .feed-info-rl {
   width: 95%;
-  padding: 40px 100px 0;
-  margin: 20px;
+  padding: 0px 100px 0;
+  margin: 0px 20px 20px;
   float: left;
   text-align: center
 }
 .feed-type.book {
   height: 30px
-}
-.profile-category-tabs.half {
-  width: 50%
-}
-.profile-category-tabs.action {
-  background-color: #fff;
-  color: #2eb494
-}
-.profile-category-tabs {
-  width: 33.3333%;
-  height: 50px;
-  float: left;
-  border: 1px solid #e9eaea;
-  background-color: #f5f5f5;
-  color: #636463;
-  font-size: 13.5px;
-  line-height: 50px;
-  text-align: center;
-  font-weight: lighter
 }
 .profile-category.tabfeed {
   margin-bottom: 20px;
@@ -2586,7 +2579,6 @@ a {
   width: 100%;
   height: 320px;
   background-position: 50% 50%;
-  background-size: 1669px 350px
 }
 .profile-user-image_user {
   display: block;
@@ -2613,13 +2605,11 @@ a {
     padding-right: 50px;
     padding-left: 50px
   }
-}
-.profile-cover {
-  position: relative;
-  width: 100%;
-  height: 320px;
-  background-position: 50% 50%;
-  background-size: 1669px 350px
+  .profile-cover {
+    height: 300px;
+    background-size: 1300px 300px;
+
+  }
 }
 .profile-user {
   position: relative;
@@ -2683,8 +2673,8 @@ a {
   text-align: center
 }
 element.style {
-  background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5e56a44…/1602273….jpg);
-  background-size: cover
+  /*background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5e56a44…/1602273….jpg);*/
+  /*background-size: cover*/
 }
 .w-checkbox:after,.w-clearfix:after,.w-container:after,.w-embed:after,.w-nav:after,.w-radio:after,.w-row:after,.w-slider,.w-tabs:after {
   clear: both
@@ -2734,7 +2724,6 @@ element.style {
 }
 .text {
   display: inline-block;
-  font-size: 15px
 }
 .profile-analytic-point.center {
   margin-right: 0;
@@ -2745,5 +2734,6 @@ element.style {
   border-left: 1px solid #e9eaea
 }
 .text.profile-text {
-  margin-bottom: 10px
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
