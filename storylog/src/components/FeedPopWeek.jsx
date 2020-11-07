@@ -8,7 +8,7 @@ function body(){
     }
     return rows;
 }
-function FeedPop() {
+function FeedPopWeek() {
     return (
         <React.Fragment>
             <div className="home th-font2">
@@ -28,10 +28,10 @@ function FeedPop() {
                         </div>
                         <div className="tabs bar-pop">
                             <a className="active" href="#/feed/popular">
-                            <div className="tabs-text first-no-border green">BY DAY
+                            <div className="tabs-text first-no-border ">BY DAY
                             </div>
                         </a><a className="" href="#/feed/popular/week">
-                            <div className="tabs-text">BY WEEK</div>
+                            <div className="tabs-text green">BY WEEK</div>
                         </a>
                             <div className="tabs-line"></div>
                         </div>
@@ -54,4 +54,4 @@ function FeedPop() {
 
     );
 }
-export default FeedPop;
+export default FeedPopWeek;

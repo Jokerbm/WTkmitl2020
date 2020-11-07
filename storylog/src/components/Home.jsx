@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
+
 function body() {
     let rows = [];
     const getdata = data.map(data => {
@@ -12,9 +13,12 @@ function body() {
             time: data.time,
             recommended: data.recommended,
             name: data.name,
-            nickname: data.nickname
+            nickname: data.nickname,
+            image_profile: data.image_profile,
+            category: data.category,
+            img_cate:data.img_cate
         }
-        return  rows.push(<StaffPickBorder key={data.recommended} {...props}/>);
+            return rows.push(<StaffPickBorder key={data.recommended} {...props}/>);
     })
     console.log(rows)
     return rows;

@@ -3,20 +3,23 @@ import React from "react";
 function StaffPickBorder(props) {
     return (
         <React.Fragment>
-            <div
-                className="feed-card highlight bb th-font2"
-                style={{ backgroundImage: "url(" + props.banner + ")" }}
-            >
+            <div className ="feed-card highlight bb th-font2"
+                style={{ backgroundImage: "url(" + props.banner + ")"}}>
+                {/*<div className="feed-highlight-badge-box"></div>*/}
                 <div className="feed-highlight-badge-box"></div>
                 <div className="w-clearfix feed-card inheightlight animated fadeIn staffpick">
+                    <img className="img-feed-highlight"
+                         src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f96d442c8def3723ca3d2d7/16037223386081275010.jpg"
+                         width="100%"/>
+
                     <div className="feed-info nobg highlight">
                         <div className="w-clearfix feed-type">
                             <div className="feed-badge-small staffpick"></div>
-                            <a className="" href="#/category/shortstory">
+                            <a className="" target="_self" href={"#/category/" +  props.category}>
                                 <img
                                     height="30px"
                                     alt={"experience"}
-                                    src={process.env.PUBLIC_URL + "img/experience.svg"}
+                                    src={process.env.PUBLIC_URL + props.img_cate}
                                 ></img>
                             </a>
                         </div>
@@ -47,11 +50,7 @@ function StaffPickBorder(props) {
                         <a className="" href={"#/" + props.name}>
                             <div
                                 className="feed-profile-img highlight img-bg"
-                                style={{
-                                    backgroundImage:
-                                        'url("https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5f267fdea834c3fc0123ab15/15963591366138532840.jpg")',
-                                }}
-                            ></div>
+                                style={{ backgroundImage: "url(" + props.image_profile + ")" }}></div>
                             <div className="feed-info-username highlight">{props.name}</div>
                             <div className="feed-info-role highlight">{props.nickname}</div>
                         </a>

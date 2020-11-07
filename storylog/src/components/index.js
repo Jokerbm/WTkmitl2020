@@ -18,3 +18,5 @@ export { default as Experience} from "./Category/Experience";
 export { default as Inspiration} from "./Category/Inspiration";
 export { default as Knowledge} from "./Category/Knowledge";
 export { default as Idea} from "./Category/Idea";
+export { default as FeedPopWeek} from "./FeedPopWeek";
+export { default as Notfound} from "./Notfound";
