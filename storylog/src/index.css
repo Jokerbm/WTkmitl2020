@@ -219,6 +219,33 @@ button,hr,input,select {
 button,select {
   text-transform: none
 }
+.terms-title {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.img-terms.mobile {
+  display: none;
+}
+.img-terms {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
 button,input,select,textarea {
   font: inherit;
   margin: 0
@@ -283,10 +310,6 @@ button,html input[type=button],input[type=reset],input[type=submit] {
   outline: 0;
   word-break: break-word;
   text-rendering: optimizeSpeed
-}
-.banner,.dropdown,.dropdown.create-select-book,.feed-card,.feed-cover.bg,.philosophy-cover,.section-content {
-  transform: translate3d(0, 0, 0);
-  transform: translateZ(0)
 }
 .feed-card {
   position: relative;
@@ -413,10 +436,6 @@ a {
   content: " ";
   display: table
 }
-.w-clearfix:after,.w-clearfix:before {
-  content: " ";
-  display: table
-}
 .feed-info.nobg,.feed-info.nobg.highlight {
   background-image: none
 }
@@ -437,10 +456,6 @@ a {
   float: right;
   background-image: url(https://storylog.co/assets/33oLPv8.svg);
   background-position: 100% 50%
-}
-.feed-badge-small,.feed-collection-head-img,.icon-create {
-  background-size: cover;
-  background-repeat: no-repeat
 }
 .style-img {
   min-height: 300px;
@@ -483,6 +498,10 @@ a {
   padding-top: 10px;
   color: #2eb494;
   line-height: 40px
+}
+.feed-info-title.collection.terms {
+  margin-bottom: 15px;
+  font-size: 26px;
 }
 .feed-info-title {
   color: #000
@@ -753,10 +772,6 @@ img {
   width: 40%;
   float: right
 }
-.w-checkbox:after,.w-checkbox:before,.w-container:after,.w-container:before,.w-radio:after,.w-radio:before,.w-row:after,.w-row:before {
-  content: " ";
-  display: table
-}
 .w-checkbox:after,.w-clearfix:after,.w-container:after,.w-embed:after,.w-nav:after,.w-radio:after,.w-row:after,.w-slider,.w-tabs:after {
   clear: both
 }
@@ -890,9 +905,62 @@ a,button {
     margin-bottom: 20px
   }
 }
+.philosophy-logo {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  margin-top: 80px;
+  background-image: url(https://storylog.co/assets/3o1yFiR.svg);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.philosophy-cover {
+  height: 400px;
+  background-image: url(https://storylog.co/assets/1eEL5x7.jpg);
+  background-position: 50% 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.feed {
+  margin-bottom: 50px;
+}
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+  overflow: hidden;
+}
+.feed-info-detail, .text {
+  word-break: break-word;
+  text-rendering: optimizeSpeed;
+}
+.feed-info-detail.term-content {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
 @media screen and (max-width:991px) {
+  .feed-info-title.collection {
+    margin-top: 5px;
+  }
+  .feed-card {
+    margin-top: 20px;
+    border-style: none;
+  }
+  .philosophy-logo {
+    width: 50%;
+  }
+  .feed-card, .feed-info-detail.book {
+    margin-bottom: 20px;
+  }
   .feed-highlight-badge-box {
     display: none;
+  }
+  .philosophy-cover {
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    background-attachment: scroll;
   }
   .w-container {
     max-width: 728px
@@ -907,6 +975,12 @@ a,button {
   }
 }
 @media screen and (max-width:767px) {
+  .banner-icon, .img-terms.mobile {
+    display: block;
+  }
+  .img-terms.destop {
+    display: none;
+  }
   .feed-card {
     margin-top: 25px;
     margin-bottom: 25px
@@ -1344,14 +1418,6 @@ div {
   line-height: 46px;
   border-bottom: 1px solid #e9eaea
 }
-.tabs {
-  padding-top: 10px;
-  color: #636463
-}
-.content-date,.tabs {
-  padding-bottom: 25px;
-  text-align: center
-}
 .tabs-text.login {
   background-color: #fff
 }
@@ -1454,10 +1520,6 @@ div {
 .card-popup.login {
   max-width: 500px
 }
-.feed-info-detail,.text {
-  word-break: break-word;
-  text-rendering: optimizeSpeed
-}
 .text {
   display: inline-block
 }
@@ -1492,8 +1554,12 @@ button,input,select,textarea {
   font: inherit;
   margin: 0
 }
-button,hr,input,select {
-  overflow: visible
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+button, hr, input, select {
+  overflow: visible;
 }
 .popup-footer {
   margin-top: 20px;
@@ -1583,6 +1649,16 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 .banner,.dropdown,.dropdown.create-select-book,.feed-card,.feed-cover.bg,.philosophy-cover,.section-content {
   transform: translate3d(0, 0, 0);
   transform: translateZ(0)
+}
+.feed-collection.terms.center {
+  text-align: center;
+}
+.feed-collection.terms {
+  width: 100%;
+  padding-bottom: 80px;
+}
+#createContent, .content-detail-text, .terms {
+  white-space: pre-line;
 }
 .feed-card {
   position: relative;
@@ -1681,6 +1757,13 @@ a {
 .feed-info-detail,.text {
   word-break: break-word;
   text-rendering: optimizeSpeed
+}
+#createContent hr, .content-detail-text hr, .terms hr {
+  height: 1px;
+  width: 15%;
+  background-color: #C7C9CB;
+  border: 0;
+  margin: 40px auto;
 }
 #createBookTool,#searchInput,.feed-info-detail,svg:not(:root) {
   overflow: hidden
@@ -1824,18 +1907,6 @@ a {
   padding-right: 40px;
   padding-left: 40px
 }
-.feed-info-title.collection {
-  display: inline-block;
-  max-width: 100%
-}
-.feed-info-title.collection {
-  display: block;
-  margin-top: 15px;
-  margin-bottom: 0;
-  padding-top: 10px;
-  color: #2eb494;
-  line-height: 40px
-}
 .feed-info-title {
   color: #000
 }
@@ -1937,6 +2008,11 @@ a {
 }
 .feed-collection-head-title,.icon-create {
   display: inline-block
+}
+.feed-collection {
+  width: 50%;
+  padding: 25px 40px;
+  float: left;
 }
 @media screen and (max-width:991px) {
   .w-container {
@@ -2228,10 +2304,6 @@ h1 {
     max-width: 728px
   }
 }
-.w-checkbox:after,.w-checkbox:before,.w-container:after,.w-container:before,.w-radio:after,.w-radio:before,.w-row:after,.w-row:before {
-  content: " ";
-  display: table
-}
 .banner-detail.short {
   color: rgba(44, 61, 114, .5)
 }
@@ -2268,10 +2340,6 @@ h1 {
   bottom: 0;
   width: 40%;
   float: right
-}
-.w-checkbox:after,.w-checkbox:before,.w-container:after,.w-container:before,.w-radio:after,.w-radio:before,.w-row:after,.w-row:before {
-  content: " ";
-  display: table
 }
 .w-checkbox:after,.w-clearfix:after,.w-container:after,.w-embed:after,.w-nav:after,.w-radio:after,.w-row:after,.w-slider,.w-tabs:after {
   clear: both

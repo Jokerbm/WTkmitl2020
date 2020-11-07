@@ -20,3 +20,6 @@ export { default as Knowledge} from "./Category/Knowledge";
 export { default as Idea} from "./Category/Idea";
 export { default as FeedPopWeek} from "./FeedPopWeek";
 export { default as Notfound} from "./Notfound";
+export { default as Philosophy} from "./Philosophy";
+export { default as UserAgreement} from "./UserAgreement";
+export { default as CreativeCommons} from "./CreativeCommons";
