@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+.whit{
+  background-color: white!important;
+}
 .active {
   opacity: 1
 }
@@ -311,22 +314,12 @@ button,html input[type=button],input[type=reset],input[type=submit] {
   word-break: break-word;
   text-rendering: optimizeSpeed
 }
-.feed-card {
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  box-shadow: 0 1px 20px -8px #636463
-}
+
 .feed-highlight-badge-box {
   position: relative;
   height: 35px;
   margin-bottom: 30px;
   margin-left: -45px
-}
-.feed-card.inheightlight {
-  margin-bottom: 0;
-  background-color: rgba(255, 255, 255, .98)
 }
 .fadeIn {
   animation-name: fadeIn
@@ -350,15 +343,6 @@ img {
 }
 img[AttributesStyle] {
   width: 100%
-}
-.feed-info.nobg,.feed-info.nobg.highlight {
-  background-image: none
-}
-.feed-info {
-  width: 80%;
-  padding: 30px 35px 0;
-  float: left;
-  border-right: 1px solid #e9eaea
 }
 .feed-profile {
   width: 20%;
@@ -405,12 +389,7 @@ a {
   word-wrap: break-word;
   text-rendering: optimizeSpeed
 }
-.feed-info-title {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 20px
-}
+
 #createBookTool,#searchInput,.feed-info-detail,svg:not(:root) {
   overflow: hidden
 }
@@ -436,8 +415,56 @@ a {
   content: " ";
   display: table
 }
-.feed-info.nobg,.feed-info.nobg.highlight {
-  background-image: none
+.feed {
+  margin-bottom: 50px;
+}
+
+
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: 'Mn paethai v3',sans-serif;
+  font-size: 22px;
+}
+body {
+  min-height: 100%;
+  background-color: #fff;
+  color: #333;
+}
+.readlist-box{
+  text-align: center;
+  float: left;
+  border: 3px solid white;
+  width: 100%;
+  border-right-style: none;
+}
+.bookCover {
+  min-height: 280px;
+}
+html {
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility!important;
+  -webkit-font-smoothing: antialiased!important;
+}
+.feed-card.highlight.book {
+  min-height: 300px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  background-image: none;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+::selection {
+  color: #000;
+  background: #ddd;
 }
 #feed {
   min-height: 500px;
@@ -471,18 +498,14 @@ a {
   background-size: cover;
   background-repeat: no-repeat
 }
-.feed-info.nobg.highlight.full.book {
-  padding: 0 20px 20px;
-  text-align: center
-}
-.img-feed-highlight.book.book-feed {
-  opacity: 0
-}
 .img-feed-highlight.book {
   display: block;
   opacity: 1
 }
-
+.book-read{
+  padding-right: 40px;
+  padding-left: 40px;
+}
 .book-bg {
   margin-top: -180px;
   padding-right: 40px;
@@ -515,23 +538,6 @@ a {
 .feed-info-detail.book.read-list {
   overflow: hidden;
   margin-top: 10px;
-  margin-bottom: 10px
-}
-.feed-info-detail.book {
-  min-height: 20px;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 32px
-}
-.feed-info-detail.book {
-  display: inline-block;
-  max-width: 100%;
-  min-height: auto;
-  min-width: auto;
-  margin-top: -10px;
-  margin-bottom: 30px
 }
 #createBookTool,#searchInput,.feed-info-detail,svg:not(:root) {
   overflow: hidden
@@ -545,7 +551,7 @@ a {
 .feed-info-rl {
   width: 100%;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   text-align: center;
   padding: 0 100px 0
 }
@@ -665,9 +671,6 @@ img {
 #feed,.info-story-for-you,audio,canvas,progress,video {
   display: inline-block
 }
-.img-feed-highlight.book.book-feed {
-  opacity: 0
-}
 .img-feed-highlight.book {
   display: block;
   opacity: 1
@@ -678,9 +681,6 @@ img {
   vertical-align: middle;
   display: inline-block
 }
-.img-feed-highlight.book.book-feed {
-  opacity: 0
-}
 #feed,.info-story-for-you,audio,canvas,progress,video {
   display: inline-block
 }
@@ -689,11 +689,6 @@ img {
   height: 35px;
   margin-bottom: 0;
   float: left
-}
-.profile-user-image_user.book {
-  width: 100px;
-  height: 100px;
-  margin-top: -60px
 }
 .profile-user-image_user {
   display: block;
@@ -798,19 +793,27 @@ banner-box {
 .bg-nav {
   padding-bottom: 7px
 }
+#bookDetail {
+  margin-top: 100px;
+}
 .bg-nav {
   background-color: #2eb494
 }
 .book-detail,.nav-con {
   position: relative
 }
+.book-detail {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #fff;
+  text-align: center;
+}
 .w-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px
-}
-.nav-space {
-  height: 30px
 }
 a,button {
   background-color: transparent
@@ -902,7 +905,6 @@ a,button {
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-top: 0;
-    margin-bottom: 20px
   }
 }
 .philosophy-logo {
@@ -941,6 +943,12 @@ a,button {
   margin-left: auto;
 }
 @media screen and (max-width:991px) {
+  .book-read{
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
   .feed-info-title.collection {
     margin-top: 5px;
   }
@@ -1021,9 +1029,6 @@ a,button {
   .img-feed-highlight {
     display: block
   }
-  .img-feed-highlight.book.book-feed {
-    opacity: 1
-  }
   .img-feed-highlight.book {
     display: block;
     width: 100%;
@@ -1044,16 +1049,6 @@ a,button {
     padding-top: 0;
     padding-right: 0;
     padding-left: 0
-  }
-  .feed-info-rl {
-    width: 100%;
-    float: left;
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 0 30px 0
-  }
-  .img-feed-highlight.book.book-feed {
-    opacity: 1
   }
   .img-feed-highlight {
     display: block
@@ -1184,7 +1179,7 @@ a,button {
   .feed-info-rl {
     width: 100%;
     float: left;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
     padding: 0 5px 0
   }
@@ -1335,9 +1330,9 @@ a,button {
     padding-left: 10px
   }
   .profile-user-image_user.book {
-    width: 70px;
-    height: 70px;
-    margin-top: -40px
+    width: 70px !important;
+    height: 70px !important;
+    margin-top: -40px !important;
   }
   .popup-title {
     line-height: 40px
@@ -1436,11 +1431,6 @@ div {
 }
 .bb,.bb-noshadow,.nav-bb,.tabs-text {
   cursor: pointer
-}
-.bb,.bb-noshadow,.feed-card,.nav-bb,.tabs-text {
-  outline: 0;
-  word-break: break-word;
-  text-rendering: optimizeSpeed
 }
 .tabs-text {
   padding-right: 15px;
@@ -1645,14 +1635,6 @@ button,html input[type=button],input[type=reset],input[type=submit] {
   user-select: none;
   outline: 0
 }
-.bb,.bb-noshadow,.nav-bb,.tabs-text {
-  cursor: pointer
-}
-.bb,.bb-noshadow,.feed-card,.nav-bb,.tabs-text {
-  outline: 0;
-  word-break: break-word;
-  text-rendering: optimizeSpeed
-}
 .banner,.dropdown,.dropdown.create-select-book,.feed-card,.feed-cover.bg,.philosophy-cover,.section-content {
   transform: translate3d(0, 0, 0);
   transform: translateZ(0)
@@ -1667,13 +1649,7 @@ button,html input[type=button],input[type=reset],input[type=submit] {
 #createContent, .content-detail-text, .terms {
   white-space: pre-line;
 }
-.feed-card {
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  box-shadow: 0 1px 20px -8px #636463
-}
+
 .feed-card.inheightlight {
   margin-bottom: 0;
   background-color: rgba(255, 255, 255, .98)
@@ -1700,9 +1676,6 @@ img {
 }
 img[AttributesStyle] {
   width: 100%
-}
-.feed-info.nobg,.feed-info.nobg.highlight {
-  background-image: none
 }
 .feed-info {
   width: 80%;
@@ -1748,19 +1721,11 @@ a {
   color: #8a8b8a;
   line-height: 20px
 }
-.feed-info-title {
-  color: #000
-}
 #searchInput,.content-detail-text,.feed-info-title {
   word-wrap: break-word;
   text-rendering: optimizeSpeed
 }
-.feed-info-title {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 20px
-}
+
 .feed-info-detail,.text {
   word-break: break-word;
   text-rendering: optimizeSpeed
@@ -1902,17 +1867,13 @@ a {
   padding: 0 20px 20px;
   text-align: center
 }
-.img-feed-highlight.book.book-feed {
-  opacity: 0
+.feed-info.full {
+  width: 100%;
+  border-right-style: none;
 }
 .img-feed-highlight.book {
   display: block;
   opacity: 1
-}
-.book-bg {
-  margin-top: -180px;
-  padding-right: 40px;
-  padding-left: 40px
 }
 .feed-info-title {
   color: #000
@@ -1921,32 +1882,10 @@ a {
   word-wrap: break-word;
   text-rendering: optimizeSpeed
 }
-.feed-info-title {
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 24px
-}
+
 .feed-info-detail.book.read-list {
   overflow: hidden;
   margin-top: 10px;
-  margin-bottom: 10px
-}
-.feed-info-detail.book {
-  min-height: 20px;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 32px
-}
-.feed-info-detail.book {
-  display: inline-block;
-  max-width: 100%;
-  min-height: auto;
-  min-width: auto;
-  margin-top: -10px;
-  margin-bottom: 30px
 }
 .feed-info-detail,.text {
   word-break: break-word;
@@ -1966,13 +1905,13 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-top: 0;
-    margin-bottom: 20px
   }
 }
 .feed-info-rl {
   width: 95%;
   padding: 0px 100px 0;
   margin: 0px 20px 20px;
+  margin-bottom: 0px;
   float: left;
   text-align: center
 }
@@ -2054,13 +1993,7 @@ a {
     background-attachment: scroll
   }
 }
-.feed-card {
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  background-color: #fff;
-  box-shadow: 0 1px 20px -8px #636463
-}
+
 @media(max-width:479px) {
   .feed,.profile-detail-content {
     padding-right: 10px;
@@ -2093,7 +2026,7 @@ a {
 }
 @media(max-width:991px) {
   .img-feed-highlight.book.book-feed {
-    opacity: 1
+    opacity: 1 !important;
   }
 }
 .img-feed-highlight.book.book-feed {
@@ -2110,13 +2043,6 @@ a {
     padding-top: 0;
     padding-right: 0;
     padding-left: 0
-  }
-  .feed-info-rl {
-    width: 100%;
-    float: left;
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 0 30px 0
   }
 }
 .img-feed-highlight.book {
@@ -2135,9 +2061,6 @@ a {
   .img-feed-highlight {
     display: block
   }
-  .img-feed-highlight.book.book-feed {
-    opacity: 1
-  }
   .img-feed-highlight.book {
     display: block;
     width: 100%;
@@ -2155,9 +2078,6 @@ img {
   vertical-align: middle;
   display: inline-block
 }
-.img-feed-highlight.book.book-feed {
-  opacity: 0
-}
 #feed,.info-story-for-you,audio,canvas,progress,video {
   display: inline-block
 }
@@ -2166,16 +2086,6 @@ img {
   height: 35px;
   margin-bottom: 0;
   float: left
-}
-@media(max-width:991px) {
-  .profile-user-image_user.book {
-    width: 100px
-  }
-}
-.profile-user-image_user.book {
-  width: 100px;
-  height: 100px;
-  margin-top: -60px
 }
 .profile-user-image_user {
   display: block;
@@ -2376,9 +2286,6 @@ banner-box {
 }
 .bg-nav {
   background-color: #2eb494
-}
-.book-detail,.nav-con {
-  position: relative
 }
 .nav-space {
   height: 30px
@@ -2659,14 +2566,6 @@ a {
   margin-top: 5px;
   margin-bottom: 5px
 }
-.bb,.bb-noshadow,.nav-bb,.tabs-text {
-  cursor: pointer
-}
-.bb,.bb-noshadow,.feed-card,.nav-bb,.tabs-text {
-  outline: 0;
-  word-break: break-word;
-  text-rendering: optimizeSpeed
-}
 .button {
   display: inline-block;
   margin-right: 10px;
@@ -2723,11 +2622,12 @@ a {
 }
 .profile-analytic {
   display: inline-block;
-  margin-top: 15px
+  margin-top: 15px;
+  margin-bottom: 10px ;
 }
 .profile-analytic-point {
   display: inline-block;
-  padding: 5px 25px
+  padding: 5px 10px
 }
 .profile-analytic-point_point {
   display: block;
@@ -2775,4 +2675,72 @@ h3 {
   margin-top: 10px;
   line-height: 30px;
   font-size: 20px;
+}
+.readListtitle{
+  display: block;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #2eb494;
+  line-height: 40px;
+}
+.readListpoint{
+  padding-bottom: 20px;
+  color: #8a8b8a;
+  font-size: 14px;
+}
+.readlist-detail.book {
+  min-height: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 32px;
+  max-width: 70%;
+  min-width: auto;
+  margin-top: -10px;
+}
+.text-share-book{
+  padding-bottom: 10px;
+}
+.icon-facebook.gray.mini,.icon-twitter.gray.mini {
+  position: relative;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
+}
+.icon-facebook.gray {
+  background-image: url(https://storylog.co/assets/sjfRABc.svg);
+}
+.icon-twitter.gray {
+  display: inline-block;
+
+  background-image: url(https://storylog.co/assets/BM2i3M1.svg);
+}
+
+.icon-facebook, .icon-loading, .icon-twitter {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.icon-facebook, .icon-facebook.gray, .icon-loading, .icon-twitter, .icon-twitter.gray {
+  background-size: cover;
+}
+.icon-facebook {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://storylog.co/assets/3R709fX.svg);
+}
+@media (max-width: 991px) {
+  .book-bg {
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+.profile-user-image_user.book {
+  width: 100px;
+  height: 100px;
+  margin-top: -60px
 }

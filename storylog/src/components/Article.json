@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ล้านเหตุผล",
@@ -16,6 +17,7 @@
   },
   {
     "id": 2,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "เราลืมอะไรไปหรือเปล่า",
@@ -31,6 +33,7 @@
   },
   {
     "id": 3,
+    "advice": false,
     "category": "emotion",
     "subject": "เรียนรู้ที่จะลอง",
     "img_cate": "img/emotion.svg",
@@ -46,6 +49,7 @@
   },
   {
     "id": 4,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Chalat",
@@ -61,6 +65,7 @@
   },
   {
     "id": 5,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "เศษส่วนสุข",
@@ -76,6 +81,7 @@
   },
   {
     "id": 6,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "พรทุกข้อ แด่เธอ",
@@ -91,9 +97,10 @@
   },
   {
     "id": 7,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
-    "subject": "อาการตกหลุมรักมากๆ ฉันเรียกมันว่าlovesick",
+    "subject": "อาการตกหลุมรักมากๆ ฉันเรียกมันว่า lovesick",
     "intro": "ตามสัญญาที่ให้กับตัวเองไป ในที่สุดฉันก็ได้รับเอกสารสัญญาฉบับจริงจากโรงเรียนแล้ว เป็นเอกสารเกี่ยวกับการยินยอมที่จะกักตัว14วันในโรงแรมที่โรงเรียนจองให้หลังเดินทางถึงญี่ปุ่น และจะรายงานสภาพร่างกายทุกวัน พกโทรศัพท์ติดตามตัว ไม่ออกไปใช้ข่นสงสารธารนะ และอื่นๆ   ฉันรีบเอาเอกสารที่ได้ไปขอวีซ่าทันที จากน",
     "time": "5 days ago",
     "recommended": 5,
@@ -106,6 +113,7 @@
   },
   {
     "id": 8,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ในใจเราต่างรู้กัน ว่า เราไม่เคยชอบกัน เเละไม่มีวันจะชอบกัน",
@@ -121,6 +129,7 @@
   },
   {
     "id": 9,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Blood Of Woods I",
@@ -136,6 +145,7 @@
   },
   {
     "id": 10,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Blood Of Woods II",
@@ -151,6 +161,7 @@
   },
   {
     "id": 11,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เรื่องเล่าของเพียงฝัน",
@@ -166,6 +177,7 @@
   },
   {
     "id": 12,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "เธอ ร่างบิดเบี้ยว และแสงแดดจ้าตอน 2 ทุ่ม 15 นาที",
@@ -181,6 +193,7 @@
   },
   {
     "id": 13,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เรียกมันว่าความรัก",
@@ -196,6 +209,7 @@
   },
   {
     "id": 14,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ปลายสายรุ้ง",
@@ -211,6 +225,7 @@
   },
   {
     "id": 15,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ดีใจด้วยนะ :)",
@@ -226,6 +241,7 @@
   },
   {
     "id": 16,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "Suki nante ienai",
@@ -241,6 +257,7 @@
   },
   {
     "id": 17,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "เมื่อแหงนมองท้องฟ้า",
@@ -256,6 +273,7 @@
   },
   {
     "id": 18,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "Caffe macchiato",
@@ -271,6 +289,7 @@
   },
   {
     "id": 19,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "My R ที่แปลว่า 'เหตุผลของฉัน'",
@@ -286,6 +305,7 @@
   },
   {
     "id": 20,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "คุณคือตัวเอก",
@@ -301,6 +321,7 @@
   },
   {
     "id": 21,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "กำแพง",
@@ -316,6 +337,7 @@
   },
   {
     "id": 22,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "✿ ความคิดถึงที่ฉันได้เคยส่งไป ,",
@@ -331,6 +353,7 @@
   },
   {
     "id": 23,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ปีที่สามของการรักษา....",
@@ -346,6 +369,7 @@
   },
   {
     "id": 24,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ลืมได้แล้ว ✿",
@@ -361,6 +385,7 @@
   },
   {
     "id": 25,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "ขอเขียนกวีสดุดีแต่เพื่อนผู้ออกมาปกป้องประชาธิปไตย",
@@ -376,6 +401,7 @@
   },
   {
     "id": 26,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "Affogato",
@@ -391,6 +417,7 @@
   },
   {
     "id": 27,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เด็กหญิงที่หัวใจแตกสลาย",
@@ -406,6 +433,7 @@
   },
   {
     "id": 28,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "เอนโทรปีของความรักในอ้อมกอดของแมวชโรดิงเจอร์",
@@ -421,6 +449,7 @@
   },
   {
     "id": 29,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ฉันเคยเป็นคนที่จะไปจากแกก่อน",
@@ -436,6 +465,7 @@
   },
   {
     "id": 30,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "เป็นน้องสาวของพี่เสมอ",
@@ -451,6 +481,7 @@
   },
   {
     "id": 31,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "[แปลเพลง] Kimi sae inakerya ถ้าไม่มีเธอ..",
@@ -466,6 +497,7 @@
   },
   {
     "id": 32,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ฉันกับเขามักเจอกันในช่วงเวลาที่ดีที่สุดเสมอ",
@@ -481,6 +513,7 @@
   },
   {
     "id": 33,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "คิดจะกลับไป ... ก็ต้องไหวนะ",
@@ -496,6 +529,7 @@
   },
   {
     "id": 34,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "กระจกบานใหญ่ในห้องสมุด",
@@ -511,6 +545,7 @@
   },
   {
     "id": 35,
+    "advice": true,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "ความคิด (สร้างสรรค์)",
@@ -526,6 +561,7 @@
   },
   {
     "id": 36,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "คนคนนั้น ถ้าย้อนเวลากลับไปได้ ไม่ขอรู้จักตั้งแต่แรก (5)",
@@ -541,6 +577,7 @@
   },
   {
     "id": 37,
+    "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
     "subject": "-เทพเจ้าก็ไม่รู้หรอกว่าความดีคืออะไร-",
@@ -556,6 +593,7 @@
   },
   {
     "id": 38,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "รำไร เริงรัก ร่วงโรย",
@@ -571,6 +609,7 @@
   },
   {
     "id": 39,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ฉันเป็นเศษเหลือของความเมตตา ฉันได้รับแค่เศษเหลือของทรัพยากรส่วนเกิน",
@@ -586,6 +625,7 @@
   },
   {
     "id": 40,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "-‘อย่ากลัว’ ที่จะถูกเกลียด เรื่องเล่าของผู้ป่วยซึมเศร้าและการเดินทางมาพบกัน-",
@@ -601,6 +641,7 @@
   },
   {
     "id": 41,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "อีกมุมหนึ่ง",
@@ -616,6 +657,7 @@
   },
   {
     "id": 42,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "เรื่องที่อยากเล่า",
@@ -631,6 +673,7 @@
   },
   {
     "id": 43,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ซ่อนกลิ่น",
@@ -646,6 +689,7 @@
   },
   {
     "id": 44,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ชายผู้ไม่รู้ตัวว่าถูกจองจำ Animated Film Ver.",
@@ -661,6 +705,7 @@
   },
   {
     "id": 45,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "-ทำไมคุณถึงเริ่มอ่านหนังสือ?-",
@@ -676,6 +721,7 @@
   },
   {
     "id": 46,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "แด่คุณ คนที่เฝ้ารอที่จะพบสักวัน",
@@ -691,6 +737,7 @@
   },
   {
     "id": 47,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "คุณ ... ในความทรงจำ",
@@ -706,6 +753,7 @@
   },
   {
     "id": 48,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เพื่อนแท้ในยามนี้",
@@ -721,6 +769,7 @@
   },
   {
     "id": 49,
+    "advice": true,
     "category": "idea",
     "img_cate": "img/idea.svg",
     "subject": "ความคิดแวบ ต้องรีบทำ",
@@ -736,6 +785,7 @@
   },
   {
     "id": 50,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "`Negative Creep`",
@@ -751,6 +801,7 @@
   },
   {
     "id": 51,
+    "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
     "subject": "-เมื่อเราฆ่ากันในนามศาสนา เราจะไม่ปราณีและออมมือ-",
@@ -766,6 +817,7 @@
   },
   {
     "id": 52,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "-ความรักที่ไม่โรแมนติก 'ความรักเป็นทักษะ ไม่ใช่ความรู้สึก'-",
@@ -781,6 +833,7 @@
   },
   {
     "id": 53,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เราค้นพบบางอย่าง - จากการถูกบังคับดูตัว - กับฝรั่ง",
@@ -796,6 +849,7 @@
   },
   {
     "id": 54,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "Little Misfortune : อยากให้เกมนี้ไม่มี 'โชคร้าย'",
@@ -811,6 +865,7 @@
   },
   {
     "id": 55,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "솔로 โดดเดี่ยว และ เป็นอยู่",
@@ -826,6 +881,7 @@
   },
   {
     "id": 56,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Once in Blue Moon #แด่12ปีรักแห่งสยาม",
@@ -841,6 +897,7 @@
   },
   {
     "id": 57,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ทำไม..?",
@@ -856,6 +913,7 @@
   },
   {
     "id": 58,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "เรื่อง (ของ) กล้วย ๆ",
@@ -871,6 +929,7 @@
   },
   {
     "id": 59,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "เรื่องราวของตุ๊กตาหมีตัวหนึ่ง... (Abandoned Teddy Bear)",
@@ -886,6 +945,7 @@
   },
   {
     "id": 60,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "Phantom of the Opera : คุณยอมทำขนาดไหน...เพื่อให้ได้ความรัก",
@@ -901,6 +961,7 @@
   },
   {
     "id": 61,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ร้านกาแฟ",
@@ -916,6 +977,7 @@
   },
   {
     "id": 62,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "สุดท้ายโลกมักจะเหวี่ยงมาที่เดิมเสมอ",
@@ -931,6 +993,7 @@
   },
   {
     "id": 63,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ความเจ็บปวดของลูก ที่พ่อแม่ไม่เคยรับรู้",
@@ -946,6 +1009,7 @@
   },
   {
     "id": 64,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "จงใช้กระจกให้เป็นและใช้หน้าต่างให้ถูก",
@@ -961,6 +1025,7 @@
   },
   {
     "id": 65,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ชายผู้เฝ้ารอ",
@@ -976,6 +1041,7 @@
   },
   {
     "id": 66,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "ความฝันในความเป็นจริง",
@@ -991,6 +1057,7 @@
   },
   {
     "id": 67,
+    "advice": false,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
     "subject": "เลือดข้นคนจาง : วิเคราะห์เจาะลึก (1)",
@@ -1006,6 +1073,7 @@
   },
   {
     "id": 68,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "morning ka.",
@@ -1021,6 +1089,7 @@
   },
   {
     "id": 69,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ถึงคุณ..คนที่เป็นวงโคจรในปีสองศูนย์หนึ่งแปด",
@@ -1036,6 +1105,7 @@
   },
   {
     "id": 70,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "CAN I BORROW YOUR SHOULDER ?",
@@ -1051,6 +1121,7 @@
   },
   {
     "id": 71,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ค่ำคืนวันดาวตก กับคนโรแมนติกเพี้ยน",
@@ -1066,6 +1137,7 @@
   },
   {
     "id": 72,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "พื้นที่ของความปรารถนา...THE LAST CONVERSATION",
@@ -1081,6 +1153,7 @@
   },
   {
     "id": 73,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Miss Miss Miss  สุดท้ายแล้วระหว่างเราก็จะกลายเป็นเรื่องราว",
@@ -1096,6 +1169,7 @@
   },
   {
     "id": 74,
+    "advice": true,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "เปียกบนเปียก",
@@ -1111,6 +1185,7 @@
   },
   {
     "id": 75,
+    "advice": true,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "ผีเสื้อ",
@@ -1126,6 +1201,7 @@
   },
   {
     "id": 76,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "อดีตในปัจจุบัน",
@@ -1141,6 +1217,7 @@
   },
   {
     "id": 77,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "The Shape of Water : สายน้ำ ความรัก ศักดิ์ศรีของมนุษย์",
@@ -1156,6 +1233,7 @@
   },
   {
     "id": 78,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ปี2",
@@ -1171,6 +1249,7 @@
   },
   {
     "id": 79,
+    "advice": true,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "โลกนี้ไม่ได้มีแต่ความเศร้า",
@@ -1186,6 +1265,7 @@
   },
   {
     "id": 80,
+    "advice": true,
     "category": "idea",
     "img_cate": "img/idea.svg",
     "subject": "กว่าจะมาเป็นหนัง Pixar หนึ่งเรื่อง ทีมงานต้องลุยกันโหดแค่ไหนมาดู",
@@ -1201,6 +1281,7 @@
   },
   {
     "id": 81,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ปมที่ค้างคา...ต้องใช้เวลาเท่าไหร่กว่าจะคลาย",
@@ -1216,6 +1297,7 @@
   },
   {
     "id": 81,
+    "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "หรือเรากำลังให้ค่า 'ความผิดพลาด' มากเกินไป",
@@ -1231,6 +1313,7 @@
   },
   {
     "id": 82,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "การปรากฏตัวของสาวขาหัก",
@@ -1246,6 +1329,7 @@
   },
   {
     "id": 83,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "B A C K -TO- B L A C K",
@@ -1261,6 +1345,7 @@
   },
   {
     "id": 84,
+    "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "นักบำบัดรัก (Love Therapist)",
@@ -1276,6 +1361,7 @@
   },
   {
     "id": 85,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "Midnight Station : โรงละคอนของคนเพ้อเจ้อ(1)",
@@ -1291,6 +1377,7 @@
   },
   {
     "id": 86,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "ตัวเรา หรือ ตัวใคร",
@@ -1306,6 +1393,7 @@
   },
   {
     "id": 87,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ขอบคุณเพื่อน ขอบคุณคำปรึกษา ขอบคุณที่แบ่งปัน เมื่อครั้นความรู้สึกเดียวกัน.",
@@ -1321,6 +1409,7 @@
   },
   {
     "id": 88,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ก้อนหินก้อนนั้น .",
@@ -1336,6 +1425,7 @@
   },
   {
     "id": 89,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "Now You See Me 2 : ดึงดูดให้ดูเพราะภาค1 มันเวิร์ค :)",
@@ -1351,6 +1441,7 @@
   },
   {
     "id": 90,
+    "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
     "subject": "ความหวังที่มองว่ามันเป็นเพียงความฝัน ",
@@ -1366,6 +1457,7 @@
   },
   {
     "id": 91,
+    "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "นักสำรวจความรัก",
@@ -1381,6 +1473,7 @@
   },
   {
     "id": 92,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ไม่ใช่ลืมไม่ได้แต่ไม่ลืม",
@@ -1396,6 +1489,7 @@
   },
   {
     "id": 93,
+    "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
     "subject": "ชายผู้กลัวถูกลืม",
@@ -1411,6 +1505,7 @@
   },
   {
     "id": 94,
+    "advice": true,
     "category": "idea",
     "img_cate": "img/idea.svg",
     "subject": "ชีวิตดี๊ดีคืออะไร... ผมอึ้งที่คนญี่ปุ่นคนนี้ตอบแบบนี้",
@@ -1426,6 +1521,7 @@
   },
   {
     "id": 95,
+    "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
     "subject": "ฮอนดะ โซอิจิโร่ สอนคน ให้กลายเป็น มนุษย์",
@@ -1441,6 +1537,7 @@
   },
   {
     "id": 96,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "คนญี่ปุ่น ไม่รักวอลเลย์บอลไทยเลย...",
@@ -1456,6 +1553,7 @@
   },
   {
     "id": 97,
+    "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
     "subject": "จักรวาล Kudoki kata― เมื่อคนญี่ปุ่นเล่นของสูง",
@@ -1471,6 +1569,7 @@
   },
   {
     "id": 98,
+    "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
     "subject": "ทฤษฎีสัมพันธภาพวันวาเลนไทน์....",
@@ -1486,6 +1585,7 @@
   },
   {
     "id": 99,
+    "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
     "subject": "#ความรัก : เราบอกได้เพียงเรายังรู้สึก เราใช้คำว่า ' เรา ' ได้ ?",

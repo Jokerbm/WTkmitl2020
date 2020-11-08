@@ -31,11 +31,6 @@ function Readlist() {
                             <div id="feedHighlight">
                                 {/* information about blog */}
                                 {body()}
-                                {/*x*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<LatestPopularBorder />*/}
-                                {/*<LatestPopularBorder />*/}
                                 {/* information about blog */}
                             </div>
                         </div>

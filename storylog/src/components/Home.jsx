@@ -16,9 +16,12 @@ function body() {
             nickname: data.nickname,
             image_profile: data.image_profile,
             category: data.category,
-            img_cate:data.img_cate
+            img_cate:data.img_cate,
+            advice:data.advice
         }
+        if(props.advice) {
             return rows.push(<StaffPickBorder key={data.recommended} {...props}/>);
+        }
     })
     console.log(rows)
     return rows;
