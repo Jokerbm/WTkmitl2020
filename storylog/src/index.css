@@ -974,6 +974,13 @@ a,button {
     background-attachment: scroll
   }
 }
+.click{
+  margin-top: -50px;
+  margin-right: -17px;
+}
+.sizee{
+  background-size:cover;
+}
 @media screen and (max-width:767px) {
   .banner-icon, .img-terms.mobile {
     display: block;

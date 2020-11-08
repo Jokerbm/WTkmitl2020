@@ -23,3 +23,4 @@ export { default as Notfound} from "./Notfound";
 export { default as Philosophy} from "./Philosophy";
 export { default as UserAgreement} from "./UserAgreement";
 export { default as CreativeCommons} from "./CreativeCommons";
+export { default as ClickBorder} from "./ClickBorder";
