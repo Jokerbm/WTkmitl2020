@@ -1,11 +1,19 @@
 import React from "react";
 import Navigation from "./Navigation";
+import data from "./Datareadlist.json";
+import moment from "moment";
 import ReadListBorder from "./ReadListBorder";
 function body(){
     let rows = [];
-    for (let i = 0; i < 10; i++) {
-        rows.push(<ReadListBorder />);
-    }
+    const getdata = data.map(data => {
+        let props = {
+            title:data.title,
+            detail:data.detail,
+            bg:data.bg
+        }
+            return rows.push(<ReadListBorder key={data.recommended} {...props}/>);
+    })
+    console.log(rows)
     return rows;
 }
 function Readlist() {

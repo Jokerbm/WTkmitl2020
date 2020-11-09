@@ -1,25 +1,20 @@
 import React from "react";
-function ReadListBorder() {
+function ReadListBorder(props) {
     return (
         <React.Fragment>
         <a className="" href="/readlist/57aaf11ef3ec36b3c2558ca1" data-toggle="modal" data-target="#exampleModalLong">
             <div className="feed-card highlight book animated fadeIn img-bg th-font2"
-                 style={{backgroundImage: "url(\"https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg\")"}}>
-                <img className="img-feed-highlight book book-feed" alt={"WTF"} src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/readlistcontent/57aaf11ef3ec36b3c2558ca1/cover.jpg"
-                     width="50%"></img>
+                 style={{ backgroundImage: "url(" + props.bg + ")"}}>
+                <img className="img-feed-highlight book book-feed" alt={"WTF"} src={process.env.PUBLIC_URL + props.bg} width="50%"></img>
                 <div className="book-read">
                     <div className="w-clearfix feed-card inheightlight rl book">
                         <div className="w-clearfix feed-info-rl nobg highlight full book">
                             <div className="w-clearfix feed-type book"></div>
                             <div className="profile-user-image_user book readList">
                             </div>
-                            <div className="feed-info-title collection"><b>อ่านรอโปเกม่อนเกิด</b>
+                            <div className="feed-info-title collection"><b>{props.title}</b>
                             </div>
-                            <div className="feed-info-detail book read-list">วินาทีนี้คงมีน้อยคนนักที่ไม่รู้จักเกมสุดดังอย่าง
-                                pokemon go ตัวการ์ตูนที่ใครหลายคนเติบโตมากับมัน
-                                ปรากฏการณ์โปเกม่อนฟีเวอร์นี้อาจมีมุมมองอะไรแปลกใหม่น่าสนใจขนาดไหนเมื่อมองผ่านสายตาของนักเขียนใน
-                                storylog กันนะ พักจากการจับโปเกมม่อนเมื่อไร ลองให้ 10 เรื่องราวเกียวกับโปเกม่อนใน Readlist
-                                นี้ของเราช่วยให้อินมากกว่าเดิมกันนะ :D
+                            <div className="feed-info-detail book read-list">{props.detail}
                             </div>
                         </div>
                     </div>
