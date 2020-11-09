@@ -2,6 +2,18 @@ import React from "react";
 import {withRouter } from "react-router-dom";
 
 function Navigation(props) {
+    let home = "bb-noshadow nav-bb home "
+    let philo = "bb-noshadow nav-bb philo "
+    let feed = "bb-noshadow nav-bb explore "
+    if(props.home){
+        home += "active"
+    }
+    else if(props.philo){
+        philo += "active"
+    }
+    else if(props.feed){
+        feed += "active"
+    }
     return (
         <React.Fragment>
     <div id="nav" className="nav hideNavDropdown">
@@ -16,15 +28,17 @@ function Navigation(props) {
                          placeholder="วันนี้อยากอ่านอะไร?"></div>
                     <div className="bb nav-search-bb"></div>
                 </div>
+                <button className="nav-bb mobile" data-reactid=".1fg5q4613wg.0.0.7.0.0.7"></button>
+
                 <noscript></noscript><div>
                     <div className="bb-noshadow nav-bb profile" tabIndex="-1" data-toggle="modal" data-target="#exampleModal">&nbsp; &nbsp;</div>
                 <div  id="icon-menu">
                     <a className="" href="#/philosophy">
-                        <div className="bb-noshadow nav-bb philo">&nbsp; &nbsp; </div>
+                        <div className={philo}>&nbsp; &nbsp; </div>
                     </a><a className="" href="#/feed/latest">
-                    <div className="bb-noshadow nav-bb explore">&nbsp; &nbsp; </div>
+                    <div className={feed}>&nbsp; &nbsp; </div>
                 </a><a className="" href="#/">
-                    <div className="bb-noshadow nav-bb home active">&nbsp; &nbsp; </div>
+                    <div className={home}>&nbsp; &nbsp; </div>
                 </a>
                 </div>
             </div>

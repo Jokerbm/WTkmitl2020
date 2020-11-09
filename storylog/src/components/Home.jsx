@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
+import moment from 'moment'
 
 function body() {
     let rows = [];
@@ -10,7 +11,7 @@ function body() {
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
-            time: data.time,
+            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
             recommended: data.recommended,
             name: data.name,
             nickname: data.nickname,
@@ -32,16 +33,15 @@ function Home() {
             <div className="home th-font2">
                 <div className="feed-cover">
                     <div className="feed-cover bg"></div>
-                    <Navigation />
+                    <Navigation home="true" />
                 </div>
                 <div className="w-section section-content">
                     <div className="w-container feed">
-                        <button tabIndex="-1" className="feed-card tool-create bt1">
+                        <button tabIndex="-1" className="feed-card tool-create bt1" data-toggle="modal"
+                                data-target="#exampleModal">
                             <div className="icon-create"></div>
                             <div
                                 className="tool-create-title"
-                                data-toggle="modal"
-                                data-target="#exampleModal"
                             >
                                 TELL YOUR STORY
                             </div>
@@ -66,12 +66,6 @@ function Home() {
                             <div id="feedHighlight">
                                 {/* information about blog */}
                                 {body()}
-                                {/*<StaffPickBorder />*/}
-                                {/*<StaffPickBorder />*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<LatestPopularBorder />*/}
-                                {/*<LatestPopularBorder />*/}
                                 {/* information about blog */}
                             </div>
                         </div>

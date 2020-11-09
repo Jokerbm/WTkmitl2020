@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 import data from "./Article.json";
 import Latestpopularboarder from "./Latestpopularboarder";
+import moment from "moment";
 function body() {
     let rows = [];
     const getdata = data.map(data => {
@@ -9,7 +10,7 @@ function body() {
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
-            time: data.time,
+            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
             recommended: data.recommended,
             name: data.name,
             nickname: data.nickname,
@@ -31,7 +32,7 @@ function FeedLatest() {
             <div className="home th-font2">
                 <div class="feed-cover">
                     <div class="feed-cover bg"></div>
-                    <Navigation />
+                    <Navigation feed="true"/>
                 </div>
                 <div class="w-section section-content">
                     <div class="w-container feed">

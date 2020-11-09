@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../Navigation";
 import data from "../Article.json";
 import Latestpopularboarder from "../Latestpopularboarder";
+import moment from "moment";
 
 function body() {
     let rows = [];
@@ -11,7 +12,7 @@ function body() {
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
-            time: data.time,
+            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
             recommended: data.recommended,
             name: data.name,
             nickname: data.nickname,

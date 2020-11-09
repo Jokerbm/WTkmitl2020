@@ -14,7 +14,7 @@ function FeedPopWeek() {
             <div className="home th-font2">
                 <div class="feed-cover">
                     <div class="feed-cover bg"></div>
-                    <Navigation />
+                    <Navigation feed="true" />
                 </div>
                 <div class="w-section section-content">
                     <div class="w-container feed">

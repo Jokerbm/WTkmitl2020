@@ -8,7 +8,7 @@ class Philosophy extends React.Component {
     render() {
         return (
             <div className="home th-font2">
-                <Navigation/>
+                <Navigation philo="true"/>
                 <div class="philosophy-cover">
                     <div class="philosophy-logo"></div>
                 </div>

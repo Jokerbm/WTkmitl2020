@@ -31,6 +31,7 @@ blockquote, body, fieldset, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Bai Jamjuree', sans-serif;
   font-size: 17px
 }
+/*check*/
 .bg-fix{
   background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5bf3ff697ba11f4520df6926/15427935526125958349.jpg);
   background-size: cover
@@ -421,9 +422,6 @@ a {
 
 
 user agent stylesheet
-div {
-  display: block;
-}
 body {
   background-color: #f5f5f5;
   font-family: 'Mn paethai v3',sans-serif;
@@ -877,7 +875,7 @@ a,button {
   float: left;
   background-image: url(https://storylog.co/assets/3dCbNsc.svg)
 }
-.nav-bb.explore.active,.nav-bb.home.active {
+.nav-bb.explore.active,.nav-bb.home.active, .nav-bb.philo.active {
   opacity: 1
 }
 .nav-bb.profile {
@@ -885,6 +883,42 @@ a,button {
 }
 .nav-bb.profile {
   background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+@media(min-width:956px){
+  #exampleModalLong{
+    max-width: 1450px;
+    margin: 1.75rem auto;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+}
+#content{
+  max-width: 940px;
+  text-align: center;
+}
+.user{
+  background-image: url(https://www.nicepng.com/png/detail/128-1280406_view-user-icon-png-user-circle-icon-png.png);
+  width: 40px;
+  height: 40px;
+}
+.glyphicon{
+  float: right;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  position: fixed;
+  opacity: 0.3;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzQwLjggMzQwLjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM0MC44IDM0MC44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTE3MC40LDBDNzYuNCwwLDAsNzYuNCwwLDE3MC40czc2LjQsMTcwLjQsMTcwLjQsMTcwLjRzMTcwLjQtNzYuNCwxNzAuNC0xNzAuNFMyNjQuNCwwLDE3MC40LDB6IE0xNzAuNCwzMjMuNg0KCQkJYy04NC40LDAtMTUzLjItNjguOC0xNTMuMi0xNTMuMlM4NiwxNy4yLDE3MC40LDE3LjJTMzIzLjYsODYsMzIzLjYsMTcwLjRTMjU0LjgsMzIzLjYsMTcwLjQsMzIzLjZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0xODIuNCwxNjkuNmw1MC01MGMzLjItMy4yLDMuMi04LjgsMC0xMmMtMy4yLTMuMi04LjgtMy4yLTEyLDBsLTUwLDUwbC01MC01MGMtMy4yLTMuMi04LjgtMy4yLTEyLDANCgkJCWMtMy4yLDMuMi0zLjIsOC44LDAsMTJsNTAsNTBsLTUwLDQ5LjZjLTMuMiwzLjItMy4yLDguOCwwLDEyYzEuNiwxLjYsNCwyLjQsNiwyLjRzNC40LTAuOCw2LTIuNGw1MC01MGw1MCw1MGMxLjYsMS42LDQsMi40LDYsMi40DQoJCQlzNC40LTAuOCw2LTIuNGMzLjItMy4yLDMuMi04LjgsMC0xMkwxODIuNCwxNjkuNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==);
+}
+
+.comment{
+  background-color:#f5f5f5;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: solid 1px#e9eaea;
 }
 .fas,.glyphicon {
   width: 50px;
@@ -1378,17 +1412,6 @@ a,button {
   line-height: 40px;
   text-align: center
 }
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Itim', 'Segoe UI', 'Bai Jamjuree', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f5f5
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
-}
 .logo {
   width: 155px;
   height: 30px;
@@ -1398,13 +1421,7 @@ code {
   background-size: cover;
   background-repeat: no-repeat
 }
-div {
-  display: block
-}
-.th-font2 {
-  font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 17px
-}
+
 .feed-info-detail,.text {
   word-break: break-word;
   text-rendering: optimizeSpeed
@@ -2743,4 +2760,24 @@ h3 {
   width: 100px;
   height: 100px;
   margin-top: -60px
+}
+.nav-bb.mobile {
+  display: none;
+  background-image: url(https://storylog.co/assets/1NJYykv.svg);
+}
+@media (max-width: 767px) {
+  .nav-bb.mobile {
+    left: 0;
+    background-size: 31px;
+    opacity: 1;
+    border: none;
+
+  }
+}
+@media (max-width: 767px) {
+  .nav-bb.mobile, .nav-bb.profile {
+    position: absolute;
+    top: 0;
+    display: block;
+  }
 }
