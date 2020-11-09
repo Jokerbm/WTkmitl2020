@@ -421,7 +421,6 @@ body {
 }
 body {
   min-height: 100%;
-  background-color: #fff;
   color: #333;
 }
 .readlist-box{
@@ -462,9 +461,6 @@ html {
 }
 #feed,.info-story-for-you,audio,canvas,progress,video {
   display: inline-block
-}
-.feed-badge-small.staffpick {
-  background-position: 0 50%
 }
 .feed-badge-small {
   width: 26px;
@@ -1139,9 +1135,9 @@ a,button {
   .feed-badge-small {
     margin-top: 10px
   }
-  .feed-badge-small.staffpick {
-    margin-top: -20px
-  }
+  /*.feed-badge-small.staffpick {*/
+  /*  margin-top: -20px*/
+  /*}*/
   .img-banner {
     width: 45%;
     float: right
@@ -1420,8 +1416,14 @@ a,button {
 .text {
   display: inline-block
 }
+.feed-info-profile {
+  width: 100%;
+  padding: 30px 35px 0;
+  float: left;
+  border-right: 1px solid #e9eaea;
+}
 .cc{
-  background-color: white!important;
+  background-size: cover;
 }
 .popup-title {
   margin-top: 20px;

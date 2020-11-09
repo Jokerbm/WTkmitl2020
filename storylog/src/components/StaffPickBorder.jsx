@@ -47,7 +47,7 @@ function StaffPickBorder(props) {
                         </div>
                     </div>
                     <div className="w-clearfix feed-profile hightlight">
-                        <a className="" href={"#/" + props.name}>
+                        <a className="" href={"#/about/" + props.name}>
                             <div
                                 className="feed-profile-img highlight img-bg"
                                 style={{ backgroundImage: "url(" + props.image_profile + ")" }}></div>

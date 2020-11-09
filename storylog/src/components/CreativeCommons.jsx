@@ -12,13 +12,13 @@ class CreativeCommons extends React.Component {
                 <div class="w-container feed" style={{marginTop: 100 + 'px'}}>
                     <div class="tabs">
                         <a class="" href="#/philosophy">
-                            <div class="cc tabs-text first-no-border">PHILOSOPHY</div>
+                            <div class="tabs-text first-no-border">PHILOSOPHY</div>
                         </a>
                         <a class=" active" href="#/UserAgreement">
-                            <div class="cc tabs-text">USER AGREEMENT</div>
+                            <div class="tabs-text">USER AGREEMENT</div>
                         </a>
                         <a class="" href="#/CreativeCommons">
-                            <div class="cc tabs-text green">CC LICENSE</div>
+                            <div class="tabs-text green">CC LICENSE</div>
                         </a>
                         <div class="tabs-line"></div>
                     </div>
@@ -60,13 +60,13 @@ class CreativeCommons extends React.Component {
                     </div>
                     <div class="tabs">
                         <a class="" href="#/philosophy">
-                            <div class="cc tabs-text first-no-border">PHILOSOPHY</div>
+                            <div class="tabs-text first-no-border">PHILOSOPHY</div>
                         </a>
                         <a class="" href="#/UserAgreement">
-                            <div class="cc tabs-text">USER AGREEMENT</div>
+                            <div class="tabs-text">USER AGREEMENT</div>
                         </a>
                         <a class=" active" href="#/CreativeCommons">
-                            <div class="cc tabs-text green">CC LICENSE</div>
+                            <div class="tabs-text green">CC LICENSE</div>
                         </a>
                         <div class="tabs-line"></div>
                     </div>

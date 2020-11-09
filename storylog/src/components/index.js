@@ -25,3 +25,4 @@ export { default as UserAgreement} from "./UserAgreement";
 export { default as CreativeCommons} from "./CreativeCommons";
 export { default as ClickBorder} from "./ClickBorder";
 export { default as InsideReadlist} from "./InsideReadlist";
+export { default as ProfileBorder} from "./ProfileBorder";
