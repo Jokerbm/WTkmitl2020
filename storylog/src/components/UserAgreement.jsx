@@ -13,13 +13,13 @@ class UserAgreement extends React.Component {
                 <div class="w-container feed" style={{marginTop: 100 + 'px'}}>
                     <div class="tabs">
                         <a class="" href="#/philosophy">
-                            <div class="tabs-text first-no-border">PHILOSOPHY</div>
+                            <div class="cc tabs-text first-no-border">PHILOSOPHY</div>
                         </a>
                         <a class=" active" href="#/UserAgreement">
-                            <div class="tabs-text green">USER AGREEMENT</div>
+                            <div class="cc tabs-text green">USER AGREEMENT</div>
                         </a>
                         <a class="" href="#/CreativeCommons">
-                            <div class="tabs-text">CC LICENSE</div>
+                            <div class="cc tabs-text">CC LICENSE</div>
                         </a>
                         <div class="tabs-line"></div>
                     </div>
@@ -83,13 +83,13 @@ class UserAgreement extends React.Component {
                     </div>
                     <div class="tabs">
                         <a class="" href="#/philosophy">
-                            <div class="tabs-text first-no-border">PHILOSOPHY</div>
+                            <div class="cc tabs-text first-no-border">PHILOSOPHY</div>
                         </a>
                         <a class=" active" href="#/UserAgreement">
-                            <div class="tabs-text  green">USER AGREEMENT</div>
+                            <div class="cc tabs-text  green">USER AGREEMENT</div>
                         </a>
                         <a class="" href="#/CreativeCommons">
-                            <div class="tabs-text">CC LICENSE</div>
+                            <div class="cc tabs-text">CC LICENSE</div>
                         </a>
                         <div class="tabs-line"></div>
                     </div>

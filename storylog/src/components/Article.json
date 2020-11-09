@@ -1296,7 +1296,7 @@
     "nickname": "Writer"
   },
   {
-    "id": 81,
+    "id": 82,
     "advice": true,
     "category": "experience",
     "img_cate": "img/experience.svg",
@@ -1312,7 +1312,7 @@
     "nickname": "Writer"
   },
   {
-    "id": 82,
+    "id": 83,
     "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1328,7 +1328,7 @@
     "nickname": "Writer"
   },
   {
-    "id": 83,
+    "id": 84,
     "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1344,7 +1344,7 @@
     "nickname": "Writer,Killer,Darke"
   },
   {
-    "id": 84,
+    "id": 85,
     "advice": true,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
@@ -1360,7 +1360,7 @@
     "nickname": "Writer,Killer,Darke"
   },
   {
-    "id": 85,
+    "id": 86,
     "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1376,7 +1376,7 @@
     "nickname": "Writer,Killer,Darke"
   },
   {
-    "id": 86,
+    "id": 87,
     "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
@@ -1392,7 +1392,7 @@
     "nickname": "ความรัก | เสียงเพลง"
   },
   {
-    "id": 87,
+    "id": 88,
     "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
@@ -1408,7 +1408,7 @@
     "nickname": "Novice For Anything else"
   },
   {
-    "id": 88,
+    "id": 89,
     "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
@@ -1424,7 +1424,7 @@
     "nickname": "Novice For Anything else"
   },
   {
-    "id": 89,
+    "id": 90,
     "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
@@ -1440,7 +1440,7 @@
     "nickname": "Novice For Anything else"
   },
   {
-    "id": 90,
+    "id": 91,
     "advice": false,
     "category": "inspiration",
     "img_cate": "img/inspiration.svg",
@@ -1456,7 +1456,7 @@
     "nickname": "Novice For Anything else"
   },
   {
-    "id": 91,
+    "id": 92,
     "advice": false,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1472,7 +1472,7 @@
     "nickname": "designer"
   },
   {
-    "id": 92,
+    "id": 93,
     "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1488,7 +1488,7 @@
     "nickname": "designer"
   },
   {
-    "id": 93,
+    "id": 94,
     "advice": true,
     "category": "short story",
     "img_cate": "img/shortstory.svg",
@@ -1504,7 +1504,7 @@
     "nickname": "designer"
   },
   {
-    "id": 94,
+    "id": 95,
     "advice": true,
     "category": "idea",
     "img_cate": "img/idea.svg",
@@ -1520,7 +1520,7 @@
     "nickname": "writer"
   },
   {
-    "id": 95,
+    "id": 96,
     "advice": false,
     "category": "experience",
     "img_cate": "img/experience.svg",
@@ -1536,7 +1536,7 @@
     "nickname": "writer"
   },
   {
-    "id": 96,
+    "id": 97,
     "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",
@@ -1552,7 +1552,7 @@
     "nickname": "writer"
   },
   {
-    "id": 97,
+    "id": 98,
     "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
@@ -1568,7 +1568,7 @@
     "nickname": "writer"
   },
   {
-    "id": 98,
+    "id": 99,
     "advice": true,
     "category": "knowledge",
     "img_cate": "img/knowledge.svg",
@@ -1584,7 +1584,7 @@
     "nickname": "writer"
   },
   {
-    "id": 99,
+    "id": 100,
     "advice": false,
     "category": "emotion",
     "img_cate": "img/emotion.svg",

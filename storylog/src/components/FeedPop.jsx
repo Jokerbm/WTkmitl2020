@@ -1,11 +1,29 @@
 import React from "react";
 import Navigation from "./Navigation";
-import LatestPopularBorder from "./Latestpopularboarder";
-function body(){
+import data from "./Article.json";
+import moment from "moment";
+import Latestpopularboarder from "./Latestpopularboarder";
+function body() {
     let rows = [];
-    for (let i = 0; i < 10; i++) {
-        rows.push(<LatestPopularBorder />);
-    }
+    const getdata = data.map(data => {
+        let props = {
+            banner: data.banner,
+            subject: data.subject,
+            intro: data.intro,
+            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
+            recommended: data.recommended,
+            name: data.name,
+            nickname: data.nickname,
+            image_profile: data.image_profile,
+            category: data.category,
+            img_cate:data.img_cate,
+            advice:data.advice
+        }
+        if(!props.advice) {
+            return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
+        }
+    })
+    console.log(rows)
     return rows;
 }
 function FeedPop() {
@@ -39,12 +57,6 @@ function FeedPop() {
                             <div id="feedHighlight">
                                 {/* information about blog */}
                                 {body()}
-                                {/*x*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<ReadListBorder />*/}
-                                {/*<LatestPopularBorder />*/}
-                                {/*<LatestPopularBorder />*/}
-                                {/* information about blog */}
                             </div>
                         </div>
                     </div>

@@ -63,13 +63,13 @@ class Philosophy extends React.Component {
                     </div>
                     <div class="tabs">
                         <a class=" active" href="#/philosophy">
-                            <div class="tabs-text first-no-border green">PHILOSOPHY</div>
+                            <div class="cc tabs-text first-no-border green">PHILOSOPHY</div>
                         </a>
                         <a class="" href="#/UserAgreement">
-                            <div class="tabs-text">USER AGREEMENT</div>
+                            <div class="cc tabs-text">USER AGREEMENT</div>
                         </a>
                         <a class="" href="#/CreativeCommons">
-                            <div class="tabs-text">CC LICENSE</div>
+                            <div class="cc tabs-text">CC LICENSE</div>
                         </a>
                         <div class="tabs-line"></div>
                     </div>
