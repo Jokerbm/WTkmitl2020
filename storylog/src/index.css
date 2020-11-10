@@ -753,8 +753,28 @@ img {
   width: 40%;
   float: right
 }
+.bb-close-popup {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 999;
+  width: 45px;
+  height: 45px;
+  float: right;
+  border: 1px solid #8a8b8a;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url(https://storylog.co/assets/22hAen4.svg);
+}
 .w-checkbox:after,.w-clearfix:after,.w-container:after,.w-embed:after,.w-nav:after,.w-radio:after,.w-row:after,.w-slider,.w-tabs:after {
   clear: both
+}
+.bb-close-popup, .create-img-upload {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.bb-close-popup, .icon-addcollection, .icon-collection-pic, .icon-collection-plus, .icon-search-collection {
+  background-size: auto 100%;
 }
 banner-box {
   position: relative;
@@ -872,18 +892,139 @@ a,button {
 .nav-bb.profile {
   background-image: url(https://storylog.co/assets/l2JViXV.svg)
 }
-@media(min-width:956px){
-  #exampleModalLong{
-    max-width: 1450px;
-    margin: 1.75rem auto;
-    padding: 0;
-    margin-top: 0;
-    padding-top: 20px;
-  }
+.card-popup.click{
+  max-width: 940px;
 }
 #content{
   max-width: 940px;
   text-align: center;
+}
+.col.profile{
+  max-width: 200px;
+}
+.row, .col, .col1{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 22px;
+}
+#actionBar .content-footer {
+  z-index: 11;
+}
+.content-date, .content-footer {
+  border-top: 1px solid #e9eaea;
+  color: #8a8b8a;
+}
+.content-share-icon_share_bb.bookmark {
+  width: 32px;
+  background-image: url(https://storylog.co/assets/M9BE8zb.png);
+  background-position: 25% 50%;
+  background-size: cover;
+}
+.content-share-icon_share_bb.recommend {
+  width: 32px;
+  background-image: url(https://storylog.co/assets/M9BE8zb.png);
+  background-position: 75% 50%;
+}
+.content-share-icon_share_bb {
+  width: 31px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  background-image: url(https://storylog.co/assets/M9BE8zb.png);
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.left.content-share-bb_text.bookmark {
+  width: 90px;
+}
+.left.content-share-bb_text {
+  font-size: 18px;
+  line-height: 60px;
+}
+.left {
+  float: left;
+}
+.content-share-icon_share_bb {
+  width: 31px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  background-image: url(https://storylog.co/assets/M9BE8zb.png);
+  background-position: 0 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-share-share_bb {
+  height: 100%;
+  padding-right: 25px;
+  padding-left: 25px;
+  float: right;
+  border-left: 1px solid #e9eaea;
+  font-size: 26px;
+  line-height: 80px;
+}
+.content-share-share_bb.bookmark, .left.green {
+  color: #2eb494;
+}
+.bb-edit-content {
+  position: relative;
+  width: 40px;
+  height: 100%;
+  float: right;
+  border-left: 1px solid #e9eaea;
+  background-image: url(https://storylog.co/assets/2pQLam9.svg);
+  background-position: 50% 50%;
+  background-size: auto 25px;
+  background-repeat: no-repeat;
+}
+.content-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 60px;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 40px;
+  border-right: 1px solid #e9eaea;
+  border-left: 1px solid #e9eaea;
+  background-color: #fff;
+}
+.content-share-profile_icon {
+  display: block;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 50%;
+  background-color: #e9eaea;
+}
+.content-share-text {
+  display: inline-block;
+  margin-top: 15px;
+  float: left;
+}
+.col1{
+  padding-left: 0;
+  padding-right: 15px;
+}
+.tabs-text.clickborder{
+  background-color: #fff;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 26px;
+}
+.feed-badge-small.staffpick.border{
+  top: -50px;
+  background-position: 0 50%;
+  position: relative;
 }
 .user{
   background-image: url(https://www.nicepng.com/png/detail/128-1280406_view-user-icon-png-user-circle-icon-png.png);
