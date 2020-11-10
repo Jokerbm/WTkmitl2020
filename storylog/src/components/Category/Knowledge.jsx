@@ -20,7 +20,7 @@ function body() {
             category: data.category,
             img_cate:data.img_cate
         }
-        if(props.category == "knowledge") {
+        if(props.category === "knowledge") {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
     })

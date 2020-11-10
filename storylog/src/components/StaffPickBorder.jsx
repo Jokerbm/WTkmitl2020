@@ -3,7 +3,7 @@ import React from "react";
 function StaffPickBorder(props) {
     return (
         <React.Fragment>
-            <div className ="feed-card highlight bb th-font2"
+            <div className ="feed-card highlight bb th-font2"  data-toggle="modal" data-target="#exampleModalLong"
                 style={{ backgroundImage: "url(" + props.banner + ")"}}>
                 {/*<div className="feed-highlight-badge-box"></div>*/}
                 <div className="feed-highlight-badge-box"></div>

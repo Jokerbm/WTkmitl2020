@@ -17,10 +17,11 @@ function body() {
             image_profile: data.image_profile,
             category: data.category,
             img_cate:data.img_cate,
-            advice:data.advice
+            advice:data.advice,
+            id: data.id
         }
         if(!props.advice) {
-            return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
+            return rows.push(<Latestpopularboarder key={data.id} {...props}/>);
         }
     })
     console.log(rows)

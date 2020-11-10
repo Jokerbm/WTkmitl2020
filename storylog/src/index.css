@@ -77,6 +77,10 @@ blockquote, body, fieldset, h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 25px;
   text-align: center
 }
+/*.title-click{*/
+/*  text-align: left!important;*/
+/*  margin-left: 30px!important;*/
+/*}*/
 .tabs-text.login {
   background-color: #fff
 }
@@ -108,10 +112,24 @@ blockquote, body, fieldset, h1, h2, h3, h4, h5, h6, p {
   margin-top: -10px;
   background-color: #dbdbdb
 }
+.line{
+  line-height: 40px!important;
+}
+.register-form-click.center {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.register-form-click {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: left;
+}
 .register-form.center {
   margin-top: 20px;
   font-size: 24px;
-  text-align: center
 }
 .register-form {
   display: inline-block;
@@ -119,7 +137,7 @@ blockquote, body, fieldset, h1, h2, h3, h4, h5, h6, p {
   margin-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  text-align: left
+  text-align: center
 }
 .popup {
   position: fixed!important;
@@ -676,16 +694,6 @@ img {
   margin-bottom: 0;
   float: left
 }
-.profile-user-image_user {
-  display: block;
-  width: 120px;
-  height: 120px;
-  margin-right: auto;
-  margin-left: auto;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background-color: #8a8b8a
-}
 .position-img {
   background-position: center center;
   background-size: cover
@@ -816,10 +824,13 @@ banner-box {
   background-color: #fff;
   text-align: center;
 }
+.zz {
+  margin-bottom: 150px;
+}
 .w-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 940px
+  max-width: 940px;
 }
 a,button {
   background-color: transparent
@@ -904,7 +915,7 @@ a,button {
 }
 .row, .col, .col1{
   font-family: 'Bai Jamjuree', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 #actionBar .content-footer {
   z-index: 11;
@@ -934,6 +945,36 @@ a,button {
   background-position: 0 50%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.profile-user-image_user.sizee{
+  margin-top: 0;
+}
+.tab{
+  color: #636463;
+  margin-top: 10px;
+}
+.blog{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.comment-profile{
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 60px;
+  float: left;
+  border-radius: 50%;
+  background-color: #b3b9b9;
+}
+.tabs-text.clickborder{
+  background-color: #fff;
+  height: 25px;   (แก้แค่บรรทัดนี้บรรทัดเดียว)
+border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 26px;
 }
 .left.content-share-bb_text.bookmark {
   width: 90px;
@@ -1260,6 +1301,110 @@ a,button {
     border-style: none
   }
 }
+.light {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content-share-bb_share {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 50%;
+  background-color: #e9eaea;
+}
+.content-share-count.like {
+  font-size: 30px;
+  float: right;
+  color: #eea534;
+}
+.content-share-count {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #e9eaea;
+  font-size: 48px;
+  line-height: 45px;
+}
+.content-tags {
+  position: relative;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 1px solid #2eb494;
+  border-radius: 5px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+.content-share-count, .content-tags {
+  display: inline-block;
+  float: left;
+  color: #2eb494;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.content-share-bb_share.recommend {
+  width: 40px;
+  float: right;
+  background-color: transparent;
+  background-image: url(https://storylog.co/assets/M9BE8zb.png);
+  background-position: 75% 50%;
+  background-size: 215px;
+  background-repeat: no-repeat;
+  border: transparent;
+  margin-right: 20px;
+}
+.paddingg{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.input-comment-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.content-comment-profile-img {
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-image: url(https://storylog.co/assets/23o_n-3.svg);
+  background-size: cover;
+}
+.content-comment-profile-img, .content-comment-tool_bb {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.content-comment-detail {
+  width: 88%;
+  padding-top: 5px;
+  float: left;
+  text-align: left;
+}
+.content-comment-profile {
+  width: 11%;
+  margin-top: 7px;
+  float: left;
+}
+.content-comment-card.noborder {
+  padding-top: 0;
+  border-top-style: none;
+  border-top-width: 0;
+}
+.content-comment-card {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #e9eaea;
+}
 @media(max-width:767px) {
   .feed-card.inheightlight {
     background-color: #fff
@@ -1433,6 +1578,7 @@ a,button {
     text-align: center
   }
 }
+
 @media(max-width:479px) {
   .banner-detail {
     width: 100%;
@@ -1607,19 +1753,6 @@ a,button {
   height: 1px;
   margin-top: -10px;
   background-color: #dbdbdb
-}
-.register-form.center {
-  margin-top: 20px;
-  font-size: 24px;
-  text-align: center
-}
-.register-form {
-  display: inline-block;
-  width: 100%;
-  margin-top: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-  text-align: left
 }
 @media(max-width:767px) {
   .popup-content {
@@ -2199,6 +2332,9 @@ a {
     padding-left: 0
   }
 }
+.sixxsize{
+  width: 100%;
+}
 .img-feed-highlight.book {
   display: block;
   opacity: 1
@@ -2240,16 +2376,6 @@ img {
   height: 35px;
   margin-bottom: 0;
   float: left
-}
-.profile-user-image_user {
-  display: block;
-  width: 120px;
-  height: 120px;
-  margin-right: auto;
-  margin-left: auto;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background-color: #8a8b8a
 }
 @media(max-width:479px) {
   .feed-info-detail.book.read-list {
@@ -2661,12 +2787,17 @@ a {
   height: 320px;
   background-position: 50% 50%;
 }
+.creadit-box {
+  display: inline-block;
+  margin-bottom: -6px;
+}
 .profile-user-image_user {
   display: block;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 10px;
   border: 3px solid #fff;
   border-radius: 50%;
   background-color: #8a8b8a
@@ -2731,6 +2862,9 @@ a {
   text-align: center;
   text-decoration: none
 }
+.border{
+  border: none!important;
+}
 .profile-user-name {
   margin-top: 10px;
   color: #2eb494;
@@ -2761,6 +2895,16 @@ a {
   margin-top: 3px;
   background-repeat: no-repeat
 }
+.icon-creadit {
+  width: 25px;
+  height: 25px;
+  float: left;
+  background-image: url(https://storylog.co/assets/3CsAU6i.svg);
+  background-position: 1px 50%;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
 .icon-follow {
   width: 20px;
   margin-right: 10px;
@@ -2768,6 +2912,70 @@ a {
   background-image: url(https://storylog.co/assets/1yumfhd.svg);
   background-position: -5px 50%;
   background-size: auto 30px
+}
+.icon-creadit.non-com {
+  background-position: -25px 50%;
+}
+.icon-creadit {
+  width: 25px;
+  height: 25px;
+  float: left;
+  background-image: url(https://storylog.co/assets/3CsAU6i.svg);
+  background-position: 1px 50%;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  opacity: .5;
+}
+.button.follow {
+  padding-right: 35px;
+  padding-left: 25px;
+  border-color: #2eb494;
+  border-radius: 5px;
+  color: #2eb494;
+}
+.content-profile-img-box.follow {
+  width: 25%;
+  padding-top: 30px;
+}
+.input-comment-bb {
+  padding: 0!important;
+}
+#createContent, #createTitle, .input-box, .input-comment-bb, .input-comment-text, .inputEditTable, :focus {
+  outline: 0;
+}
+.input-comment-bb {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  border: 1px solid #e9eaea;
+  border-radius: 50%;
+  background-image: url(https://storylog.co/assets/1Gp1AK5.svg);
+  transition: background-color .5s ease;
+}
+.content-profile-img-box {
+  width: 20%;
+  float: left;
+}
+.input-comment {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 10px;
+  padding: 0 55px 0 0;
+  border: 1px solid #e9eaea;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+}
+.button.follow, .button.message {
+  width: 160px;
+  line-height: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .icon-follow,.icon-message {
   height: 20px;
