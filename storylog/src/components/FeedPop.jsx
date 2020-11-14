@@ -20,7 +20,7 @@ function body() {
             advice:data.advice
         }
         if(!props.advice) {
-            return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
+            return rows.push(<Latestpopularboarder key={data.id} {...props}/>);
         }
     })
     console.log(rows)
