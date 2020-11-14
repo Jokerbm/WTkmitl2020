@@ -1,7 +1,7 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { FeedLatest, FeedPop,FeedPopWeek, Footer ,Home, About, Contact, Login,ProfileBorder, StaffPickBorder, CreativeCommons , InsideReadlist,ClickBorder, ReadListBorder, ShortStory, Emotion,ReadList, Experience, Inspiration, Knowledge, Idea, Notfound, Philosophy, UserAgreement} from "./components";
+import { FeedLatest, FeedPop,FeedPopWeek, Enter ,Home, About, Contact, Login,ProfileBorder, StaffPickBorder, CreativeCommons , InsideReadlist,ClickBorder, ReadListBorder, ShortStory, Emotion,ReadList, Experience, Inspiration, Knowledge, Idea, Notfound, Philosophy, UserAgreement} from "./components";
 import LatestPopularBorder from "./components/Latestpopularboarder";
 import CategoryBorder from "./components/CategoryBorder";
 function App() {
@@ -33,6 +33,7 @@ function App() {
                     <Route path="/feed/latest" exact component={() => <FeedLatest />} />
                     <Route path="/feed/popular" exact component={() => <FeedPop />} />
                     <Route path="/feed/popular/week" exact component={() => <FeedPopWeek />} />
+                    <Route path="/kuy" exact component={() => <Enter />} />
                     <Route path="*" exact component={() => <Notfound />} />
                 </Switch>
                 </HashRouter>

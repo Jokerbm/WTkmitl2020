@@ -1,37 +1,34 @@
 import React from "react";
+import { render } from "react-dom";
+import InfiniteScroll from "react-infinite-scroll-component";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
 import moment from 'moment'
 
-function body() {
-    let rows = [];
-    const getdata = data.map(data => {
-        let props = {
-            banner: data.banner,
-            subject: data.subject,
-            intro: data.intro,
-            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
-            recommended: data.recommended,
-            name: data.name,
-            nickname: data.nickname,
-            image_profile: data.image_profile,
-            category: data.category,
-            img_cate:data.img_cate,
-            advice:data.advice
+class Home extends React.Component {
+    state = {
+        items: Array.from({ length: 20 }),
+        hasMore: true
+    };
+    fetchMoreData = () => {
+        if (this.state.items.length >= 90) {
+            this.setState({ hasMore: false });
+            return;
         }
-        if(props.advice) {
-            return rows.push(<StaffPickBorder key={data.recommended} {...props}/>);
-        }
-    })
-    console.log(rows)
-    return rows;
-}
-function Home() {
+        // a fake async api call like which sends
+        // 20 more records in .5 secs
+        setTimeout(() => {
+            this.setState({
+                items: this.state.items.concat(Array.from({ length: 20 }))
+            });
+        }, 500);
+    };
+    render(){
     return (
         <React.Fragment>
             <div className="home th-font2">
-                <div className="feed-cover">
+                <div className={"feed-cover"}>
                     <div className="feed-cover bg"></div>
                     <Navigation home="true" />
                 </div>
@@ -65,7 +62,24 @@ function Home() {
                         <div>
                             <div id="feedHighlight">
                                 {/* information about blog */}
-                                {body()}
+                                <InfiniteScroll
+                                    dataLength={this.state.items.length}
+                                    next={this.fetchMoreData}
+                                    hasMore={this.state.hasMore}
+                                    loader={<h4>Loading...</h4>}
+                                    endMessage={
+                                        <p style={{ textAlign: "center" }}>
+                                            <b>Yay! You have seen it all</b>
+                                        </p>
+                                    }
+                                >
+                                    {this.state.items.map((i, index) => (
+                                        data[index].advice ? <div  key={index}>
+                                            <StaffPickBorder key={data[index].id} {...data[index]}/>
+                                        </div> : null
+
+                                    ))}
+                                </InfiniteScroll>
                                 {/* information about blog */}
                             </div>
                         </div>
@@ -74,5 +88,6 @@ function Home() {
             </div>
         </React.Fragment>
     );
+    }
 }
 export default Home;

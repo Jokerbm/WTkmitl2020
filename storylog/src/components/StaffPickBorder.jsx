@@ -1,4 +1,5 @@
 import React from "react";
+import moment from "moment";
 
 function StaffPickBorder(props) {
     return (
@@ -23,17 +24,17 @@ function StaffPickBorder(props) {
                                 ></img>
                             </a>
                         </div>
-                        <a href="#/story/5f96d442c8def3723ca3d2d7">
+                        {/*<a href="#/story/5f96d442c8def3723ca3d2d7">*/}
                             <div className="feed-info-title">
                                 <b>{props.subject}</b>
                             </div>
                             <div className="feed-info-detail">
                                 {props.intro}
                             </div>
-                        </a>
+                        {/*</a>*/}
                         <div className="w-clearfix feed-info-point">
                             <div className="text">
-                                <span>{props.time}</span>
+                                <span>{moment(props.time,'YYYY-MM-DD HH:mm:ss').fromNow()}</span>
                                 <span>&nbsp;&nbsp;</span>
                             </div>
                             <span>
