@@ -81,27 +81,27 @@ class About extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="w-clearfix profile-category">
-              <a class="" href="">
-                <button class="profile-category-tabs half action">STORIES</button>
-              </a>
-              <a class="" href="#/book">
-                <button class="profile-category-tabs half">BOOK</button>
-              </a>
-            </div>
-          </div>
-          <div class="w-container feed">
-            <div id="tabMainProfile">
-              <div class="tabs">
-                <div class="tabs-text first-no-border green">LATEST STORIES</div>
-                <div class="tabs-text">MOST POPULAR</div>
-                <div class="tabs-line"></div>
-              </div>
-              <div class="feed">
-                {/* infomation */}
-                <ProfileBorder/>
-              </div>
-            </div>
+          {/*  <div class="w-clearfix profile-category">*/}
+          {/*    <a class="" href="">*/}
+          {/*      <button class="profile-category-tabs half action">STORIES</button>*/}
+          {/*    </a>*/}
+          {/*    <a class="" href="#/book">*/}
+          {/*      <button class="profile-category-tabs half">BOOK</button>*/}
+          {/*    </a>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
+          {/*<div class="w-container feed">*/}
+            {/*<div id="tabMainProfile">*/}
+            {/*  <div class="tabs">*/}
+            {/*    <div class="tabs-text first-no-border green">LATEST STORIES</div>*/}
+            {/*    <div class="tabs-text">MOST POPULAR</div>*/}
+            {/*    <div class="tabs-line"></div>*/}
+            {/*  </div>*/}
+            {/*  <div class="feed">*/}
+            {/*    /!* infomation *!/*/}
+            {/*    <ProfileBorder/>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
     );
