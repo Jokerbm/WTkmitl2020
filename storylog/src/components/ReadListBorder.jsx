@@ -7,7 +7,7 @@ function ReadListBorder(props) {
                 <div className="feed-card highlight book animated fadeIn img-bg th-font2"
                      style={{backgroundImage: "url(" + props.bg + ")"}}>
                     <img className="img-feed-highlight book book-feed" alt={"WTF"}
-                         src={process.env.PUBLIC_URL + props.bg} width="50%"></img>
+                         src={props.bg} width="50%"></img>
                     <div className="book-read">
                         <div className="w-clearfix feed-card inheightlight rl book">
                             <div className="w-clearfix feed-info-rl nobg highlight full book">

@@ -16,7 +16,7 @@ function StaffPickBorder(props) {
                 <div className="feed-highlight-badge-box"></div>
                 <div className="w-clearfix feed-card inheightlight animated fadeIn staffpick">
                     <img alt={"feefhighlight"} className="img-feed-highlight"
-                         src="https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f96d442c8def3723ca3d2d7/16037223386081275010.jpg"
+                         src={process.env.PUBLIC_URL + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f96d442c8def3723ca3d2d7/16037223386081275010.jpg"}
                          width="100%"/>
 
                     <div className="feed-info nobg highlight" onClick={handleShow}>
@@ -73,7 +73,7 @@ function StaffPickBorder(props) {
                                 </div>
                                 <div className="register-form-click all blog">
                                     <a className="blog" target="_self" href={"#/category/" + props.category}>
-                                        <img alt={"imgcate"} height="40px" src={props.img_cate}/></a>
+                                        <img alt={"imgcate"} height="40px" src={process.env.PUBLIC_URL + props.img_cate}/></a>
                                 </div>
                                 <div className="register-form-click center all">
                                     <div className="tabs">

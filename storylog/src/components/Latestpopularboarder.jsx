@@ -52,7 +52,7 @@ function Latestpopularboarder(props) {
                                 </div>
                                 <div className="register-form-click all blog">
                                     <a className="blog" target="_self" href={"#/category/" + props.category}>
-                                        <img height="40px" alt={"imgcate"} src={props.img_cate}/></a>
+                                        <img height="40px" alt={"imgcate"} src={process.env.PUBLIC_URL + props.img_cate}/></a>
                                 </div>
                                 <div className="register-form-click center all">
                                     <div className="tabs">

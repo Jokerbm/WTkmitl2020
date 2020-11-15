@@ -33,7 +33,7 @@ function Readlist() {
                             </div>
                         </button>
                         <div className="w-clearfix profile-category tabfeed">
-                            <a className="" href="/">
+                            <a className="" href="#/">
                                 <button className="profile-category-tabs half "><b>STAFF PICKS</b></button>
                             </a>
                             <a className="" href="#/readlist">
