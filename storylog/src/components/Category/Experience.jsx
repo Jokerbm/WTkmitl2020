@@ -6,7 +6,7 @@ import moment from "moment";
 
 function body() {
     let rows = [];
-    const getdata = data.map(data => {
+    data.map(data => {
         let props = {
             id:data.id,
             banner: data.banner,
@@ -18,13 +18,15 @@ function body() {
             nickname: data.nickname,
             image_profile: data.image_profile,
             category: data.category,
-            img_cate:data.img_cate
+            img_cate:data.img_cate,
+            tag: data.tag,
+            paragraph: data.paragraph
         }
-        if(props.category == "experience") {
+        if(props.category === "experience") {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
+        return null
     })
-    console.log(rows)
     return rows;
 }
 class Experience extends React.Component {

@@ -1,12 +1,11 @@
 import React from "react";
 import Navigation from "./Navigation";
-import LatestPopularBorder from "./Latestpopularboarder";
 import data from "./Article.json";
 import moment from "moment";
 import Latestpopularboarder from "./Latestpopularboarder";
 function body() {
     let rows = [];
-    const getdata = data.map(data => {
+    data.map(data => {
         let props = {
             tag: data.tag,
             paragraph: data.paragraph,
@@ -25,6 +24,7 @@ function body() {
         if(!props.advice) {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
+        return null
     })
     console.log(rows)
     return rows;

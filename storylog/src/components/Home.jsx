@@ -1,11 +1,9 @@
 import React from "react";
-import { render } from "react-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
-import moment from 'moment'
-import Latestpopularboarder from "./Latestpopularboarder";
+
 
 class Home extends React.Component {
     state = {
@@ -45,7 +43,7 @@ class Home extends React.Component {
                             </div>
                         </button>
                         <div className="w-clearfix profile-category tabfeed">
-                            <a className="" href="/">
+                            <a className="" href="#/">
                                 <button className="profile-category-tabs half action">
                                     <b>STAFF PICKS</b>
                                 </button>

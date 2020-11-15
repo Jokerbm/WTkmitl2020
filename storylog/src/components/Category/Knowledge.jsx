@@ -18,11 +18,14 @@ function body() {
             nickname: data.nickname,
             image_profile: data.image_profile,
             category: data.category,
-            img_cate:data.img_cate
+            img_cate:data.img_cate,
+            tag: data.tag,
+            paragraph: data.paragraph
         }
         if(props.category === "knowledge") {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
+        return null
     })
     return rows;
 }

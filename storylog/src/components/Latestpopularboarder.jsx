@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
-import moment from "moment";
 
 import {withRouter} from "react-router-dom";
 
@@ -13,18 +12,16 @@ function Latestpopularboarder(props){
     return (
         <React.Fragment>
         <div  onClick={handleShow}  className="bb w-clearfix feed-card animated fadeIn th-font2" >
-            <div className="feed-info bg-linear" style={{ backgroundImage: "linear-gradient(to right, white, rgba(255, 255, 255, 0.9)),"+ "url(" + props.banner + ")"}}>
+            <div className="feed-info bg-linear" style={{ backgroundImage: "linear-gradient(to right, white, rgba(255, 255, 255, 0.9)),url(" + props.banner + ")"}}>
                 <div className="w-clearfix feed-type">
                     <a className="" href={"#/category/" +  props.category}>
-                        <img height="30px" src={process.env.PUBLIC_URL + props.img_cate}></img>
+                        <img height="30px" alt={"imgcate"} src={process.env.PUBLIC_URL + props.img_cate}></img>
                     </a>
                 </div>
-                <a>
                     <div className="feed-info-title"><b>{props.subject}</b>
                     </div>
                     <div className="feed-info-detail">{props.intro}
                     </div>
-                   </a>
                 <div className="w-clearfix feed-info-point">
                     <div className="text"><span>{props.time}</span><span>&nbsp;&nbsp;</span></div>
                     <span><span>|&nbsp;&nbsp;</span><div className="text orange"><span>{props.recommended}</span><span>&nbsp;</span></div>
@@ -52,7 +49,7 @@ function Latestpopularboarder(props){
                                 </div>
                                 <div className="register-form-click all blog">
                                     <a className="blog" target="_self" href={"#/category/"+props.category}>
-                                        <img height="40px" src={props.img_cate}/></a>
+                                        <img height="40px" alt={"imgcate"} src={props.img_cate}/></a>
                                 </div>
                                 <div className="register-form-click center all">
                                     <div className="tabs">

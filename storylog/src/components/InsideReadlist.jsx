@@ -5,10 +5,6 @@ import data from "./Datareadlist.json";
 import Latestpopularboarder from "./Latestpopularboarder";
 class InsideReadlist extends React.Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     state = {
         test: [],
         loading: true
@@ -16,22 +12,23 @@ class InsideReadlist extends React.Component {
 
     body() {
         let rows = [];
-        const getaritcle = data.map(data => {
+        data.map(data => {
             let props = {
                 title: data.title,
                 article: data.article,
             }
-            if (this.props.match.params.id == props.title) {
-                const getarticle = props.article.map(data => {
+            if (this.props.match.params.id === props.title) {
+                props.article.map(data => {
                     return rows.push(<Latestpopularboarder key={data.id} {...data}/>);
                 })
             }
+            return null
         })
         return rows;
     }
 
     componentDidMount() {
-        const getdata = data.map(data => {
+        data.map(data => {
             let author = {
                 title: data.title,
                 detail: data.detail,
@@ -39,9 +36,10 @@ class InsideReadlist extends React.Component {
                 bg: data.bg,
                 article: data.article,
             }
-            if (this.props.match.params.id == author.title) {
+            if (this.props.match.params.id === author.title) {
                 this.setState({author, loading: false})
             }
+            return null
         })
     }
 
@@ -61,7 +59,7 @@ class InsideReadlist extends React.Component {
                                 <div className="feed-card highlight book">
                                     <div className="bookBgBlank"></div>
                                     <div>
-                                        <img src={this.state.author.bg} style={{width:"100%"}}></img>
+                                        <img alt={"authorbaackgroud"} src={this.state.author.bg} style={{width:"100%"}}></img>
                                     </div>
                                     <div className="w-clearfix book-bg">
                                         <div className="w-clearfix whit feed-card inheightlight book">
@@ -88,7 +86,7 @@ class InsideReadlist extends React.Component {
                                             </div>
                                             <div className="profile-analytic-point share"><a
                                                 href="https://www.facebook.com/sharer/sharer.php?u=https://storylog.co/readlist/57aaf11ef3ec36b3c2558ca1"
-                                                target="_blank">
+                                                target="_blank" rel="noopener noreferrer" >
                                                 <div className="icon-facebook gray mini"></div>
                                             </a><a
                                                 href="https://twitter.com/share?text=อ่านรอโปเกม่อนเกิด &amp;url=https://storylog.co/readlist/57aaf11ef3ec36b3c2558ca1">

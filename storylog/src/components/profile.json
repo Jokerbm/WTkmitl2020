@@ -695,7 +695,7 @@
           "followers": 9,
           "following": 1
         },
-        {"image_banner": "ttps://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/569f8701c953b9084e8bcb0f/15577323537499186003.jpg",
+        {"image_banner": "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/569f8701c953b9084e8bcb0f/15577323537499186003.jpg",
           "image_profile": "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/569f8701c953b9084e8bcb0f/15577235908941315984.jpg",
           "name": "waeameenoh",
           "nickname": "Reader",

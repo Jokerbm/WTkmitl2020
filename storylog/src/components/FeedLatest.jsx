@@ -5,7 +5,7 @@ import Latestpopularboarder from "./Latestpopularboarder";
 import moment from "moment";
 function body() {
     let rows = [];
-    const getdata = data.map(data => {
+    data.map(data => {
         let props = {
             tag: data.tag,
             banner: data.banner,
@@ -25,6 +25,7 @@ function body() {
         if(!props.advice) {
             return rows.push(<Latestpopularboarder key={data.id} {...props}/>);
         }
+        return null
     })
     return rows;
 }

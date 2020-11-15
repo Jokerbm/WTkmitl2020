@@ -1,11 +1,10 @@
 import React from "react";
 import Navigation from "./Navigation";
 import data from "./Datareadlist.json";
-import moment from "moment";
 import ReadListBorder from "./ReadListBorder";
 function body(){
     let rows = [];
-    const getdata = data.map(data => {
+    data.map(data => {
         let props = {
             title:data.title,
             detail:data.detail,
@@ -13,7 +12,6 @@ function body(){
         }
             return rows.push(<ReadListBorder key={data.title} {...props}/>);
     })
-    console.log(rows)
     return rows;
 }
 function Readlist() {
