@@ -100,6 +100,7 @@ class UserAgreement extends React.Component {
 
     }
 }
+
 export default UserAgreement;
 
 

@@ -5,6 +5,7 @@ class Philosophy extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+
     render() {
         return (
             <div className="home th-font2">

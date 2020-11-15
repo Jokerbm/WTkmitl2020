@@ -6,23 +6,23 @@ import moment from "moment";
 
 function body() {
     let rows = [];
-        data.map(data => {
+    data.map(data => {
         let props = {
-            id:data.id,
+            id: data.id,
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
-            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
+            time: moment(data.time, 'YYYY-MM-DD HH:mm:ss').fromNow(),
             recommended: data.recommended,
             name: data.name,
             nickname: data.nickname,
             image_profile: data.image_profile,
             category: data.category,
-            img_cate:data.img_cate,
+            img_cate: data.img_cate,
             tag: data.tag,
             paragraph: data.paragraph
         }
-        if(props.category === "inspiration") {
+        if (props.category === "inspiration") {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
         return null
@@ -35,6 +35,7 @@ class Inspiration extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+
     render() {
         return (
             <React.Fragment>
@@ -42,12 +43,14 @@ class Inspiration extends React.Component {
                 <div className="banner inspire th-font2">
                     <div className="w-container banner-box">
                         <div className="banner-detail inspire">
-                            <img className="banner-icon" alt={"inspiration"} src={process.env.PUBLIC_URL + 'img/inspiration.svg'}></img>
+                            <img className="banner-icon" alt={"inspiration"}
+                                 src={process.env.PUBLIC_URL + 'img/inspiration.svg'}></img>
                             <div className="text">No need to be perfect. Let people get
                                 inspired by how you deal with your imperfections.
                             </div>
                         </div>
-                        <img className="img-banner" alt={"inspiration"}  src={process.env.PUBLIC_URL + 'img/bg-inspiration.svg'}></img></div>
+                        <img className="img-banner" alt={"inspiration"}
+                             src={process.env.PUBLIC_URL + 'img/bg-inspiration.svg'}></img></div>
                 </div>
                 <div className="w-container feed pt-3">
                     <div id="feed">
@@ -58,4 +61,5 @@ class Inspiration extends React.Component {
         );
     }
 }
+
 export default Inspiration;

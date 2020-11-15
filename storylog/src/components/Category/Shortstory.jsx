@@ -8,21 +8,21 @@ function body() {
     let rows = [];
     data.map(data => {
         let props = {
-            id:data.id,
+            id: data.id,
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
-            time: moment(data.time,'YYYY-MM-DD HH:mm:ss').fromNow(),
+            time: moment(data.time, 'YYYY-MM-DD HH:mm:ss').fromNow(),
             recommended: data.recommended,
             name: data.name,
             nickname: data.nickname,
             image_profile: data.image_profile,
             category: data.category,
-            img_cate:data.img_cate,
+            img_cate: data.img_cate,
             tag: data.tag,
             paragraph: data.paragraph
         }
-        if(props.category === "short story") {
+        if (props.category === "short story") {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
         return null
@@ -34,6 +34,7 @@ class ShortStory extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+
     render() {
         return (
             <React.Fragment>
@@ -59,4 +60,5 @@ class ShortStory extends React.Component {
         );
     }
 }
+
 export default ShortStory;

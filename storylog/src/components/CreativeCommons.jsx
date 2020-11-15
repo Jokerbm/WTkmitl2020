@@ -5,6 +5,7 @@ class CreativeCommons extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+
     render() {
         return (
             <div className="home th-font2">
@@ -52,7 +53,8 @@ class CreativeCommons extends React.Component {
                             </div>
                             <div class="feed-collection terms center" style={{paddingBottom: 0 + 'px'}}>
                                 <a href="http://creativecommons.org/licenses/">
-                                    <img class="text" alt={"cc"} src={process.env.PUBLIC_URL + 'img/cc.jpg'} width="200px"></img>
+                                    <img class="text" alt={"cc"} src={process.env.PUBLIC_URL + 'img/cc.jpg'}
+                                         width="200px"></img>
                                 </a>
                             </div>
                         </div>
