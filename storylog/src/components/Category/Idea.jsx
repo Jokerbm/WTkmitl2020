@@ -44,12 +44,12 @@ class Idea extends React.Component {
                     <div className="w-container banner-box">
                         <div className="banner-detail idea">
                             <img className="banner-icon" alt={"idea"}
-                                 src={process.env.PUBLIC_URL + 'img/idea.svg'}></img>
+                                 src={process.env.PUBLIC_URL + '/img/idea.svg'}></img>
                             <div className="text">It begin with an idea and then it<br></br>becomes
                                 something else.
                             </div>
                         </div>
-                        <img className="img-banner" alt={"idea"} src={process.env.PUBLIC_URL + 'img/bg-idea.svg'}></img>
+                        <img className="img-banner" alt={"idea"} src={process.env.PUBLIC_URL + '/img/bg-idea.svg'}></img>
                     </div>
                 </div>
                 <div className="w-container feed pt-3">

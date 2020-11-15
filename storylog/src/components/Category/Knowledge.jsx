@@ -43,13 +43,13 @@ class Knowledge extends React.Component {
                     <div className="w-container banner-box">
                         <div className="banner-detail know">
                             <img className="banner-icon" alt="knowledge"
-                                 src={process.env.PUBLIC_URL + 'img/knowledge.svg'}></img>
+                                 src={process.env.PUBLIC_URL + '/img/knowledge.svg'}></img>
                             <div className="text">Knowledge increase by sharing,<br></br>but
                                 not by saving.
                             </div>
                         </div>
                         <img className="img-banner" alt="knowledge"
-                             src={process.env.PUBLIC_URL + 'img/bg-knowledge.svg'}></img></div>
+                             src={process.env.PUBLIC_URL + '/img/bg-knowledge.svg'}></img></div>
                 </div>
                 <div className="w-container feed pt-3">
                     <div id="feed">

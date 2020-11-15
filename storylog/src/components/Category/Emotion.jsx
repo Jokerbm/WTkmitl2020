@@ -44,13 +44,13 @@ class Emotion extends React.Component {
                     <div className="w-container banner-box">
                         <div className="banner-detail short">
                             <img className="banner-icon" alt={"emotion"}
-                                 src={process.env.PUBLIC_URL + 'img/emotion.svg'}></img>
+                                 src={process.env.PUBLIC_URL + '/img/emotion.svg'}></img>
                             <div className="text">Poetry is when an emotion has found its thought and the thought has
                                 found words.
                             </div>
                         </div>
                         <img className="img-banner" alt={"emotion"}
-                             src={process.env.PUBLIC_URL + 'img/bg-emotion.svg'}></img></div>
+                             src={process.env.PUBLIC_URL + '/img/bg-emotion.svg'}></img></div>
                 </div>
                 <div className="w-container feed pt-3">
                     <div id="feed">
