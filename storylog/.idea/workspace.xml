@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b9279ea-5bd4-46e2-8668-45c0e1893a04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1j6HId3FzA8Fi8yr4TgHPAJvczG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components\Category" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\src\components" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public\img" />
+      <recent name="C:\Users\ASUS FX505GE\Desktop\work\WTkmitl2020\storylog\public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b9279ea-5bd4-46e2-8668-45c0e1893a04" name="Default Changelist" comment="" />
+      <created>1603117543215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603117543215</updated>
+      <workItem from="1603117544383" duration="6733000" />
+      <workItem from="1603372592112" duration="21992000" />
+      <workItem from="1603465555503" duration="8429000" />
+      <workItem from="1603632587981" duration="13481000" />
+      <workItem from="1603714415751" duration="2402000" />
+      <workItem from="1603807490744" duration="1032000" />
+      <workItem from="1603903544536" duration="6437000" />
+      <workItem from="1603950626725" duration="235000" />
+      <workItem from="1604217780419" duration="7052000" />
+      <workItem from="1604239148436" duration="6349000" />
+      <workItem from="1604504003925" duration="23000" />
+      <workItem from="1604505958049" duration="2783000" />
+      <workItem from="1604548096848" duration="2343000" />
+      <workItem from="1604557124977" duration="2879000" />
+      <workItem from="1604573337413" duration="3518000" />
+      <workItem from="1604721203218" duration="22403000" />
+      <workItem from="1604754305510" duration="8139000" />
+      <workItem from="1604762480183" duration="6637000" />
+      <workItem from="1604828296945" duration="20457000" />
+      <workItem from="1604887906080" duration="428000" />
+      <workItem from="1604904776683" duration="9385000" />
+      <workItem from="1604925675832" duration="4697000" />
+      <workItem from="1604934959335" duration="3534000" />
+      <workItem from="1604940335049" duration="5780000" />
+      <workItem from="1605006642901" duration="3634000" />
+      <workItem from="1605021196684" duration="280000" />
+      <workItem from="1605021501309" duration="9136000" />
+      <workItem from="1605080679803" duration="2307000" />
+      <workItem from="1605096106387" duration="446000" />
+      <workItem from="1605336432543" duration="7206000" />
+      <workItem from="1605431388617" duration="13767000" />
+      <workItem from="1605449434523" duration="540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604584290420">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1604584290420" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605449570271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605449570271" />
+    <state x="528" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605449852452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1605449852452" />
+    <state x="380" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603467290285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="380" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1603467290285" />
+    <state x="611" y="185" key="refactoring.ChangeSignatureDialog" timestamp="1603122557633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="611" y="185" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1603122557633" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605338775876">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605338775876" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604931703628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604931703628" />
+  </component>
+</project>

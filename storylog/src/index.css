@@ -1,0 +1,3747 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap');
+
+.whit {
+    background-color: white !important;
+}
+
+.active {
+    opacity: 1
+}
+
+.img-feed-highlight {
+    display: none
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Itim', 'Segoe UI', 'Bai Jamjuree', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f5f5
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+}
+
+* {
+    box-sizing: border-box
+}
+
+div {
+    display: block
+}
+
+blockquote, body, fieldset, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.th-font2 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 17px
+}
+
+/*check*/
+.bg-fix {
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5bf3ff697ba11f4520df6926/15427935526125958349.jpg);
+    background-size: cover
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    box-shadow: 0 1px 20px -8px #636463
+}
+
+.modal {
+    padding-top: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background-color: rgba(233, 234, 234, .85)
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.text {
+    display: inline-block
+}
+
+.popup-title {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    color: #eea534;
+    font-size: 30px;
+    line-height: 46px;
+    border-bottom: 1px solid #e9eaea
+}
+
+.tabs {
+    padding-top: 10px;
+    color: #636463;
+}
+
+.content-date, .tabs {
+    padding-bottom: 25px;
+    text-align: center
+}
+
+/*.title-click{*/
+/*  text-align: left!important;*/
+/*  margin-left: 30px!important;*/
+/*}*/
+.tabs-text.login {
+    background-color: #fff
+}
+
+.tabs-text.collection, .tabs-text.first-no-border, .tabs-text.login, .tabs-text.no-border {
+    border-left-style: none
+}
+
+.tabs-text.login, .tabs-text.no-border {
+    border-left-width: 0
+}
+
+.bb, .bb-noshadow, .nav-bb, .tabs-text {
+    cursor: pointer
+}
+
+.bb, .bb-noshadow, .feed-card, .nav-bb, .tabs-text {
+    outline: 0;
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.feed-profile-img, .icon-follow, .tabs-text, .tool-create-title {
+    display: inline-block
+}
+
+.content-share-count, .profile-user-name, .tabs-text {
+    font-family: 'Mn paethai med v3', sans-serif
+}
+
+.tabs-line.login {
+    background-color: #e9eaea
+}
+
+.tabs-line {
+    height: 1px;
+    margin-top: -10px;
+    background-color: #dbdbdb
+}
+
+.line {
+    line-height: 40px !important;
+}
+
+.register-form-click.center {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.register-form-click {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.register-form.center {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.register-form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center
+}
+
+.popup {
+    position: fixed !important;
+    overflow-y: scroll;
+    background-color: rgba(233, 234, 234, .85);
+    z-index: 11
+}
+
+#loginModal {
+    z-index: 999
+}
+
+.fadeIn {
+    animation-name: fadeIn
+}
+
+.animated {
+    animation-duration: .3s;
+    animation-fill-mode: both;
+    transform: translate3d(0, 0, 0)
+}
+
+.tabs-text {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 14px
+}
+
+.card-popup {
+    max-width: 800px;
+    background-color: #fff;
+    color: #636463;
+    text-align: center
+}
+
+.card-popup.login {
+    max-width: 500px
+}
+
+.w-form {
+    margin: 0 0 15px
+}
+
+.w-input {
+    height: auto
+}
+
+.input {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    font-size: 22px
+}
+
+.w-input, .w-select {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+button, hr, input, select {
+    overflow: visible
+}
+
+.popup-footer {
+    margin-top: 20px;
+    padding: 25px;
+    border-top: 1px solid #e9eaea;
+    text-align: center;
+    background-color: #fff
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px 40px;
+    border: 1px solid #e9eaea;
+    border-radius: 5px;
+    color: #b4b5b4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px
+}
+
+.button.green {
+    border-color: #2eb494;
+    color: #2eb494
+}
+
+.green, .report-list.select, .search-result, .terms-title, .upload-img-content.green {
+    color: #2eb494
+}
+
+button, select {
+    text-transform: none
+}
+
+.terms-title {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-terms.mobile {
+    display: none;
+}
+
+.img-terms {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+a, button {
+    background-color: transparent
+}
+
+button, hr, input, select {
+    overflow: visible
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+.facebook-login-button {
+    padding: 8px 25px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    background: #4267b2;
+    border-color: transparent
+}
+
+.facebook-login-button-icon {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -4px
+}
+
+.facebook-login, .facebook-login-button {
+    border-radius: 4px;
+    display: inline-block
+}
+
+.feed-badge-small.staffpick {
+    background-position: 0 50%
+}
+
+.feed-badge-small, .feed-collection-head-img, .icon-create {
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.feed-card.highlight, .feed-card.info-story-for-you {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat
+}
+
+.img-bg {
+    background-position: center;
+    background-size: cover
+}
+
+.action-create, .bb, .bb-noshadow, .dropdown, .nav, .nav *, button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0
+}
+
+.bb, .bb-noshadow, .nav-bb, .tabs-text {
+    cursor: pointer
+}
+
+.bb, .bb-noshadow, .feed-card, .nav-bb, .tabs-text {
+    outline: 0;
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.feed-highlight-badge-box {
+    position: relative;
+    height: 35px;
+    margin-bottom: 30px;
+    margin-left: -45px
+}
+
+.fadeIn {
+    animation-name: fadeIn
+}
+
+.animated {
+    animation-duration: .3s;
+    animation-fill-mode: both;
+    transform: translate3d(0, 0, 0)
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+img {
+    border-style: none
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+img[AttributesStyle] {
+    width: 100%
+}
+
+.feed-profile {
+    width: 20%;
+    margin-top: 35px;
+    float: left;
+    text-align: center
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+.w-checkbox:after, .w-clearfix:after, .w-container:after, .w-embed:after, .w-nav:after, .w-radio:after, .w-row:after, .w-slider, .w-tabs:after {
+    clear: both
+}
+
+.feed-profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #e9eaea
+}
+
+.feed-profile-img, .icon-follow, .tabs-text, .tool-create-title {
+    display: inline-block
+}
+
+a {
+    text-decoration: none;
+    color: #8a8b8a !important
+}
+
+.feed-info-username {
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #2eb494;
+    font-size: 18px;
+    line-height: 27px
+}
+
+.feed-info-role {
+    color: #8a8b8a;
+    line-height: 20px
+}
+
+.feed-info-title {
+    color: #000
+}
+
+#searchInput, .content-detail-text, .feed-info-title {
+    word-wrap: break-word;
+    text-rendering: optimizeSpeed
+}
+
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+    overflow: hidden
+}
+
+.feed-info-detail {
+    min-height: 70px;
+    color: dimgrey;
+    font-size: 16px;
+    line-height: 32px
+}
+
+.feed-info-point {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #8a8b8a;
+    font-size: 14px
+}
+
+a {
+    color: #00e
+}
+
+.text.orange {
+    color: #eea534
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+.feed {
+    margin-bottom: 50px;
+}
+
+
+user agent stylesheet
+body {
+    background-color: #f5f5f5;
+    font-family: 'Mn paethai v3', sans-serif;
+    font-size: 22px;
+}
+
+body {
+    min-height: 100%;
+    color: #333;
+}
+
+.readlist-box {
+    text-align: center;
+    float: left;
+    border: 3px solid white;
+    width: 100%;
+    border-right-style: none;
+}
+
+.bookCover {
+    min-height: 280px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.feed-card.highlight.book {
+    min-height: 300px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-image: none;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+    color: #000;
+    background: #ddd;
+}
+
+#feed {
+    min-height: 500px;
+    width: 100%
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+.feed-badge-small {
+    width: 26px;
+    height: 40px;
+    margin-top: -30px;
+    float: right;
+    background-image: url(https://storylog.co/assets/33oLPv8.svg);
+    background-position: 100% 50%
+}
+
+.style-img {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover
+}
+
+.profile-user-image_user.book.readList {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+    background-image: url(https://storylog.co/assets/ItQ-lZS.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.img-feed-highlight.book {
+    display: block;
+    opacity: 1
+}
+
+.book-read {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.book-bg {
+    margin-top: -180px;
+    padding-right: 40px;
+    padding-left: 40px
+}
+
+.feed-info-title.collection {
+    display: inline-block;
+    max-width: 100%
+}
+
+.feed-info-title.collection {
+    display: block;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: #2eb494;
+    line-height: 40px
+}
+
+.feed-info-title.collection.terms {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.feed-info-title {
+    color: #000
+}
+
+.feed-info-title {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px
+}
+
+.feed-info-detail.book.read-list {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+    overflow: hidden
+}
+
+.feed-info-detail {
+    min-height: 70px;
+    color: #636463;
+    font-size: 16px;
+    line-height: 32px
+}
+
+.feed-info-rl {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 0 100px 0
+}
+
+.feed-type.book {
+    height: 30px
+}
+
+.feed-card.inheightlight.rl {
+    margin-bottom: 0;
+    background-color: white
+}
+
+.profile-category-tabs.half {
+    width: 50%
+}
+
+.profile-category-tabs.action {
+    background-color: #fff;
+    color: #2eb494
+}
+
+.profile-category-tabs {
+    width: 33.3333%;
+    height: 50px;
+    float: left;
+    border: 1px solid #e9eaea;
+    background-color: #f5f5f5;
+    color: #636463;
+    font-size: 13.5px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: lighter
+}
+
+.profile-category.tabfeed {
+    margin-bottom: 20px;
+    border-right: 1px solid #e9eaea;
+    border-bottom: 1px solid #e9eaea;
+    border-left: 1px solid #e9eaea
+}
+
+.profile-category {
+    width: 100%;
+    float: left
+}
+
+.feed-card.tool-create, quote {
+    width: 100%
+}
+
+.feed-card.tool-create {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.tool-create-title {
+    margin-right: auto;
+    margin-left: auto;
+    color: #eea534;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold
+}
+
+.icon-create {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: -6px;
+    background-image: url(https://storylog.co/assets/1LywG92.svg)
+}
+
+.feed-collection-head-title, .icon-create {
+    display: inline-block
+}
+
+.feed-cover.bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url(https://storylog.co/assets/1UHhBMl.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.feed-cover404 {
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    background-color: #e7d9c5
+}
+
+.feed-cover {
+    position: relative;
+    overflow: hidden;
+    height: 390px;
+    background-color: #e7d9c5
+}
+
+.feed-card {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 20px -8px #636463
+}
+
+.piv {
+    background-position: center;
+    background-size: cover
+}
+
+.section-content {
+    position: relative;
+    background-color: #f5f5f5
+}
+
+.bt1 {
+    border-color: transparent
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#feed {
+    min-height: 500px;
+    width: 100%
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+.img-feed-highlight.book {
+    display: block;
+    opacity: 1
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+.feed-type {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 0;
+    float: left
+}
+
+.position-img {
+    background-position: center center;
+    background-size: cover
+}
+
+.feed-profile {
+    width: 20%;
+    margin-top: 35px;
+    float: left;
+    text-align: center
+}
+
+.bg-linear {
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.9)), url(https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f9851936783b3f141f53d41/16038179077307315125.jpg);
+    background-position: 0 0, center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.banner.short {
+    background-color: #dee1f2
+}
+
+.banner {
+    height: 340px
+}
+
+.banner, .tips-line {
+    background-color: #e9eaea
+}
+
+.banner-box {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 90px
+}
+
+.w-checkbox:after, .w-checkbox:before, .w-container:after, .w-container:before, .w-radio:after, .w-radio:before, .w-row:after, .w-row:before {
+    content: " ";
+    display: table
+}
+
+.banner-detail.short {
+    color: rgba(44, 61, 114, .5)
+}
+
+.banner-icon {
+    width: 230px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    float: left
+}
+
+.banner-icon {
+    width: 230px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    float: left
+}
+
+.banner-detail.short {
+    color: rgba(44, 61, 114, .5)
+}
+
+.banner-detail {
+    width: 50%;
+    float: left;
+    color: #dd5416;
+    font-size: 24px;
+    line-height: 32px
+}
+
+.img-banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    float: right
+}
+
+.bb-close-popup {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    float: right;
+    border: 1px solid #8a8b8a;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url(https://storylog.co/assets/22hAen4.svg);
+}
+
+.w-checkbox:after, .w-clearfix:after, .w-container:after, .w-embed:after, .w-nav:after, .w-radio:after, .w-row:after, .w-slider, .w-tabs:after {
+    clear: both
+}
+
+.bb-close-popup, .create-img-upload {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bb-close-popup, .icon-addcollection, .icon-collection-pic, .icon-collection-plus, .icon-search-collection {
+    background-size: auto 100%;
+}
+
+banner-box {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 90px
+}
+
+.nav {
+    transition: all .3s
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%
+}
+
+.nav, .popup, .popup-bg {
+    z-index: 9;
+    left: 0
+}
+
+.bg-nav {
+    padding-bottom: 7px
+}
+
+#bookDetail {
+    margin-top: 100px;
+}
+
+.bg-nav {
+    background-color: #2eb494
+}
+
+.book-detail, .nav-con {
+    position: relative
+}
+
+.book-detail {
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.zz {
+    margin-bottom: 150px;
+}
+
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+a, button {
+    background-color: transparent
+}
+
+.nav-search {
+    transition: all .2s
+}
+
+.nav-search {
+    position: relative;
+    width: 55%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    float: left;
+    border-radius: 5px;
+    background-color: #298f72;
+    opacity: .5;
+    transition: all .5s ease;
+    color: #fff;
+    line-height: 35px;
+    text-align: center
+}
+
+.logo {
+    width: 155px;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+    background-image: url(https://storylog.co/assets/2G7zO-D.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.nav-bb.home {
+    background-image: url(https://storylog.co/assets/1zJuGfQ.svg)
+}
+
+.content-profile-img, .content-profile-img.circle, .nav-bb.explore, .nav-bb.home, .nav-bb.mobile, .nav-bb.notification, .nav-bb.philo, .nav-bb.profile, .nav-search-bb {
+    background-position: 50% 50%;
+    background-repeat: no-repeat
+}
+
+.nav-bb.explore {
+    background-image: url(https://storylog.co/assets/1spRBss.svg)
+}
+
+.nav-bb.philo {
+    background-image: url(https://storylog.co/assets/3TW1L0H.svg);
+    background-size: auto 28px
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block
+}
+
+.nav-search-bb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-image: url(https://storylog.co/assets/3dCbNsc.svg)
+}
+
+.nav-bb.explore.active, .nav-bb.home.active, .nav-bb.philo.active {
+    opacity: 1
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+.card-popup.click {
+    max-width: 940px;
+}
+
+#content {
+    max-width: 940px;
+    text-align: center;
+}
+
+.col.profile {
+    max-width: 200px;
+}
+
+.row, .col, .col1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+#actionBar .content-footer {
+    z-index: 11;
+}
+
+.content-date, .content-footer {
+    border-top: 1px solid #e9eaea;
+    color: #8a8b8a;
+}
+
+.content-share-icon_share_bb.bookmark {
+    width: 32px;
+    background-image: url(https://storylog.co/assets/M9BE8zb.png);
+    background-position: 25% 50%;
+    background-size: cover;
+}
+
+.content-share-icon_share_bb.recommend {
+    width: 32px;
+    background-image: url(https://storylog.co/assets/M9BE8zb.png);
+    background-position: 75% 50%;
+}
+
+.content-share-icon_share_bb {
+    width: 31px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(https://storylog.co/assets/M9BE8zb.png);
+    background-position: 0 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-user-image_user.sizee {
+    margin-top: 0;
+}
+
+.tab {
+    color: #636463;
+    margin-top: 10px;
+}
+
+.blog {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.comment-profile {
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 60px;
+    float: left;
+    border-radius: 50%;
+    background-color: #b3b9b9;
+}
+
+.tabs-text.clickborder {
+    background-color: #fff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 17px;
+    height: 25px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left.content-share-bb_text.bookmark {
+    width: 90px;
+}
+
+.left.content-share-bb_text {
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.left {
+    float: left;
+}
+
+.content-share-icon_share_bb {
+    width: 31px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: left;
+    background-image: url(https://storylog.co/assets/M9BE8zb.png);
+    background-position: 0 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-share-share_bb {
+    height: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+    float: right;
+    border-left: 1px solid #e9eaea;
+    font-size: 26px;
+    line-height: 80px;
+}
+
+.content-share-share_bb.bookmark, .left.green {
+    color: #2eb494;
+}
+
+.bb-edit-content {
+    position: relative;
+    width: 40px;
+    height: 100%;
+    float: right;
+    border-left: 1px solid #e9eaea;
+    background-image: url(https://storylog.co/assets/2pQLam9.svg);
+    background-position: 50% 50%;
+    background-size: auto 25px;
+    background-repeat: no-repeat;
+}
+
+.content-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 60px;
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    border-right: 1px solid #e9eaea;
+    border-left: 1px solid #e9eaea;
+    background-color: #fff;
+}
+
+.content-share-profile_icon {
+    display: block;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: #e9eaea;
+}
+
+.content-share-text {
+    display: inline-block;
+    margin-top: 15px;
+    float: left;
+}
+
+.col1 {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.tabs-text.clickborder {
+    background-color: #fff;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+}
+
+.feed-badge-small.staffpick.border {
+    top: -50px;
+    background-position: 0 50%;
+    position: relative;
+}
+
+.user {
+    background-image: url(https://www.nicepng.com/png/detail/128-1280406_view-user-icon-png-user-circle-icon-png.png);
+    width: 40px;
+    height: 40px;
+}
+
+.glyphicon {
+    float: right;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    opacity: 0.3;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzQwLjggMzQwLjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM0MC44IDM0MC44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTE3MC40LDBDNzYuNCwwLDAsNzYuNCwwLDE3MC40czc2LjQsMTcwLjQsMTcwLjQsMTcwLjRzMTcwLjQtNzYuNCwxNzAuNC0xNzAuNFMyNjQuNCwwLDE3MC40LDB6IE0xNzAuNCwzMjMuNg0KCQkJYy04NC40LDAtMTUzLjItNjguOC0xNTMuMi0xNTMuMlM4NiwxNy4yLDE3MC40LDE3LjJTMzIzLjYsODYsMzIzLjYsMTcwLjRTMjU0LjgsMzIzLjYsMTcwLjQsMzIzLjZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik0xODIuNCwxNjkuNmw1MC01MGMzLjItMy4yLDMuMi04LjgsMC0xMmMtMy4yLTMuMi04LjgtMy4yLTEyLDBsLTUwLDUwbC01MC01MGMtMy4yLTMuMi04LjgtMy4yLTEyLDANCgkJCWMtMy4yLDMuMi0zLjIsOC44LDAsMTJsNTAsNTBsLTUwLDQ5LjZjLTMuMiwzLjItMy4yLDguOCwwLDEyYzEuNiwxLjYsNCwyLjQsNiwyLjRzNC40LTAuOCw2LTIuNGw1MC01MGw1MCw1MGMxLjYsMS42LDQsMi40LDYsMi40DQoJCQlzNC40LTAuOCw2LTIuNGMzLjItMy4yLDMuMi04LjgsMC0xMkwxODIuNCwxNjkuNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==);
+}
+
+.comment {
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: solid 1px #e9eaea;
+}
+
+.fas, .glyphicon {
+    width: 50px;
+    height: 50px
+}
+
+.btn-group {
+    padding-left: 10px
+}
+
+.nav-bb {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: right;
+    opacity: .72
+}
+
+@media (min-width: 768px) {
+    .feed-info-detail.book.read-list {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 0;
+    }
+}
+
+.philosophy-logo {
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    margin-top: 80px;
+    background-image: url(https://storylog.co/assets/3o1yFiR.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.philosophy-cover {
+    height: 400px;
+    background-image: url(https://storylog.co/assets/1eEL5x7.jpg);
+    background-position: 50% 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.feed {
+    margin-bottom: 50px;
+}
+
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+    overflow: hidden;
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed;
+}
+
+.feed-info-detail.term-content {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .book-read {
+        margin-top: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .feed-info-title.collection {
+        margin-top: 5px;
+    }
+
+    .feed-card {
+        margin-top: 20px;
+        border-style: none;
+    }
+
+    .philosophy-logo {
+        width: 50%;
+    }
+
+    .feed-card, .feed-info-detail.book {
+        margin-bottom: 20px;
+    }
+
+    .feed-highlight-badge-box {
+        display: none;
+    }
+
+    .philosophy-cover {
+        background-position: 50% 50%;
+        background-size: auto 100%;
+        background-attachment: scroll;
+    }
+
+    .w-container {
+        max-width: 728px
+    }
+
+    .feed-card, .feed-tool-create {
+        margin-bottom: 20px
+    }
+
+    .feed-cover {
+        background-position: 50% 100%;
+        background-size: cover;
+        background-attachment: scroll
+    }
+}
+
+.click {
+    margin-top: -50px;
+    margin-right: -17px;
+}
+
+.sizee {
+    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .banner-icon, .img-terms.mobile {
+        display: block;
+    }
+
+    .img-terms.destop {
+        display: none;
+    }
+
+    .feed-card {
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
+
+    .banner-box.tags, .notfound-bg {
+        background-size: auto 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .img-banner {
+        width: 50%
+    }
+
+    .notfound-bg {
+        background-size: auto 60%;
+    }
+
+    .banner-icon {
+        margin-top: 30px
+    }
+
+    .nav-search {
+        width: 40%
+    }
+
+    .banner-icon {
+        margin-top: 30px
+    }
+
+    constructed stylesheet .feed-profile {
+        width: 25%
+    }
+
+    .profile-user-image_user.book {
+        width: 100px
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+
+    .feed-card.highlight {
+        min-height: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+
+    .feed-badge-small.staffpick {
+        margin-right: 15px
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+
+    .feed-profile.hightlight {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 10px 10px 25px;
+        border-top: 1px solid #e9eaea
+    }
+
+    .feed-profile {
+        width: 25%
+    }
+
+    .feed-info.nobg.highlight {
+        width: 100%;
+        border-right: 1px none #000
+    }
+
+    .feed-info {
+        width: 100%
+    }
+
+    .feed-profile-img.highlight {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        float: left
+    }
+
+    .feed-info-username.highlight {
+        display: block;
+        margin-top: 0;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-info-role.highlight {
+        display: block;
+        margin-left: 10px;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-card.inheightlight {
+        margin-top: 0;
+        border-style: none
+    }
+}
+
+.light {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-share-bb_share {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+    background-color: #e9eaea;
+}
+
+.content-share-count.like {
+    font-size: 30px;
+    float: right;
+    color: #eea534;
+}
+
+.content-share-count {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #e9eaea;
+    font-size: 48px;
+    line-height: 45px;
+}
+
+.content-tags {
+    position: relative;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #2eb494;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.content-share-count, .content-tags {
+    display: inline-block;
+    float: left;
+    color: #2eb494;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.content-share-bb_share.recommend {
+    width: 40px;
+    float: right;
+    background-color: transparent;
+    background-image: url(https://storylog.co/assets/M9BE8zb.png);
+    background-position: 75% 50%;
+    background-size: 215px;
+    background-repeat: no-repeat;
+    border: transparent;
+    margin-right: 20px;
+}
+
+.paddingg {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.input-comment-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.content-comment-profile-img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-image: url(https://storylog.co/assets/23o_n-3.svg);
+    background-size: cover;
+}
+
+.content-comment-profile-img, .content-comment-tool_bb {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.content-comment-detail {
+    width: 88%;
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+}
+
+.content-comment-profile {
+    width: 11%;
+    margin-top: 7px;
+    float: left;
+}
+
+.content-comment-card.noborder {
+    padding-top: 0;
+    border-top-style: none;
+    border-top-width: 0;
+}
+
+.content-comment-card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #e9eaea;
+}
+
+@media (max-width: 767px) {
+    .feed-card.inheightlight {
+        background-color: #fff
+    }
+
+    .feed-info, .feed-info.nobg.highlight {
+        border-right-style: none
+    }
+
+    .feed-info {
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px
+    }
+
+    .feed-badge-small {
+        margin-top: 10px
+    }
+
+    /*.feed-badge-small.staffpick {*/
+    /*  margin-top: -20px*/
+    /*}*/
+    .img-banner {
+        width: 45%;
+        float: right
+    }
+
+    .img-banner, .social-link {
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .img-banner {
+        width: 50%
+    }
+
+    .banner-detail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .banner-detail, .setting-box {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+
+    .feed-info-role {
+        margin-left: 15px
+    }
+
+    .feed-info-role, .feed-info-username, .feed-profile-img {
+        line-height: 40px;
+        display: inline-block;
+        float: left
+    }
+
+    .feed-info-role, .feed-info-username, .feed-profile-img {
+        line-height: 40px;
+        display: inline-block;
+        float: left
+    }
+
+    .feed-info-username {
+        margin-top: 0;
+        margin-left: 10px
+    }
+
+    .feed-profile {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 10px 10px 25px;
+        border-top: 1px solid #e9eaea
+    }
+
+    .feed-info-detail.book.read-list {
+        margin-top: 20px
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+
+    .feed, .feed-card.collection-add-story {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+
+    .profile-user-image_user.book {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px
+    }
+
+    .feed-info-rl {
+        width: 100%;
+        float: left;
+        margin-bottom: 0px;
+        text-align: center;
+        padding: 0 5px 0
+    }
+
+    .popup-content {
+        margin-top: 30px
+    }
+
+    .popup-bg {
+        background-color: rgba(234, 235, 235, .95)
+    }
+
+    .popup-content.register, .popup-content.tips, .register-form {
+        width: 100%
+    }
+
+    .card-popup {
+        border-style: none
+    }
+
+    .popup-title {
+        padding-top: 15px
+    }
+
+    .button {
+        font-size: 20px
+    }
+
+    #searchBox {
+        display: none
+    }
+
+    .nav-space {
+        display: none
+    }
+
+    #icon-menu {
+        display: none
+    }
+
+    .content {
+        display: block;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        border: 1px solid #e9eaea;
+        background-color: #fff;
+    }
+
+    .content-comment-username, .content-profile-box, .input.setting, .nav, .tabs.search {
+        text-align: center
+    }
+
+    .content-footer, .nav {
+        height: 50px
+    }
+
+    .content-footer, .nav {
+        height: 50px
+    }
+
+    .nav-bb.mobile {
+        left: 0;
+        background-size: 31px;
+        opacity: 1
+    }
+
+    .nav-bb.mobile, .nav-bb.profile {
+        position: absolute;
+        top: 0;
+        display: block
+    }
+
+    .dropdown.dropdown-nav.nav-mobile.on {
+        margin-left: 0
+    }
+
+    .dropdown.dropdown-nav.nav-mobile {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        margin-top: 45px;
+        margin-left: -101%
+    }
+
+    .dropdown.dropdown-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 45px;
+        border-radius: 0
+    }
+
+    .dropdown.dropdown-nav {
+        margin-top: 95px
+    }
+
+    .logo {
+        display: inline-block;
+        margin-left: 0;
+        float: none
+    }
+
+    .nav-bb.profile {
+        right: 0
+    }
+
+    .content-comment-username, .content-profile-box, .input.setting, .nav, .tabs.search {
+        text-align: center
+    }
+}
+
+@media (max-width: 479px) {
+    .banner-detail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center
+    }
+
+    constructed stylesheet
+    .profile-cover {
+        height: 200px;
+        background-size: 560px 200px;
+    }
+
+    .banner-detail, .thangyou-box {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+
+    .img-banner {
+        position: absolute;
+        display: inline-block;
+        width: 80%;
+        max-height: 200px;
+        margin-right: 10%;
+        margin-left: 10%;
+        float: none
+    }
+
+    .banner-icon {
+        display: block;
+        width: 200px;
+        margin: 5px auto
+    }
+
+    .feed-info-role {
+        font-size: 18px;
+        line-height: 18px
+    }
+
+    .feed-info-role.highlight {
+        display: block;
+        margin-left: 65px;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-info-role, .feed-info-username {
+        float: none;
+        text-align: left;
+        display: block
+    }
+
+    .feed-info-detail.book.read-list {
+        margin-top: 10px
+    }
+
+    .feed-info-detail.book {
+        max-width: 85%
+    }
+
+    .feed, .profile-detail-content {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+
+    .profile-user-image_user.book {
+        width: 70px !important;
+        height: 70px !important;
+        margin-top: -40px !important;
+    }
+
+    .popup-title {
+        line-height: 40px
+    }
+
+    .button {
+        margin: 5px
+    }
+}
+
+.bar-pop {
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block
+}
+
+.banner.emo {
+    background-color: #eddbeb
+}
+
+.banner.exp {
+    height: 340px;
+    background-color: #ffeeda
+}
+
+.banner.inspire {
+    background-color: #e9f3db
+}
+
+.banner-detail.inspire {
+    color: rgba(53, 162, 123, .5)
+}
+
+.banner.know {
+    background-color: #efe2d9
+}
+
+.banner-detail.know {
+    color: rgba(94, 59, 25, .5)
+}
+
+.banner.idea {
+    background-color: #fcfcdd
+}
+
+.banner-detail.idea {
+    color: rgba(236, 133, 0, .5)
+}
+
+.profile-user-name {
+    margin-top: 10px;
+    color: #2eb494;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center
+}
+
+.logo {
+    width: 155px;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.text {
+    display: inline-block
+}
+
+.feed-info-profile {
+    width: 100%;
+    padding: 30px 35px 0;
+    float: left;
+    border-right: 1px solid #e9eaea;
+}
+
+.cc {
+    background-size: cover;
+}
+
+.popup-title {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    color: #eea534;
+    font-size: 30px;
+    line-height: 46px;
+    border-bottom: 1px solid #e9eaea
+}
+
+.tabs-text.login {
+    background-color: #fff
+}
+
+.tabs-text.collection, .tabs-text.first-no-border, .tabs-text.login, .tabs-text.no-border {
+    border-left-style: none
+}
+
+.tabs-text.login, .tabs-text.no-border {
+    border-left-width: 0
+}
+
+.bb, .bb-noshadow, .nav-bb, .tabs-text {
+    cursor: pointer
+}
+
+.tabs-text {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #636463;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    line-height: 15px
+}
+
+.feed-profile-img, .icon-follow, .tabs-text, .tool-create-title {
+    display: inline-block
+}
+
+.content-share-count, .profile-user-name, .tabs-text {
+    font-family: 'Mn paethai med v3', sans-serif
+}
+
+.tabs-line.login {
+    background-color: #e9eaea
+}
+
+.tabs-line {
+    height: 1px;
+    margin-top: -10px;
+    background-color: #dbdbdb
+}
+
+@media (max-width: 767px) {
+    .popup-content {
+        margin-top: 30px
+    }
+
+    .content {
+        margin-top: 40px;
+    }
+
+    .profile-cover {
+        height: 250px;
+        margin-top: 45px;
+        background-size: 1000px 250px;
+    }
+
+    .popup-bg {
+        background-color: rgba(234, 235, 235, .95)
+    }
+
+    .popup-content.register, .popup-content.tips, .register-form {
+        width: 100%
+    }
+
+    .card-popup {
+        border-style: none
+    }
+
+    .popup-title {
+        padding-top: 15px
+    }
+
+    .button {
+        font-size: 20px
+    }
+}
+
+.tabs-text {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 14px
+}
+
+@media (max-width: 479px) {
+    .popup-title {
+        line-height: 40px
+    }
+
+    .button {
+        margin: 5px
+    }
+}
+
+.card-popup {
+    max-width: 800px;
+    background-color: #fff;
+    color: #636463;
+    text-align: center
+}
+
+.card-popup.login {
+    max-width: 500px
+}
+
+.text {
+    display: inline-block
+}
+
+.w-form {
+    margin: 0 0 15px
+}
+
+.w-input {
+    height: auto
+}
+
+.input {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    font-size: 22px
+}
+
+.w-input, .w-select {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+button, hr, input, select {
+    overflow: visible;
+}
+
+.popup-footer {
+    margin-top: 20px;
+    padding: 25px;
+    border-top: 1px solid #e9eaea;
+    text-align: center;
+    background-color: #fff
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px 40px;
+    border: 1px solid #e9eaea;
+    border-radius: 5px;
+    color: #b4b5b4;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px
+}
+
+.button.green {
+    border-color: #2eb494;
+    color: #2eb494
+}
+
+.green, .report-list.select, .search-result, .terms-title, .upload-img-content.green {
+    color: #2eb494
+}
+
+button, select {
+    text-transform: none
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0
+}
+
+a, button {
+    background-color: transparent
+}
+
+button, hr, input, select {
+    overflow: visible
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+.facebook-login-button {
+    padding: 8px 25px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    background: #4267b2
+}
+
+.facebook-login-button-icon {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -4px
+}
+
+.facebook-login, .facebook-login-button {
+    border-radius: 4px;
+    display: inline-block
+}
+
+.feed-card.highlight {
+    min-height: 300px;
+    padding: 40px 40px 0px;
+}
+
+.img-bg {
+    background-position: center;
+    background-size: cover
+}
+
+.action-create, .bb, .bb-noshadow, .dropdown, .nav, .nav *, button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0
+}
+
+.banner, .dropdown, .dropdown.create-select-book, .feed-card, .feed-cover.bg, .philosophy-cover, .section-content {
+    transform: translate3d(0, 0, 0);
+    transform: translateZ(0)
+}
+
+.feed-collection.terms.center {
+    text-align: center;
+}
+
+.feed-collection.terms {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#createContent, .content-detail-text, .terms {
+    white-space: pre-line;
+}
+
+.feed-card.inheightlight {
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, .98)
+}
+
+.fadeIn {
+    animation-name: fadeIn
+}
+
+.animated {
+    animation-duration: .3s;
+    animation-fill-mode: both;
+    transform: translate3d(0, 0, 0)
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+img {
+    border-style: none
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+img[AttributesStyle] {
+    width: 100%
+}
+
+.feed-info {
+    width: 80%;
+    padding: 30px 35px 0;
+    float: left;
+    border-right: 1px solid #e9eaea
+}
+
+.feed-profile {
+    width: 20%;
+    margin-top: 35px;
+    float: left;
+    text-align: center
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+.w-checkbox:after, .w-clearfix:after, .w-container:after, .w-embed:after, .w-nav:after, .w-radio:after, .w-row:after, .w-slider, .w-tabs:after {
+    clear: both
+}
+
+.feed-profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #e9eaea
+}
+
+.feed-profile-img, .icon-follow, .tabs-text, .tool-create-title {
+    display: inline-block
+}
+
+a {
+    text-decoration: none;
+    color: #8a8b8a !important
+}
+
+.feed-info-username {
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #2eb494;
+    font-size: 18px;
+    line-height: 27px
+}
+
+.feed-info-role {
+    color: #8a8b8a;
+    line-height: 20px
+}
+
+#searchInput, .content-detail-text, .feed-info-title {
+    word-wrap: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+#createContent hr, .content-detail-text hr, .terms hr {
+    height: 1px;
+    width: 15%;
+    background-color: #C7C9CB;
+    border: 0;
+    margin: 40px auto;
+}
+
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+    overflow: hidden
+}
+
+.feed-info-detail {
+    min-height: 70px;
+    color: dimgrey;
+    font-size: 16px;
+    line-height: 32px
+}
+
+.feed-info-point {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #8a8b8a;
+    font-size: 14px
+}
+
+a {
+    color: #00e
+}
+
+.text.orange {
+    color: #eea534
+}
+
+@media (max-width: 991px) {
+    .feed-badge-small.staffpick {
+        margin-right: 15px
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+
+    .feed-profile.hightlight {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 10px 10px 25px;
+        border-top: 1px solid #e9eaea
+    }
+
+    .feed-profile {
+        width: 25%
+    }
+
+    .feed-info.nobg.highlight {
+        width: 100%;
+        border-right: 1px none #000
+    }
+
+    .feed-info {
+        width: 75%
+    }
+
+    .feed-profile-img.highlight {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        float: left
+    }
+
+    .feed-info-username.highlight {
+        display: block;
+        margin-top: 0;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-info-role.highlight {
+        display: block;
+        margin-left: 10px;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-card.inheightlight {
+        margin-top: 0;
+        border-style: none
+    }
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+.w-clearfix:after, .w-clearfix:before {
+    content: " ";
+    display: table
+}
+
+@media (max-width: 767px) {
+    .feed-card.inheightlight {
+        background-color: #fff
+    }
+
+    .feed-info, .feed-info.nobg.highlight {
+        border-right-style: none
+    }
+
+    .feed-info {
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px
+    }
+}
+
+.feed-info.nobg, .feed-info.nobg.highlight {
+    background-image: none
+}
+
+#feed {
+    min-height: 500px;
+    width: 100%
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+.feed-badge-small.staffpick {
+    background-position: 0 50%
+}
+
+.feed-badge-small {
+    width: 26px;
+    height: 40px;
+    margin-top: -30px;
+    float: right;
+    background-position: 100% 50%
+}
+
+.feed-badge-small, .feed-collection-head-img, .icon-create {
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.style-img {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover
+}
+
+.profile-user-image_user.book.readList {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.feed-info.nobg.highlight.full.book {
+    padding: 0 20px 20px;
+    text-align: center
+}
+
+.feed-info.full {
+    width: 100%;
+    border-right-style: none;
+}
+
+.img-feed-highlight.book {
+    display: block;
+    opacity: 1
+}
+
+.feed-info-title {
+    color: #000
+}
+
+#searchInput, .content-detail-text, .feed-info-title {
+    word-wrap: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.feed-info-detail.book.read-list {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+#createBookTool, #searchInput, .feed-info-detail, svg:not(:root) {
+    overflow: hidden
+}
+
+.feed-info-detail {
+    min-height: 70px;
+    color: #636463;
+    font-size: 16px;
+    line-height: 32px
+}
+
+@media (min-width: 768px) {
+    .feed-info-detail.book.read-list {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 0;
+    }
+}
+
+.feed-info-rl {
+    width: 95%;
+    padding: 0px 100px 0;
+    margin: 0px 20px 20px;
+    margin-bottom: 0px;
+    float: left;
+    text-align: center
+}
+
+.feed-type.book {
+    height: 30px
+}
+
+.profile-category.tabfeed {
+    margin-bottom: 20px;
+    border-right: 1px solid #e9eaea;
+    border-bottom: 1px solid #e9eaea;
+    border-left: 1px solid #e9eaea
+}
+
+.profile-category {
+    width: 100%;
+    float: left
+}
+
+.feed-card.tool-create, quote {
+    width: 100%
+}
+
+.feed-card.tool-create {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.tool-create-title {
+    margin-right: auto;
+    margin-left: auto;
+    color: #eea534;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bold
+}
+
+.icon-create {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: -6px;
+    background-image: url(https://storylog.co/assets/1LywG92.svg)
+}
+
+.feed-collection-head-title, .icon-create {
+    display: inline-block
+}
+
+.feed-collection {
+    width: 50%;
+    padding: 25px 40px;
+    float: left;
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feed-card {
+        margin-top: 25px;
+        margin-bottom: 25px
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .feed-card, .feed-tool-create {
+        margin-bottom: 20px
+    }
+}
+
+.feed-cover.bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url(https://storylog.co/assets/1UHhBMl.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+@media screen and (max-width: 991px) {
+    .feed-cover {
+        background-position: 50% 100%;
+        background-size: cover;
+        background-attachment: scroll
+    }
+}
+
+@media (max-width: 479px) {
+    .feed, .profile-detail-content {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+}
+
+@media (max-width: 767px) {
+    .feed, .feed-card.collection-add-story {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+}
+
+.piv {
+    background-position: center;
+    background-size: cover
+}
+
+.section-content {
+    position: relative;
+    background-color: #f5f5f5
+}
+
+.bt1 {
+    border-color: transparent
+}
+
+#feed {
+    min-height: 500px;
+    width: 100%
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+@media (max-width: 991px) {
+    .img-feed-highlight.book.book-feed {
+        opacity: 1 !important;
+    }
+}
+
+.img-feed-highlight.book.book-feed {
+    opacity: 0
+}
+
+@media (max-width: 991px) {
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+
+    .feed-card.highlight {
+        min-height: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+.sixxsize {
+    width: 100%;
+}
+
+.img-feed-highlight.book {
+    display: block;
+    opacity: 1
+}
+
+@media (max-width: 767px) {
+    .img-feed-highlight {
+        display: block
+    }
+
+    .img-feed-highlight {
+        display: block
+    }
+}
+
+@media (max-width: 991px) {
+    .img-feed-highlight {
+        display: block
+    }
+
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+
+    .img-feed-highlight.book {
+        display: block;
+        width: 100%;
+        max-height: 250px
+    }
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+#feed, .info-story-for-you, audio, canvas, progress, video {
+    display: inline-block
+}
+
+.feed-type {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 0;
+    float: left
+}
+
+@media (max-width: 479px) {
+    .feed-info-detail.book.read-list {
+        margin-top: 10px
+    }
+
+    .feed-info-detail.book {
+        max-width: 85%
+    }
+}
+
+@media (max-width: 767px) {
+    .feed-info-detail.book.read-list {
+        margin-top: 20px
+    }
+}
+
+.position-img {
+    background-position: center center;
+    background-size: cover
+}
+
+@media (max-width: 767px) {
+    .feed-profile {
+        width: 100%;
+        margin-top: 0;
+        padding: 10px 10px 10px 25px;
+        border-top: 1px solid #e9eaea
+    }
+}
+
+@media (max-width: 991px) {
+    constructed stylesheet .feed-profile {
+        width: 25%
+    }
+}
+
+.feed-profile {
+    width: 20%;
+    margin-top: 35px;
+    float: left;
+    text-align: center
+}
+
+@media (max-width: 767px) {
+    .feed-info-username {
+        margin-top: 0;
+        margin-left: 10px
+    }
+}
+
+@media (max-width: 767px) {
+    .feed-info-role, .feed-info-username, .feed-profile-img {
+        line-height: 40px;
+        display: inline-block;
+        float: left
+    }
+}
+
+@media (max-width: 479px) {
+    .feed-info-role {
+        font-size: 18px;
+        line-height: 18px
+    }
+
+    .feed-info-role.highlight {
+        display: block;
+        margin-left: 65px;
+        float: left;
+        line-height: 40px
+    }
+
+    .feed-info-role, .feed-info-username {
+        float: none;
+        text-align: left;
+        display: block
+    }
+}
+
+@media (max-width: 767px) {
+    .feed-info-role {
+        margin-left: 15px
+    }
+
+    .feed-info-role, .feed-info-username, .feed-profile-img {
+        line-height: 40px;
+        display: inline-block;
+        float: left
+    }
+}
+
+.banner.short {
+    background-color: #dee1f2
+}
+
+.banner {
+    height: 340px
+}
+
+.banner, .tips-line {
+    background-color: #e9eaea
+}
+
+.banner-box {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 90px
+}
+
+.nav, .popup, .popup-bg {
+    z-index: 9;
+    left: 0;
+}
+
+.button.notfound-read-other {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    background-color: #2eb494;
+    font-family: 'Mn paethai v3', sans-serif;
+    color: #fff;
+}
+
+.notfound-content {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #8a8b8a;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 38px;
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px
+    }
+}
+
+.banner-detail.short {
+    color: rgba(44, 61, 114, .5)
+}
+
+@media (max-width: 991px) {
+    .banner-icon {
+        margin-top: 30px
+    }
+}
+
+.banner-icon {
+    width: 230px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    float: left
+}
+
+.banner-icon {
+    width: 230px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    float: left
+}
+
+.banner-detail.short {
+    color: rgba(44, 61, 114, .5)
+}
+
+.banner-detail {
+    width: 50%;
+    float: left;
+    color: #dd5416;
+    font-size: 24px;
+    line-height: 32px
+}
+
+.img-banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    float: right
+}
+
+.w-checkbox:after, .w-clearfix:after, .w-container:after, .w-embed:after, .w-nav:after, .w-radio:after, .w-row:after, .w-slider, .w-tabs:after {
+    clear: both
+}
+
+banner-box {
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    padding-top: 90px
+}
+
+.nav {
+    transition: all .3s
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%
+}
+
+.nav, .popup, .popup-bg {
+    z-index: 9;
+    left: 0
+}
+
+.bg-nav {
+    padding-bottom: 7px
+}
+
+.bg-nav {
+    background-color: #2eb494
+}
+
+.nav-space {
+    height: 30px
+}
+
+a {
+    text-decoration: none;
+    color: #8a8b8a !important
+}
+
+a, button {
+    background-color: transparent
+}
+
+a {
+    color: #00e
+}
+
+.nav-search {
+    transition: all .2s
+}
+
+.nav-search {
+    position: relative;
+    width: 55%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    float: left;
+    border-radius: 5px;
+    background-color: #298f72;
+    opacity: .5;
+    transition: all .5s ease;
+    color: #fff;
+    line-height: 35px;
+    text-align: center
+}
+
+.logo {
+    width: 155px;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+    background-image: url(https://storylog.co/assets/2G7zO-D.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.nav-bb.home {
+    background-image: url(https://storylog.co/assets/1zJuGfQ.svg)
+}
+
+.nav-bb.explore {
+    background-image: url(https://storylog.co/assets/1spRBss.svg)
+}
+
+.nav-bb.philo {
+    background-image: url(https://storylog.co/assets/3TW1L0H.svg);
+    background-size: auto 28px
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+@media (max-width: 991px) {
+    .img-banner {
+        width: 50%
+    }
+
+    .banner-icon {
+        margin-top: 30px
+    }
+
+    .nav-search {
+        width: 40%
+    }
+}
+
+@media (max-width: 767px) {
+    .img-banner {
+        width: 45%;
+        float: right
+    }
+
+    .img-banner, .social-link {
+        display: block;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .img-banner {
+        width: 50%
+    }
+
+    .banner-detail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .banner-detail, .setting-box {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+}
+
+@media (max-width: 479px) {
+    .banner-detail {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center
+    }
+
+    .banner-detail, .thangyou-box {
+        padding-right: 20px;
+        padding-left: 20px
+    }
+
+    .img-banner {
+        position: absolute;
+        display: inline-block;
+        width: 80%;
+        max-height: 200px;
+        margin-right: 10%;
+        margin-left: 10%;
+        float: none
+    }
+
+    .banner-icon {
+        display: block;
+        width: 200px;
+        margin: 5px auto
+    }
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block
+}
+
+.nav-search-bb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-image: url(https://storylog.co/assets/3dCbNsc.svg)
+}
+
+.nav-bb.explore.active, .nav-bb.home.active {
+    opacity: 1
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+.nav-bb.profile {
+    background-image: url(https://storylog.co/assets/l2JViXV.svg)
+}
+
+.fas, .glyphicon {
+    width: 50px;
+    height: 50px
+}
+
+.btn-group {
+    padding-left: 10px
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px
+    }
+}
+
+.nav-bb {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: right;
+    opacity: .72
+}
+
+@media (max-width: 767px) {
+    #searchBox {
+        display: none
+    }
+
+    .nav-space {
+        display: none
+    }
+
+    #icon-menu {
+        display: none
+    }
+
+    .nav-bb.mobile {
+        left: 0;
+        background-size: 31px;
+        opacity: 1
+    }
+
+    .nav-bb.mobile, .nav-bb.profile {
+        position: absolute;
+        top: 0;
+        display: block
+    }
+
+    .dropdown.dropdown-nav.nav-mobile.on {
+        margin-left: 0
+    }
+
+    .dropdown.dropdown-nav.nav-mobile {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        margin-top: 45px;
+        margin-left: -101%
+    }
+
+    .dropdown.dropdown-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 45px;
+        border-radius: 0
+    }
+
+    .dropdown.dropdown-nav {
+        margin-top: 95px
+    }
+
+    .logo {
+        display: inline-block;
+        margin-left: 0;
+        float: none
+    }
+
+    .nav-bb.profile {
+        right: 0
+    }
+
+    .content-comment-username, .content-profile-box, .input.setting, .nav, .tabs.search {
+        text-align: center
+    }
+}
+
+.profile-cover {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-position: 50% 50%;
+}
+
+.creadit-box {
+    display: inline-block;
+    margin-bottom: -6px;
+}
+
+.profile-user-image_user {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #8a8b8a
+}
+
+.profile-detail {
+    margin-bottom: 10px;
+    border: 1px solid #e9eaea;
+    background-color: #fff
+}
+
+.profile-detail-content {
+    padding: 30px 200px 40px;
+    color: #8a8b8a;
+    text-align: center
+}
+
+@media screen and (max-width: 991px) {
+    .content-comment, .content-title-category, .profile-detail-content {
+        padding-right: 50px;
+        padding-left: 50px
+    }
+
+    .profile-cover {
+        height: 300px;
+        background-size: 1300px 300px;
+
+    }
+}
+
+.profile-user {
+    position: relative;
+    margin-top: -58px
+}
+
+.button.follow, .button.message {
+    width: 160px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.button.follow {
+    padding-right: 35px;
+    padding-left: 25px;
+    border-color: #2eb494;
+    border-radius: 5px;
+    color: #2eb494
+}
+
+.button.message {
+    padding-right: 25px;
+    padding-left: 25px;
+    border-color: #b4b5b4
+}
+
+.button.follow, .button.message {
+    width: 160px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px 40px;
+    border: 1px solid #e9eaea;
+    border-radius: 5px;
+    color: #b4b5b4;
+    text-align: center;
+    text-decoration: none
+}
+
+.border {
+    border: none !important;
+}
+
+.profile-user-name {
+    margin-top: 10px;
+    color: #2eb494;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center
+}
+
+.profile-user-role {
+    margin-top: 5px;
+    color: #8a8b8a;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center
+}
+
+.w-checkbox:after, .w-clearfix:after, .w-container:after, .w-embed:after, .w-nav:after, .w-radio:after, .w-row:after, .w-slider, .w-tabs:after {
+    clear: both
+}
+
+.icon-message {
+    width: 30px;
+    margin-right: 2px;
+    float: left;
+    background-image: url(https://storylog.co/assets/1KPKjyB.svg);
+    background-position: 66% 50%;
+    background-size: auto 35px
+}
+
+.icon-follow, .icon-message {
+    height: 20px;
+    margin-top: 3px;
+    background-repeat: no-repeat
+}
+
+.icon-creadit {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-image: url(https://storylog.co/assets/3CsAU6i.svg);
+    background-position: 1px 50%;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    opacity: .5;
+}
+
+.icon-follow {
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    background-image: url(https://storylog.co/assets/1yumfhd.svg);
+    background-position: -5px 50%;
+    background-size: auto 30px
+}
+
+.icon-creadit.non-com {
+    background-position: -25px 50%;
+}
+
+.icon-creadit {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-image: url(https://storylog.co/assets/3CsAU6i.svg);
+    background-position: 1px 50%;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    opacity: .5;
+}
+
+.button.follow {
+    padding-right: 35px;
+    padding-left: 25px;
+    border-color: #2eb494;
+    border-radius: 5px;
+    color: #2eb494;
+}
+
+.content-profile-img-box.follow {
+    width: 25%;
+    padding-top: 30px;
+}
+
+.input-comment-bb {
+    padding: 0 !important;
+}
+
+#createContent, #createTitle, .input-box, .input-comment-bb, .input-comment-text, .inputEditTable, :focus {
+    outline: 0;
+}
+
+.input-comment-bb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    border: 1px solid #e9eaea;
+    border-radius: 50%;
+    background-image: url(https://storylog.co/assets/1Gp1AK5.svg);
+    transition: background-color .5s ease;
+}
+
+.content-profile-img-box {
+    width: 20%;
+    float: left;
+}
+
+.input-comment {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
+    margin-top: 10px;
+    padding: 0 55px 0 0;
+    border: 1px solid #e9eaea;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+}
+
+.button.follow, .button.message {
+    width: 160px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-follow, .icon-message {
+    height: 20px;
+    margin-top: 3px;
+    background-repeat: no-repeat
+}
+
+.profile-analytic {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-analytic-point {
+    display: inline-block;
+    padding: 5px 10px
+}
+
+.profile-analytic-point_point {
+    display: block;
+    color: #2eb494;
+    font-size: 20px
+}
+
+.feed-info-detail, .text {
+    word-break: break-word;
+    text-rendering: optimizeSpeed
+}
+
+.text {
+    display: inline-block;
+}
+
+.profile-analytic-point.center {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid #e9eaea;
+    border-left: 1px solid #e9eaea
+}
+
+.text.profile-text {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.notfound-bg.bg {
+    background-image: url(https://storylog.co/assets/3qGzRCw.jpg);
+    background-position: 0 0;
+    background-size: 50px;
+    background-repeat: repeat;
+}
+
+.notfound-bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://storylog.co/assets/6rqh3TE.png);
+    background-position: 50% 100%;
+    background-size: auto 45%;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.readListtitle {
+    display: block;
+    font-size: 24px;
+    padding-top: 10px;
+    color: #2eb494;
+    line-height: 40px;
+}
+
+.readListpoint {
+    padding-bottom: 20px;
+    color: #8a8b8a;
+    font-size: 14px;
+}
+
+.readlist-detail.book {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 32px;
+    max-width: 70%;
+    min-width: auto;
+    margin-top: -10px;
+}
+
+.text-share-book {
+    padding-bottom: 10px;
+}
+
+.icon-facebook.gray.mini, .icon-twitter.gray.mini {
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
+
+.icon-facebook.gray {
+    background-image: url(https://storylog.co/assets/sjfRABc.svg);
+}
+
+.icon-twitter.gray {
+    display: inline-block;
+
+    background-image: url(https://storylog.co/assets/BM2i3M1.svg);
+}
+
+.icon-facebook, .icon-loading, .icon-twitter {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.icon-facebook, .icon-facebook.gray, .icon-loading, .icon-twitter, .icon-twitter.gray {
+    background-size: cover;
+}
+
+.icon-facebook {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(https://storylog.co/assets/3R709fX.svg);
+}
+
+@media (max-width: 991px) {
+    .book-bg {
+        margin-top: 0;
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.profile-user-image_user.book {
+    width: 100px;
+    height: 100px;
+    margin-top: -60px
+}
+
+.nav-bb.mobile {
+    display: none;
+    background-image: url(https://storylog.co/assets/1NJYykv.svg);
+}
+
+@media (max-width: 767px) {
+    .nav-bb.mobile {
+        left: 0;
+        background-size: 31px;
+        opacity: 1;
+        border: none;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-bb.mobile, .nav-bb.profile {
+        position: absolute;
+        top: 0;
+        display: block;
+    }
+}
