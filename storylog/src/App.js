@@ -13,12 +13,12 @@ function App() {
                     <Route path="/readlist" exact component={() => <ReadList />} />
                     <Route path="/ProfileBorder" exact component={() => <ProfileBorder />} />
                     <Route path="/about/:id" component={About}/>
+                    <Route path="/readlist/:id" component={InsideReadlist}/>
                     <Route path="/ClickBorder" exact component={() => <ClickBorder />} />
                     <Route path="/contact" exact component={() => <Contact />} />
                     <Route path="/login" exact component={() => <Login />} />
                     <Route path="/CreativeCommons" exact component={() => <CreativeCommons />} />
                     <Route path="/Philosophy" exact component={() => <Philosophy />} />
-                    <Route path="/InsideReadlist" exact component={() => <InsideReadlist />} />
                     <Route path="/UserAgreement" exact component={() => <UserAgreement />} />
                     <Route path="/StaffPickBorder" exact component={() => <StaffPickBorder />} />
                     <Route path="/ReadListBorder" exact component={() => <ReadListBorder />} />

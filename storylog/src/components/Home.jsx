@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
 import moment from 'moment'
+import Latestpopularboarder from "./Latestpopularboarder";
 
 class Home extends React.Component {
     state = {

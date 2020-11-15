@@ -2,7 +2,7 @@ import React from "react";
 function ReadListBorder(props) {
     return (
         <React.Fragment>
-        <a className="" href="#/insideReadlist">
+        <a className="" href={"#/readlist/" + props.title}>
             <div className="feed-card highlight book animated fadeIn img-bg th-font2"
                  style={{ backgroundImage: "url(" + props.bg + ")"}}>
                 <img className="img-feed-highlight book book-feed" alt={"WTF"} src={process.env.PUBLIC_URL + props.bg} width="50%"></img>

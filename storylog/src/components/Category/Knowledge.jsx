@@ -6,7 +6,7 @@ import moment from "moment";
 
 function body() {
     let rows = [];
-    const getdata = data.map(data => {
+    data.map(data => {
         let props = {
             id:data.id,
             banner: data.banner,
@@ -24,7 +24,6 @@ function body() {
             return rows.push(<Latestpopularboarder key={data.recommended} {...props}/>);
         }
     })
-    console.log(rows)
     return rows;
 }
 

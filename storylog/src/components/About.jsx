@@ -3,8 +3,6 @@ import Navigation from "./Navigation";
 import Notfound from "./Notfound";
 import data from "./profile.json";
 
-import moment from "moment";
-import ProfileBorder from "./ProfileBorder";
 class About extends React.Component {
   constructor(props) {
     super(props);

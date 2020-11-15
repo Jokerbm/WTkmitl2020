@@ -8,6 +8,8 @@ function body() {
     let rows = [];
     const getdata = data.map(data => {
         let props = {
+            tag: data.tag,
+            paragraph: data.paragraph,
             banner: data.banner,
             subject: data.subject,
             intro: data.intro,
