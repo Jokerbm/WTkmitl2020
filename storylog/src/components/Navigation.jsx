@@ -57,7 +57,7 @@ function Navigation(props) {
                         <div className="register-form center">
                             <button className="facebook-login-button mb-3">
                                 <img className="facebook-login-button-icon" width="24" height="24"
-                                     src={process.env.PUBLIC_URL + 'img/facebook.png'} alt="test">
+                                     src={process.env.PUBLIC_URL + '/img/facebook.png'} alt="test">
                                 </img><span className="th-font2"> Login with Facebook</span>
                             </button>
                             <div className="text th-font2">เราใช้การล็อคอินผ่าน
