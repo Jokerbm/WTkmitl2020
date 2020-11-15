@@ -970,11 +970,12 @@ a,button {
 }
 .tabs-text.clickborder{
   background-color: #fff;
-  height: 25px;   (แก้แค่บรรทัดนี้บรรทัดเดียว)
-border: none;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 17px;
+  height: 25px;
+  border: none;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 26px;
 }
 .left.content-share-bb_text.bookmark {
   width: 90px;

@@ -78,18 +78,18 @@ function StaffPickBorder(props) {
                                     <div className="register-form-click center all">
                                         <div className="tabs">
                                             <div className="feed-badge-small staffpick border"></div>
-                                            <div className="tabs-text clickborder th-font2 title-click">{props.subject}</div>
+                                            <div className="th-font2 tabs-text clickborder title-click"><b>{props.subject}</b></div>
                                             <div className="tabs-line login"></div>
                                         </div>
                                         <div className="text line th-font2 blog">{props.paragraph}
                                             <br></br><br></br>
                                         </div>
-                                        <div className="content-tags"><span>#</span><span>{props.tag[0]}</span></div>
+                                        <div className="content-tags th-font2"><span></span><span>{props.tag[0]}</span></div>
                                         <button className="content-share-bb_share recommend"></button>
                                         <div className="content-share-count like" style={{cursor:"pointer"}}>{props.recommended}
                                         </div>
                                     </div>
-                                    <div className="popup-footer">
+                                    <div className="popup-footer th-font2">
                                         <span>Published </span><span>October 26, 2020</span><span>&nbsp; | &nbsp;</span>
                                         <div className="creadit-box"><a
                                             href="#/CreativeCommons" target="_blank">
