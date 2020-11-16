@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 
 import {withRouter} from "react-router-dom";
+import moment from "moment";
 
 function Latestpopularboarder(props) {
     const [show, setShow] = useState(false);
@@ -24,7 +25,7 @@ function Latestpopularboarder(props) {
                     <div className="feed-info-detail">{props.intro}
                     </div>
                     <div className="w-clearfix feed-info-point">
-                        <div className="text"><span>{props.time}</span><span>&nbsp;&nbsp;</span></div>
+                        <div className="text"><span>{moment(props.time, 'YYYY-MM-DD HH:mm:ss').fromNow()}</span><span>&nbsp;&nbsp;</span></div>
                         <span><span>|&nbsp;&nbsp;</span><div
                             className="text orange"><span>{props.recommended}</span><span>&nbsp;</span></div>
                         <div className="text">recommended</div></span>
@@ -130,13 +131,13 @@ function Latestpopularboarder(props) {
 
                     <div id="actionBar">
                         <div>
-                            <div className="w-clearfix content-footer animated fadeIn">
-                                <a className="" href={"#/about/" + props.name}>
-                                    <div className="content-share-profile_icon sizee"
+                            <div className="w-clearfix content-footer animated fadeIn th-font2">
+                                <a className="th-font2" href={"#/about/" + props.name}>
+                                    <div className="content-share-profile_icon sizee th-font2"
                                          style={{backgroundImage: "url(" + props.image_profile + ")"}}></div>
-                                    <div className="content-share-text text green">{props.name}
+                                    <div className="content-share-text text green th-font2">{props.name}
                                     </div>
-                                    <div className="content-share-text">
+                                    <div className="content-share-text th-font2">
                                         <span>&nbsp;&nbsp;</span><span>{props.nickname}</span></div>
                                 </a>
                                 <div className="bb bb-edit-content"></div>

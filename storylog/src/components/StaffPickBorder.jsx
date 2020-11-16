@@ -16,7 +16,7 @@ function StaffPickBorder(props) {
                 <div className="feed-highlight-badge-box"></div>
                 <div className="w-clearfix feed-card inheightlight animated fadeIn staffpick">
                     <img alt={"feefhighlight"} className="img-feed-highlight"
-                         src={process.env.PUBLIC_URL + "https://s3-ap-southeast-1.amazonaws.com/media.storylog/storycontent/5f96d442c8def3723ca3d2d7/16037223386081275010.jpg"}
+                         src={props.banner}
                          width="100%"/>
 
                     <div className="feed-info nobg highlight" onClick={handleShow}>
@@ -151,13 +151,13 @@ function StaffPickBorder(props) {
 
                     <div id="actionBar">
                         <div>
-                            <div className="w-clearfix content-footer animated fadeIn">
-                                <a className="" href={"#/about/" + props.name}>
+                            <div className="w-clearfix content-footer animated fadeIn th-font2">
+                                <a className="th-font2" href={"#/about/" + props.name}>
                                     <div className="content-share-profile_icon sizee"
                                          style={{backgroundImage: "url(" + props.image_profile + ")"}}></div>
-                                    <div className="content-share-text text green">{props.name}
+                                    <div className="content-share-text text green th-font2">{props.name}
                                     </div>
-                                    <div className="content-share-text">
+                                    <div className="content-share-text th-font2">
                                         <span>&nbsp;&nbsp;</span><span>{props.nickname}</span></div>
                                 </a>
                                 <div className="bb bb-edit-content"></div>

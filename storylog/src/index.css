@@ -1379,19 +1379,7 @@ banner-box {
     .img-feed-highlight.book {
         display: block;
         width: 100%;
-        max-height: 250px
-    }
-
-    .img-feed-highlight.book {
-        display: block;
-        width: 100%;
-        max-height: 250px
-    }
-
-    .img-feed-highlight.book {
-        display: block;
-        width: 100%;
-        max-height: 250px
+        max-height: 300px
     }
 
     .feed-card.highlight {
@@ -1430,7 +1418,7 @@ banner-box {
     }
 
     .feed-info {
-        width: 100%
+        width: 100% !important;
     }
 
     .feed-profile-img.highlight {
@@ -2082,10 +2070,6 @@ button, input, select, textarea {
         border-right: 1px none #000
     }
 
-    .feed-info {
-        width: 75%
-    }
-
     .feed-profile-img.highlight {
         width: 40px;
         height: 40px;
@@ -2333,12 +2317,6 @@ button, input, select, textarea {
 }
 
 @media (max-width: 991px) {
-    .img-feed-highlight.book {
-        display: block;
-        width: 100%;
-        max-height: 250px
-    }
-
     .feed-card.highlight {
         min-height: 0;
         padding-top: 0;
@@ -2355,27 +2333,11 @@ button, input, select, textarea {
     .img-feed-highlight {
         display: block
     }
-
-    .img-feed-highlight {
-        display: block
-    }
 }
 
 @media (max-width: 991px) {
     .img-feed-highlight {
         display: block
-    }
-
-    .img-feed-highlight.book {
-        display: block;
-        width: 100%;
-        max-height: 250px
-    }
-
-    .img-feed-highlight.book {
-        display: block;
-        width: 100%;
-        max-height: 250px
     }
 }
 
