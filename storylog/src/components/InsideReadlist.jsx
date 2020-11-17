@@ -29,6 +29,7 @@ class InsideReadlist extends React.Component {
     }
 
     componentDidMount() {
+        window.scrollTo(0, 0);
         data.map(data => {
             let author = {
                 title: data.title,

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 
 import {withRouter} from "react-router-dom";
-import moment from "moment";
+
 
 function Latestpopularboarder(props) {
     const [show, setShow] = useState(false);
@@ -25,7 +25,7 @@ function Latestpopularboarder(props) {
                     <div className="feed-info-detail">{props.intro}
                     </div>
                     <div className="w-clearfix feed-info-point">
-                        <div className="text"><span>{moment(props.time, 'YYYY-MM-DD HH:mm:ss').fromNow()}</span><span>&nbsp;&nbsp;</span></div>
+                        <div className="text"><span>{props.time}</span><span>&nbsp;&nbsp;</span></div>
                         <span><span>|&nbsp;&nbsp;</span><div
                             className="text orange"><span>{props.recommended}</span><span>&nbsp;</span></div>
                         <div className="text">recommended</div></span>
