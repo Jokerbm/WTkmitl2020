@@ -28,12 +28,6 @@ function Login() {
                                 <div className="tabs-text login th-font2">OR</div>
                                 <div className="tabs-line login"></div>
                             </div>
-                            <div className="w-form">
-                                <input className="w-input input th-font2 mb-4" id="input_username_login" type="text"
-                                       placeholder="Penname (Username)"></input>
-                                <input className="w-input input th-font2" id="input_password_login" type="password"
-                                       placeholder="Password"></input>
-                            </div>
                         </div>
                         <div className="popup-footer">
                             <button className="button" data-dismiss="modal">Cancel</button>

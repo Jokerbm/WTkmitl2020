@@ -43,12 +43,15 @@ public class UserController {
 
     @PostMapping("/addUser")
     public ResponseEntity<UserModel> addStory(@RequestBody UserModel user) {
-
-        usersModel = usersRepository.save(user);
-        log.info("Saved quote="+usersModel.toString());
-        if (usersModel != null)
+        usersModelList = usersRepository.findByemail(user.getEmail());
+        if (!usersModelList.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
+        if (usersModel != null){
+            usersModel = usersRepository.save(user);
+            log.info("Saved quote="+usersModel.toString());
             return ResponseEntity.status(HttpStatus.CREATED).body(usersModel);
-
+        }
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
 
     }

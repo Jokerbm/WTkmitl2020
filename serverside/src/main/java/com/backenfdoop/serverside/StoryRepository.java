@@ -12,9 +12,7 @@ public interface StoryRepository extends MongoRepository<StoryModel,String> {
 
     List<StoryModel> findByauthorID(String authorID);
 
-//
-//    List<StoryModel> findByAuthor(String author);
-//
+    List<StoryModel> findBysubject(String subject);
 //    List<StoryModel> findByQuoteContainsAllIgnoreCase(String author);
 
 }

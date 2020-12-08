@@ -58,21 +58,10 @@ function Navigation(props) {
                             <button className="facebook-login-button mb-3">
                                 <img className="facebook-login-button-icon" width="24" height="24"
                                      src={process.env.PUBLIC_URL + '/img/facebook.png'} alt="test">
-                                </img><span className="th-font2"> Login with Facebook</span>
+                                </img><span className="th-font2">DOWNLOAD</span>
                             </button>
-                            <div className="text th-font2">เราใช้การล็อคอินผ่าน
-                                Facebook เพราะเราให้ความสำคัญกับตัวตนของนักเขียน
-                                อย่างไรก็ตามคุณสามารถแก้ไขเปลี่ยนชื่อและรูปภาพได้ภายหลังจากการสมัครทันที
-                            </div>
-                            <div className="tabs">
-                                <div className="tabs-text login th-font2">OR</div>
-                                <div className="tabs-line login"></div>
-                            </div>
-                            <div className="w-form">
-                                <input className="w-input input th-font2 mb-4" id="input_username_login" type="text"
-                                       placeholder="Penname (Username)"></input>
-                                <input className="w-input input th-font2" id="input_password_login" type="password"
-                                       placeholder="Password"></input>
+                            <div className="text th-font2">เราใช้การล็อคJAVA APPLICATION
+                            กรุณา Download
                             </div>
                         </div>
                         <div className="popup-footer">

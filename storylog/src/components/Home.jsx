@@ -3,13 +3,49 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
+import moment from "moment";
+import Loading from "./Loading";
     
 
 class Home extends React.Component {
     state = {
+        test: [],
         items: Array.from({length: 20}),
-        hasMore: true
-    };
+        hasMore: true,
+        loading: true
+    }
+
+    componentDidMount() {
+        let rows = [];
+        fetch('http://localhost:8080/allStorys').then((response) => response.json())
+        .then((responseJson) => {
+            responseJson.map(data => {
+                let props = {
+                    tag: data.tag,
+                    banner: data.banner,
+                    subject: data.subject,
+                    intro: data.intro,
+                    time: moment(data.time, 'YYYY-MM-DD HH:mm:ss').fromNow(),
+                    recommended: data.recommended,
+                    name: data.name,
+                    nickname: data.nickname,
+                    image_profile: data.image_profile,
+                    category: data.category,
+                    img_cate: data.img_cate,
+                    advice: data.advice,
+                    id: data.id,
+                    paragraph: data.paragraph
+                }
+                if(props.advice == true){
+                rows.push(props);
+                }
+            })
+            this.setState({rows,loading: false,hasMore: true,
+                loading: false})
+        })
+       
+    }
+
     fetchMoreData = () => {
         if (this.state.items.length >= 90) {
             this.setState({hasMore: false});
@@ -25,8 +61,12 @@ class Home extends React.Component {
     };
 
     render() {
+        if (this.state.loading) {
+            return <Loading/>
+        }
         return (
             <React.Fragment>
+                
                 <div className="home th-font2">
                     <div className={"feed-cover"}>
                         <div className="feed-cover bg"></div>
@@ -75,7 +115,7 @@ class Home extends React.Component {
                                     >
                                         {this.state.items.map((i, index) => (
                                             data[index].advice ? <div key={index}>
-                                                <StaffPickBorder key={data[index].id} {...data[index]}/>
+                                                <StaffPickBorder key={this.state.rows[index].id} {...this.state.rows[index]}/>
                                             </div> : null
 
                                         ))}
@@ -87,6 +127,7 @@ class Home extends React.Component {
                     </div>
                 </div>
             </React.Fragment>
+            
         );
     }
 }

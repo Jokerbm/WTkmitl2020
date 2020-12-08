@@ -1,7 +1,5 @@
 package com.backenfdoop.serverside.model;
 
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Repository;
 
@@ -73,8 +71,9 @@ public class UserModel {
         return stories;
     }
 
-    public void setStories(int stories) {
+    public int setStories(int stories) {
         this.stories = stories;
+        return stories;
     }
 
     public int getFollowers() {
