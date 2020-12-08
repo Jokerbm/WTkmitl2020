@@ -65,7 +65,8 @@ function Latestpopularboarder(props) {
                                     <div className="text line th-font2 blog">{props.paragraph}
                                         <br></br><br></br>
                                     </div>
-                                    <div className="content-tags th-font2"><span></span><span>{props.tag[0]}</span>
+                                    <div className="content-tags th-font2"><span></span><span></span>
+                                    {/* <div className="content-tags th-font2"><span></span><span>{props.tag[0]}</span> */}
                                     </div>
                                     <button className="content-share-bb_share recommend"></button>
                                     <div className="content-share-count like"

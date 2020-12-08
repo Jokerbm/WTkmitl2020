@@ -14,7 +14,7 @@ import springfox.documentation.annotations.ApiIgnore;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class StoryController {
 
@@ -57,15 +57,15 @@ public class StoryController {
         return ResponseEntity.status(HttpStatus.CREATED).body(quotesModelList);
     }
 
-//    @GetMapping("/story={author}")
-//    public ResponseEntity<List<StoryModel>> getByAuthor(@PathVariable String author) {
-//
-//        quotesModelList = quotesRepository.findByAuthor(author);
-//        if (quotesModelList.isEmpty())
-//            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-//
-//        return ResponseEntity.status(HttpStatus.CREATED).body(quotesModelList);
-//    }
+    @GetMapping("/story={authorID}")
+    public ResponseEntity<List<StoryModel>> getByauthorID(@PathVariable String authorID) {
+
+        quotesModelList = quotesRepository.findByauthorID(authorID);
+        if (quotesModelList.isEmpty())
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(quotesModelList);
+    }
 //
 //    @GetMapping("/storys={word}")
 //    public ResponseEntity<List<StoryModel>> getByWord(@PathVariable String word) {

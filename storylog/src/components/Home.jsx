@@ -3,7 +3,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Navigation from "./Navigation";
 import StaffPickBorder from "./StaffPickBorder";
 import data from "./Article.json";
-
+    
 
 class Home extends React.Component {
     state = {

@@ -10,6 +10,8 @@ import java.util.List;
 public interface StoryRepository extends MongoRepository<StoryModel,String> {
     List <StoryModel> deleteBy_id(String id);
 
+    List<StoryModel> findByauthorID(String authorID);
+
 //
 //    List<StoryModel> findByAuthor(String author);
 //

@@ -25,10 +25,19 @@ public class StoryModel {
     private String name;
     private String nickname;
     private String subject;
+    private String authorID;
 
 
     public StoryModel() {
 
+    }
+
+    public String getAuthorID() {
+        return authorID;
+    }
+
+    public void setAuthorID(String authorID) {
+        this.authorID = authorID;
     }
 
     public String getSubject() {
@@ -161,6 +170,7 @@ public class StoryModel {
                 ", name='" + name + '\'' +
                 ", nickname='" + nickname + '\'' +
                 ", subject='" + subject + '\'' +
+                ", AuthorID='" + authorID + '\'' +
                 '}';
     }
 }

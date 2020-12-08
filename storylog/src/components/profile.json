@@ -1,4 +1,4 @@
-[
+  [
   {
     "image_banner": "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5e56a440a1d6b666713dd5c7/15827474932555133535.jpg",
     "image_profile": "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/5e56a440a1d6b666713dd5c7/16022734106659680676.jpg",
@@ -24,7 +24,7 @@
     "image_profile": "https://s3-ap-southeast-1.amazonaws.com/media.storylog/usercontent/589ff0afe797fb8f40824388/14917377500654746830.jpg",
     "name": "HermioneRiddle",
     "nickname": "Student",
-    "status": "My personal Diary",
+    "status": "My personal Diary",  
     "stories": 91,
     "followers": 90,
     "following": 1
